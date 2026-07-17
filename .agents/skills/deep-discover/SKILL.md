@@ -83,10 +83,14 @@ sessions/<session-id>/runs/<slug>/
 │   ├── round-1.md
 │   └── round-2.md
 ├── report.md
-└── verification_report.md
+├── verification_report.md
+└── artifacts/              # any deliverable produced for the user
+    └── (e.g. handbook.md, report.pdf, etc.)
 ```
 
 Derive `<slug>` from the query (lowercase, hyphenated, max ~40 chars). If a slug collides within the session, append `-2`, `-3`.
+
+**All artifacts stay inside the session folder.** Never write deliverables to the project root or any location outside `.deep-discover/sessions/<session-id>/`. The run directory is the single self-contained home for everything the run produces — evidence, plans, assessments, the report, the verification report, and any user-facing deliverable (a handbook, a PDF, a spreadsheet, etc.). If the user wants a copy elsewhere, they can copy it; the skill does not scatter files across the project.
 
 #### Cross-run linking (the key addition)
 
@@ -252,6 +256,8 @@ Only after the gate passes (or the budget forces a stop) do you write the report
 - a confidence summary for the answer as a whole
 
 Write the report to `{RUN_DIR}/report.md` and also surface it to the user in your reply. The on-disk report is the durable artifact; the reply is the user-facing summary. When the report is done, **update the session manifest** with the run's `completed` timestamp, `cycles`, `claims_verified`, and `report_summary`.
+
+**If the deliverable is a large document** (a handbook, a guide, a PDF, a report longer than a few pages), write it to `{RUN_DIR}/artifacts/<filename>` — not to `{RUN_DIR}/report.md` (which is the research summary) and never to the project root. The `report.md` summarizes the research process and findings; the artifact is the actual product the user asked for. Both live inside the run directory. Tell the user the absolute path to the artifact in your reply.
 
 ## How to think about failure
 
