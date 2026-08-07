@@ -1,0 +1,12 @@
+{
+  "id": "EV-0018",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s40494-026-02405-x" },
+  "type": "summary",
+  "summary": "The 2026 IER computational study models the ~20-27 year construction window from the Wadi al-Jarf papyri, with a single-ramp scenario taking ~49.5 years (too slow) but an adaptive multi-ramp strategy fitting within Khufu's reign (~13.7-16.5 working years).",
+  "content": "In our simulations, only the adaptive multi-ramp and 4-ramp strategy fits Khufu's reign, requiring 13.67 and 16.50 working years respectively, whereas a single-ramp scenario would take 49.51 years. ... The overall 20-27 year envelope is consistent with the ~27-year reign window reported in the Wadi al-Jarf papyri.",
+  "collected_by": "retrieval-worker-4",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

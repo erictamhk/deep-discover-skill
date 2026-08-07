@@ -1,0 +1,12 @@
+{
+  "id": "EV-0027",
+  "source": { "type": "reasoning", "locator": "verifier-conflicts-1" },
+  "type": "claim",
+  "summary": "CONFLICT: Internal ramp theory - proponents (EV-0002, EV-0003, EV-0011) present supporting evidence; skeptics (EV-0005) call it 'far-fetched and horribly complicated'.",
+  "content": "verifier-conflicts-1: The Houdin internal ramp theory is presented favorably with microgravimetry and notch evidence by EV-0002, EV-0003, EV-0011, but EV-0005 (Wikipedia) records Egyptologists David Jeffreys calling it 'far-fetched and horribly complicated' and John Baines 'suspicious of any theory that seeks to explain only how the Great Pyramid was built'. Low-medium severity - this is a dispute over a theory's plausibility, not a factual contradiction. The internal ramp remains unconfirmed by direct evidence.",
+  "collected_by": "verifier-conflicts-1",
+  "supports": [],
+  "contradicts": ["C-0001"],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

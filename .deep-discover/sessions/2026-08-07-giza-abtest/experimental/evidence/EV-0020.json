@@ -1,0 +1,12 @@
+{
+  "id": "EV-0020",
+  "source": { "type": "web", "locator": "https://www.nationalgeographic.com/history/article/giza-pyramids" },
+  "type": "summary",
+  "summary": "National Geographic: materials came from Aswan granite, copper tools from Sinai, timber from Lebanon, cattle from Nile Delta; blocks moved by sledge/ramp.",
+  "content": "Materials: granite from Aswan quarries, copper tools from Sinai, timber from Lebanon, cattle from farms near the Nile Delta. Blocks moved along large ramps greased by water or wet clay using sledges, ropes, rollers, and levers. The secrets of construction may lie below the surface; future imaging technology may reveal the arrangement of blocks inside.",
+  "collected_by": "retrieval-worker-4",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

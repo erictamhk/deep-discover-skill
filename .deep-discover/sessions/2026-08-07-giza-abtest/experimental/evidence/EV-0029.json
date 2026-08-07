@@ -1,0 +1,12 @@
+{
+  "id": "EV-0029",
+  "source": { "type": "web", "locator": "https://doi.org/10.1108/jmh-11-2018-0061" },
+  "type": "summary",
+  "summary": "Granite beams for King's Chamber weighed 40-70 tons (43 over 60 tons), transported by boat from Aswan; their lifting is a major unsolved problem for all ramp models.",
+  "content": "The huge granite beams for the King's Chamber, Grand Gallery, passages and sarcophagus weighed between 40 and 70 tons (43 were over 60 tons), transported by boat from the Aswan granite quarries ~1000 km away. It took ten years to quarry these beams from Aswan, synchronized with pyramid construction. The lifting of these heaviest beams is a major unsolved problem; no ramp model adequately explains how they were raised to 43-65m. Houdin proposed a counterweight system sliding on wooden rails (speculative). Löhner proposes a rope-roll/counterweight track system (also speculative). No archaeological evidence confirms either.",
+  "collected_by": "retrieval-worker-B",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

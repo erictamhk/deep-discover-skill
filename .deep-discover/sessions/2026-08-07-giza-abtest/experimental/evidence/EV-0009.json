@@ -1,0 +1,12 @@
+{
+  "id": "EV-0009",
+  "source": { "type": "web", "locator": "https://theconversation.com/we-mapped-a-lost-branch-of-the-nile-river-which-may-be-the-key-to-a-longstanding-mystery-of-the-pyramids-230092" },
+  "type": "summary",
+  "summary": "2024 Ahramat Nile branch discovery: a 64km extinct Nile branch ran beside 31 pyramids including Giza, likely used to transport workers and materials.",
+  "content": "Study in Communications Earth & Environment (Ghoneim et al., 2024) mapped a 64km-long extinct Nile branch named the Ahramat Branch, running 2.5-10.25 km west of the modern Nile, 2-8m deep and 200-700m wide. It bordered 31 pyramids built between Old and Middle Kingdoms. Many pyramids have causeways leading to the branch terminating in Valley Temples that may have acted as river harbors. Suggests the branch was active during construction and used as a transportation waterway for workmen and building materials.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

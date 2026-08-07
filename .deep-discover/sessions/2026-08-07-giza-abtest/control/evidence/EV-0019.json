@@ -1,0 +1,12 @@
+{
+  "id": "EV-0019",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 (sub-question 5)" },
+  "type": "claim",
+  "summary": "CLAIM C-0001: No conclusive explanation exists for how the Great Pyramid's blocks were lifted to height; the exact lifting/ramp method is genuinely unknown and contested.",
+  "content": "The exact method by which blocks were raised to the upper levels of the Great Pyramid is not established. Multiple peer-reviewed and academic sources state no conclusive explanation has been proposed (EV-0002, EV-0005, Muller-Romer 2008) and that no documents from Khufu's time explain the technique (EV-0008). The consensus is only that ramps (supplemented by levering) are the most tenable family of methods, not that any specific ramp design is proven (EV-0001).",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["EV-0001", "EV-0002", "EV-0005", "EV-0008"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

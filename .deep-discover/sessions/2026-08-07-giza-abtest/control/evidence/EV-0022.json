@@ -1,0 +1,12 @@
+{
+  "id": "EV-0022",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 (sub-question 5)" },
+  "type": "claim",
+  "summary": "CLAIM C-0004: Construction timeline and scale are broadly agreed (~2.3M blocks, avg 2.5t, ~146.6m tall, within ~20-27 years), but whether a single ramp could achieve the required pace is contested.",
+  "content": "Scale figures (EV-0016, EV-0017) are broadly agreed: ~2.3 million blocks averaging ~2.5 tons, requiring ~1 block every 2-3 minutes to finish in Khufu's ~27-year reign. Whether any method could achieve this pace is debated: the 2026 IER model says a single ramp would need ~49.5 years (too slow) and only a multi-ramp strategy fits (EV-0018), a claim that is itself a model, not direct evidence.",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["EV-0016", "EV-0017", "EV-0018"],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

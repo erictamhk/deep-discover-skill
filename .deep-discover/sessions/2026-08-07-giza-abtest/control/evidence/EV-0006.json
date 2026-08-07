@@ -1,0 +1,12 @@
+{
+  "id": "EV-0006",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Construction_of_the_Egyptian_pyramids" },
+  "type": "summary",
+  "summary": "Levering is the most-accepted method to complement ramps (partly from Herodotus and the shadoof); Lehner suggests levers lift only the top ~3% of material, which is 1/3 of the monument's height.",
+  "content": "Levering methods are considered to be the most tenable solution to complement ramping methods... In Lehner's point of view, levers should be employed to lift the top 3% of the material of the superstructure. The top 4% of this material comprises 1/3 of the total height of the monument.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

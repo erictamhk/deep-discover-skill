@@ -1,0 +1,12 @@
+{
+  "id": "EV-0008",
+  "source": { "type": "web", "locator": "https://www.orient-mediterranee.com/wp-content/uploads/2022/04/1705_tallet.pdf" },
+  "type": "raw-quote",
+  "summary": "Tallet's publication of the Red Sea papyri: the Merer logbook gives NO technical clues about construction technique itself.",
+  "content": "Unfortunately, there is no mention of the construction techniques that were employed, which are at present the object of passionate and contradictory debates. The aim of the narrator is much more modest and limits itself to the mission and activities of the team of which he is a member: the river transport of fine limestone blocks that are pulled to the bank in the region of Tura and then loaded onto cargo boats destined for the building site of the pyramid.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

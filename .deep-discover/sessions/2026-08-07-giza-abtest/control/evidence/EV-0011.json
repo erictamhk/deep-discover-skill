@@ -1,0 +1,12 @@
+{
+  "id": "EV-0011",
+  "source": { "type": "web", "locator": "https://www.sciencefocus.com/science/egyptian-pyramids-new-studies" },
+  "type": "summary",
+  "summary": "2018 excavation (Roland Enmarch) found a ramp cut into rock at the Hatnub alabaster quarry with a steeper-than-expected slope (>20%, vs prior estimates that ramps didn't exceed 10%), dating to the Great Pyramid's era.",
+  "content": "In 2018, Dr Roland Enmarch... and his team made a breakthrough by discovering a ramp cut into rock at a quarry at Hatnub... The angle of the ramp was more extreme than expected, with a slope of more than 20 per cent (previous estimates suggested that ramps in Ancient Egypt wouldn't have exceeded 10 per cent). ... suggesting that a similar ramp could have been used in its construction.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

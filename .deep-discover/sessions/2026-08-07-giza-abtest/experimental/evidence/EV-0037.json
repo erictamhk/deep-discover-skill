@@ -1,0 +1,12 @@
+{
+  "id": "EV-0037",
+  "source": { "type": "web", "locator": "https://aeraweb.org/wp-content/uploads/2022/08/aeragram15_1-2.pdf" },
+  "type": "summary",
+  "summary": "The Giza harbor's 7m Nile flood rise was used to bring water to the plateau for TRANSPORT of materials by boat, not to lift blocks. The 'hydraulic lift' language refers to raising water levels, not a block-elevator.",
+  "content": "Lehner (AERAGRAM 15): 'The Giza Pyramid-builders planned a critical role for the Nile flood's 7-meter lift when they engineered the floodplain into the greatest river port of its time.' The flood rise made canals and harbors deep enough for heavy cargo boats to deliver stone and materials to the plateau. The 'hydraulic lift' in the PNAS paper (Sheisha et al. 2022) refers to 'harnessing the annual 7-m rise of the flood like a hydraulic lift, bringing the higher water levels to the base of the Giza plateau' — i.e., raising water levels for boat transport, NOT a block-lifting elevator. There is no evidence the harbor was used to lift blocks vertically.",
+  "collected_by": "retrieval-worker-B",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

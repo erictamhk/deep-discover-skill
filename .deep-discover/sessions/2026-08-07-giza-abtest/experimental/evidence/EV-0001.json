@@ -1,0 +1,12 @@
+{
+  "id": "EV-0001",
+  "source": { "type": "web", "locator": "https://www.nationalgeographic.com/history/article/giza-pyramids" },
+  "type": "summary",
+  "summary": "National Geographic: generally believed blocks moved up large ramps greased by water/wet clay using sledges, ropes, rollers, levers; external zig-zag/spiral vs controversial internal ramp.",
+  "content": "It's generally believed that the Egyptians moved massive stone blocks to the heights along large ramps, greased by water or wet clay, using a system of sledges, ropes, rollers, and levers. Some suggest exterior ramps either zig-zagged or spiraled around each pyramid, while a more controversial theory suggests internal ramps were used. Materials included granite from Aswan, copper tools, timber from Lebanon, cattle from Nile Delta farms.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

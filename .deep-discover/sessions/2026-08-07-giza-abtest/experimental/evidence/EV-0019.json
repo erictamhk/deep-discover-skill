@@ -1,0 +1,12 @@
+{
+  "id": "EV-0019",
+  "source": { "type": "web", "locator": "https://www.nationalgeographic.com/premium/article/red-sea-scrolls-pyramids-egypt" },
+  "type": "summary",
+  "summary": "National Geographic: Merer's diary records 3-day boat journey from Tura quarry to Giza; workers loaded limestone onto boats, transported up Nile, tallied at administrative area.",
+  "content": "Merer's diary records the three-day journey from the Tura quarry to the pyramid site: Day 25 hauling stones in south Tura; Day 26 set sail laden with stone blocks to Akhet-Khufu (Great Pyramid), night at She-Khufu (administrative area); Day 27 sail to Akhet-Khufu; Day 28 return upriver to south Tura. Merer's team of ~200 workers carried out all tasks related to construction. Ankhhaf, Khufu's half-brother, held position of 'head of all the king's works'. Papyrus H records payment of rations.",
+  "collected_by": "retrieval-worker-4",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0010",
+  "source": { "type": "web", "locator": "https://archaeology.org/issues/july-august-2022/features/egypt-wadi-el-jarf-port-papyri/" },
+  "type": "summary",
+  "summary": "Archaeological finds (basin of Khufu, boat pits, Wadi el-Jarf port with 600-ft jetty and 130 anchors) indicate a network of artificial basins/canals brought boats with materials to the plateau's edge; workers' settlement (Heit el-Ghurab) and builders' graffiti attest to labor organization.",
+  "content": "This lake was part of a network of artificial waterways and canals that had been dredged to allow boats to bring supplies right up to the plateau's edge. ... the basin measured around a quarter of a mile by a third of a mile... dredged to a depth of between 26 and 33 feet... Also arriving by boat were workers from across Egypt and cattle from the Nile Delta to feed them.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

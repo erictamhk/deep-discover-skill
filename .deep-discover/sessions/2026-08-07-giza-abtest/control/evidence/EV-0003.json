@@ -1,0 +1,12 @@
+{
+  "id": "EV-0003",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s40494-025-02018-w" },
+  "type": "summary",
+  "summary": "Ramp models struggle: a flat ~10% ramp needed to lift blocks would be ~10x longer than pyramid height (~1.5 km) with volume multiple times the pyramid; no archaeological remains of such a ramp at Giza; spiral ramps are slow single-file with ~20 corners.",
+  "content": "To keep the lifting force low on a flat ramp, the ramp must be long, i.e., ~10 times the height it needs to reach... the final ramp must be ~10 times longer than the pyramid working height, thus ~1.5 km in its final state... No archeological remains of such a ramp have been found. ... spiral ramp models... are narrow and have corners... all spiral models include ~20 corners spiraling up the pyramid, where the blocks have to be rotated by 90°... single-file spiral ramp models are mostly standing, and it seems highly unlikely that single-file spiral ramp models could reach the pace to place 1 block every ~1 min.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

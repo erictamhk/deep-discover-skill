@@ -1,0 +1,12 @@
+{
+  "id": "EV-0001",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Construction_of_the_Egyptian_pyramids" },
+  "type": "summary",
+  "summary": "Ramps are the most tenable accepted method to raise blocks but are acknowledged to be incomplete and must be supplemented by levering; the exact method is contested.",
+  "content": "Most Egyptologists acknowledge that ramps are the most tenable of the methods to raise the blocks, yet they acknowledge that it is an incomplete method that must be supplemented by another device. ... The method most accepted for assisting ramps is levering. The archaeological record gives evidence of only small ramps and inclined causeways, not something that could have been used to construct even a majority of the monument.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

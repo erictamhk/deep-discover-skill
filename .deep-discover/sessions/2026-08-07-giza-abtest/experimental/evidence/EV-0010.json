@@ -1,0 +1,12 @@
+{
+  "id": "EV-0010",
+  "source": { "type": "web", "locator": "https://www.harvardmagazine.com/2003/07/who-built-the-pyramids-html" },
+  "type": "summary",
+  "summary": "Harvard Magazine: Mark Lehner found the 'city of the pyramid builders' (Heit el-Ghurab); workers were not slaves, organized into named gangs, fed like royalty.",
+  "content": "Mark Lehner found the city of the pyramid builders at Giza. Workers were not slaves. Graffiti shows labor units with names like 'Friends of Khufu' or 'Drunkards of Menkaure', divided into five divisions. Faunal analyst Richard Redding found tremendous quantities of cattle, sheep, goat bone - enough to feed several thousand people, with prime young male beef, suggesting skilled workers feasting. Lehner hypothesizes barracks housing for a rotating labor force of perhaps 1,600-2,000 workers. Egyptian society organized like a feudal system where everyone owed 'bak' (obligatory service), but this is not slavery.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0024",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5" },
+  "type": "claim",
+  "summary": "CLAIM C-0004: What is genuinely unknown: the exact lifting mechanism, the leveling of the base, and how the final top blocks were placed.",
+  "content": "Genuinely unknown aspects: (1) the exact lifting mechanism for the blocks, especially the heaviest granite beams up to 60-80 tons (EV-0004, EV-0006); (2) how the astonishingly level base was excavated and leveled from bedrock (EV-0005, per Lehner 'nobody ever built a platform like that before'); (3) how the final blocks at the top were placed (EV-0005). These are the load-bearing unknowns, distinct from the well-established transport story.",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["C-0004"],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

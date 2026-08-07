@@ -1,0 +1,43 @@
+{
+  "session_id": "2026-08-07-giza-abtest",
+  "created": "2026-08-07",
+  "type": "ab-test",
+  "purpose": "A/B test of generative operators + closure-saturation stop condition for the deep-discover skill",
+  "test_question": "古埃及人到底怎麼建造吉薩大金字塔的？我們現在對它的建造方法、勞動力、和運輸技術，實際知道什麼？",
+  "runs": [
+    {
+      "run_id": "control",
+      "slug": "control",
+      "condition": "base skill (no operators)",
+      "started": "2026-08-07",
+      "completed": "2026-08-07",
+      "cycles": 1,
+      "ev_count": 23,
+      "claims_verified": 5,
+      "claims_disputed_final": 0,
+      "source_conflicts_surfaced": 1,
+      "report_summary": "Stopped at cycle 1 via convergence guard. Honest but shallow: transport known, labor not-slaves, lifting method unknown. Missed ScanPyramids, heaviest granite beams, 4th-Dynasty labor boundary, harbor transport-vs-lift, headline overstatement, theory provenance.",
+      "report_path": "control/report.md"
+    },
+    {
+      "run_id": "experimental",
+      "slug": "experimental",
+      "condition": "base skill + generative operators + closure-saturation",
+      "started": "2026-08-07",
+      "completed": "2026-08-07",
+      "cycles": 4,
+      "ev_count": 38,
+      "claims_verified": 11,
+      "claims_disputed_final": 0,
+      "source_conflicts_surfaced": 3,
+      "report_summary": "Ran to closure saturation (cycle 4). Surfaced 16 sub-questions, 3 source conflicts, and 6 load-bearing findings the control missed. All 7 operators fired.",
+      "report_path": "experimental/report.md"
+    }
+  ],
+  "artifacts": {
+    "initial_plan": "initial-plan.md",
+    "operators_patch": "operators-patch.md",
+    "audit": "audit.md"
+  },
+  "verdict": "Generative operators effective; adopted into SKILL.md. Control exhibited predicted premature convergence; experimental produced materially deeper discovery at ~3.2x token cost."
+}

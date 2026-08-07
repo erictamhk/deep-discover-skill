@@ -1,0 +1,12 @@
+{
+  "id": "EV-0017",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s40494-025-02018-w" },
+  "type": "summary",
+  "summary": "Materials: local Giza limestone for the core from a quarry ~500 m south; Tura white limestone for casing from ~10-20 km across the Nile; and ~8000 tons of granite from Aswan ~1000 km up the Nile (King's Chamber granite beams up to ~60 tons).",
+  "content": "The limestone originated from a quarry just ~500 m south of the Great Pyramid. To a lesser extent, for the casing, white Tura limestone from ~10 km across the Nile was used. Finally, to a much lesser amount, ~3000 m3, or ~8000 tons... the pyramid is constituted of granite from Aswan, ~1000 km up the Nile. It is of the Aswan granite that the King's Chamber was built, using blocks of size up to ~8 m x ~1.5 m x ~2 m, weighing ~60 tons.",
+  "collected_by": "retrieval-worker-4",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

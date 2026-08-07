@@ -1,0 +1,12 @@
+{
+  "id": "EV-0007",
+  "source": { "type": "web", "locator": "https://www.nationalgeographic.com/premium/article/red-sea-scrolls-pyramids-egypt" },
+  "type": "summary",
+  "summary": "The Wadi al-Jarf 'Red Sea Scrolls' papyri (world's oldest, found 2013 by Pierre Tallet) include the diary of Inspector Merer, an eyewitness to the building of the Great Pyramid, who recorded his team's transport of Tura limestone to Giza by boat.",
+  "content": "In 2013, 30 papyri, the world's oldest, were found hidden away in manmade limestone caves [at Wadi al-Jarf]... The so-called Red Sea Scrolls... contain eyewitness accounts of a man named Merer who took part in the building of the Great Pyramid of Pharaoh Khufu. Merer's team consisted of some 200 workers... Merer recorded in great detail how the team retrieved [limestone blocks] from the quarries of Tura and brought them by boat to Giza.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

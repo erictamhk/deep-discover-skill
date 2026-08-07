@@ -1,0 +1,12 @@
+{
+  "id": "EV-0002",
+  "source": { "type": "web", "locator": "https://archaeology.brown.edu/sites/default/files/papers/Rigby2016.pdf" },
+  "type": "summary",
+  "summary": "Brown archaeology paper (Rigby 2016): reviews long ramp, spiral ramp, and Houdin internal ramp models; no conclusive evidence for any; internal ramp theory unproven.",
+  "content": "Approximately two million stone blocks averaging 2.5 tons. Scholars propose ramps beside pyramids; prominent models are long ramp and spiral ramp. Jean-Pierre Houdin proposed internal spiral ramp. Long ramp would need to be over one mile long at 8-12 degree slope. Spiral ramp obscures corners. Houdin internal ramp: external ramp for bottom third, internal ramp ~6ft wide, 7% grade for top two-thirds; external ramp blocks recycled. Microgravimetry survey showed lower density edges. Still unable to conclusively determine ramp model; internal ramp theory unproven.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

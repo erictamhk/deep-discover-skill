@@ -1,0 +1,12 @@
+{
+  "id": "EV-0036",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s41467-023-36351-0.pdf" },
+  "type": "summary",
+  "summary": "The North Face Corridor stops at its south side; muography confirms no structure >1m x 1m continues further south. It does NOT connect to the Big Void or other chambers.",
+  "content": "Procureur et al. (Nature Communications 2023): the North Face Corridor (NFC) is a rectangular cuboid ~2.02m wide, 2.18m high, 9.06m long. 'The NFC appears to stop at the South side and simulation confirmed that there is no structure with a cross section of more than 1 m x 1 m further on the South.' The corridor is a discrete, sealed void behind the Chevron; it does not connect to the Big Void or other known chambers. Its function remains unknown but it is not a through-ramp.",
+  "collected_by": "retrieval-worker-A",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

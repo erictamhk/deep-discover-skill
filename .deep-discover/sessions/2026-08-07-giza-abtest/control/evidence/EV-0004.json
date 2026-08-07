@@ -1,0 +1,12 @@
+{
+  "id": "EV-0004",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Construction_of_the_Egyptian_pyramids" },
+  "type": "summary",
+  "summary": "Houdin's internal-spiral-ramp theory (external ramp for bottom ~30%, internal ramp above) remains unproven and is criticized by Egyptologists as 'far-fetched and horribly complicated'.",
+  "content": "Houdin's thesis remains unproven and in 2007, Egyptologist David Jeffreys from University College London described the internal spiral hypothesis as 'far-fetched and horribly complicated', while Oxford University's John Baines declared he was 'suspicious of any theory that seeks to explain only how the Great Pyramid was built'.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0020",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 (sub-question 5)" },
+  "type": "claim",
+  "summary": "CLAIM C-0002: Transport of materials to the site by water is well-established; the builders used a network of Nile waterways, boats, and the lost Ahramat branch.",
+  "content": "Established consensus: materials reached Giza by boat via the Nile and an artificial canal/basin system, with the Merer logbooks documenting Tura limestone shipments (EV-0007, EV-0008) and the 2024 mapping of the Ahramat Nile branch (EV-0009) plus the excavated 'Lake of Khufu' basins (EV-0010). This answers the transport-to-site question, though the final land-based and vertical lifting method remains unknown (see C-0001).",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["EV-0007", "EV-0008", "EV-0009", "EV-0010"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

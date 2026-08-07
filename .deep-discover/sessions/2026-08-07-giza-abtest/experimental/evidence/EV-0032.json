@@ -1,0 +1,12 @@
+{
+  "id": "EV-0032",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Jean-Pierre_Houdin" },
+  "type": "summary",
+  "summary": "Houdin is a French architect (not an Egyptologist) whose internal ramp theory was developed with Dassault Systèmes 3D software and promoted via books; it is criticized by Hawass, Jeffreys, Baines, Der Manuelian as unproven.",
+  "content": "Jean-Pierre Houdin is a French architect, not an Egyptologist. His internal ramp theory was developed with his father (a retired civil engineer) and refined with Dassault Systèmes 3D software (14 engineers, 2 years). He published books (Khufu: The Secrets Behind the Building of the Great Pyramid, 2006; The Secret of the Great Pyramid with Bob Brier, 2008). Reception: Zahi Hawass called it 'completely wrong'; David Jeffreys (UCL) called it 'far-fetched and horribly complicated'; John Baines (Oxford) 'suspicious of any theory that seeks to explain only how the Great Pyramid was built'; Peter Der Manuelian (Harvard) said it lacks solid proof. The ScanPyramids North Face Corridor was predicted by Houdin, but its function is unknown and it does not confirm the ramp theory.",
+  "collected_by": "retrieval-worker-E",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

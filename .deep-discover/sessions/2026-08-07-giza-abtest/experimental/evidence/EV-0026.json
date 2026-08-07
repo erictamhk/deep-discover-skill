@@ -1,0 +1,12 @@
+{
+  "id": "EV-0026",
+  "source": { "type": "reasoning", "locator": "verifier-conflicts-1" },
+  "type": "claim",
+  "summary": "CONFLICT: Ramp feasibility - Nature 2025 paper (EV-0004) argues ramp models have serious physics/logistics problems, while Brichieri-Colombi (EV-0006) argues ramps were feasible.",
+  "content": "verifier-conflicts-1: EV-0004 (Nature, Landreau 2025) argues construction-ramp models face unfavorable physics, prohibitive ramp length (~1.5km), and spiral-ramp slowness, proposing a pulley/counterweight alternative. EV-0006 (Brichieri-Colombi 2015) argues a ramp/sled combination WAS feasible with the resources of the time. These two engineering analyses reach opposite conclusions about ramp feasibility. Medium severity - both are modeling exercises, neither is archaeological proof. Recommended: present both as competing engineering hypotheses; the archaeological record (no ramp remains) is the deciding gap.",
+  "collected_by": "verifier-conflicts-1",
+  "supports": [],
+  "contradicts": ["C-0001"],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

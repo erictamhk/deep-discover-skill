@@ -1,0 +1,12 @@
+{
+  "id": "EV-0025",
+  "source": { "type": "reasoning", "locator": "verifier-conflicts-1" },
+  "type": "claim",
+  "summary": "CONFLICT: Construction timeline discrepancy - DMJM-Lehner study estimates ~10 years, other sources estimate ~20 years.",
+  "content": "verifier-conflicts-1: EV-0017 (Wikipedia) reports the DMJM-Lehner construction management study estimates completion in ~10 years at 180 blocks/hour, while the same source and others (EV-0013, EV-0019, sciencefocus) state the Great Pyramid was completed in ~20 years. This is a medium-severity discrepancy between engineering-model estimates and historical estimates. Both are estimates; no primary source gives a definitive duration. Recommended: report as a range (10-20 years) with the uncertainty noted.",
+  "collected_by": "verifier-conflicts-1",
+  "supports": [],
+  "contradicts": ["C-0004"],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

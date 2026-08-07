@@ -1,0 +1,12 @@
+{
+  "id": "EV-0009",
+  "source": { "type": "web", "locator": "https://theconversation.com/we-mapped-a-lost-branch-of-the-nile-river-which-may-be-the-key-to-a-longstanding-mystery-of-the-pyramids-230092" },
+  "type": "summary",
+  "summary": "2024 study (Communications Earth & Environment) mapped a lost ~64 km Nile branch (the 'Ahramat Branch', 200-700 m wide, 2-8 m deep) running along the pyramid field, likely used as a transport waterway; many pyramids' causeways lead to it.",
+  "content": "we identified and traced the long path of a previously unknown channel of the Nile... The Ahramat Branch once flowed along the Western Desert margin of the Nile floodplain, close to the ancient pyramids. ... Our research suggests the branch ran for about 64 kilometres, was between two and eight metres deep, and between 200 and 700 metres wide. ... This suggests the Ahramat Branch was active during multiple phases of pyramid construction and was probably used as a transportation waterway for workmen and building materials to the sites.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

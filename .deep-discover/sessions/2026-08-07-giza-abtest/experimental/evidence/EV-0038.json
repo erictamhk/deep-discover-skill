@@ -1,0 +1,12 @@
+{
+  "id": "EV-0038",
+  "source": { "type": "web", "locator": "https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/abs/pyramidologies-of-egypt-a-typological-review/464EC04DAB793E85FA19C7C008AFB2C4" },
+  "type": "summary",
+  "summary": "Most alternative pyramid theories are created by male outsiders to Egypt, cite scholarly sources selectively, and incorporate contradictory arguments; non-Egyptologist engineering proposals are often less well accepted by academic Egyptologists.",
+  "content": "Cambridge Archaeological Journal 'Pyramidologies of Egypt: a Typological Review': most alternative pyramid theories are created by male outsiders to Egypt, set the subject outside the broader context of pharaonic architecture and society, cite scholarly sources selectively, and can incorporate mutually contradictory arguments. Müller-Römer (2008) notes non-archaeologists' suggestions are 'less than well accepted among academic Egyptologists' but have made interesting contributions, though they 'frequently overlooked important archaeological evidence.' This explains the persistent stream of alternative construction theories (Houdin, Davidovits cast-in-place, Landreau hydraulic lift) and their mixed reception.",
+  "collected_by": "retrieval-worker-C",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

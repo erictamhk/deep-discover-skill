@@ -1,0 +1,12 @@
+{
+  "id": "EV-0008",
+  "source": { "type": "web", "locator": "https://www.ifao.egnet.net/uploads/publications/divers/MIFAO136_ann_01.pdf" },
+  "type": "summary",
+  "summary": "The publication of the Merer logbooks (IFAO MIFAO 136) states the diary provides NO mention of construction techniques; it documents river transport of Tura limestone but not how the pyramid was raised.",
+  "content": "Unfortunately, there is no mention of the construction techniques that were employed, which are at present the object of passionate and contradictory debates. ... a team of boatmen, probably comprising some 40 men under the direction of ... Inspector Merer (sḫḏ Mrr), carried out every ten days an average of two or three round-trips ... between the quarries of Tura and the construction site zone.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

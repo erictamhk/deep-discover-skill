@@ -1,0 +1,12 @@
+{
+  "id": "EV-0018",
+  "source": { "type": "web", "locator": "https://www.bbc.com/news/articles/c99zwkzzrxvo" },
+  "type": "summary",
+  "summary": "BBC on Ahramat branch: 64km long, 200-700m wide, bordered 31 pyramids; suggests Egyptians used river's energy to carry heavy blocks rather than human labor.",
+  "content": "Research team from University of North Carolina Wilmington discovered the Ahramat branch, a long-lost ancient branch of the Nile, now hidden under desert and farmland. It was roughly 64km (39 miles) long and 200-700m wide, bordering 31 pyramids built between 4,700 and 3,700 years ago. Co-author Dr Suzanne Onstine: ancient Egyptians could 'use the river's energy to carry these heavy blocks, rather than human labour - it's just a lot less effort'.",
+  "collected_by": "retrieval-worker-4",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

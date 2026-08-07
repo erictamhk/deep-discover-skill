@@ -1,0 +1,12 @@
+{
+  "id": "EV-0004",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s40494-025-02018-w" },
+  "type": "summary",
+  "summary": "Nature 2025 paper (X. Landreau et al.): proposes pulley-like counterweight system in the Antechamber/Grand Gallery; argues ramp models have physics, length, and spiral-slowness problems.",
+  "content": "No documents from Khufu's times explain how the pyramid was built. Generally accepted theories rely on construction-ramps with sledges pulled up the growing pyramid. Ramp models face three problems: (i) unfavorable physics (lifting force scales with sin of slope, friction with cos); (ii) large ramp length (~1.5 km) and absence of archaeological traces; (iii) slowness of spiral ramps (single-file, ~20 corners, blocks stalled). Paper proposes the Antechamber was a pulley-like system with counterweights sliding down ramps. Notes modern Egyptologists might agree the solution is yet to be found.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

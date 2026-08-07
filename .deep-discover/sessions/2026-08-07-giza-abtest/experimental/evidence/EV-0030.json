@@ -1,0 +1,12 @@
+{
+  "id": "EV-0030",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Construction_of_the_Egyptian_pyramids" },
+  "type": "summary",
+  "summary": "The 'not slaves' finding is specific to the 4th Dynasty Great Pyramid; slavery and coerced labor existed in other periods (Middle Kingdom used foreigners from Canaan).",
+  "content": "Archaeologists believe the Great Pyramid of Giza (at least) was built by tens of thousands of skilled workers who worked for a salary or as corvée (tax payment). But for the Middle Kingdom pyramid of Amenemhat II, there is evidence from the annal stone that foreigners from Canaan were employed. Slavery and coerced labor existed at various periods in Egyptian history. The 'not slaves' consensus applies specifically to the 4th Dynasty Great Pyramid workforce, not to all Egyptian labor across all periods.",
+  "collected_by": "retrieval-worker-C",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

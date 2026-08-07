@@ -1,0 +1,12 @@
+{
+  "id": "EV-0003",
+  "source": { "type": "web", "locator": "https://archive.archaeology.org/0705/etc/pyramid.html" },
+  "type": "summary",
+  "summary": "Archaeology Magazine: external ramp and crane theories have serious flaws; Houdin internal ramp theory presented with microgravimetry and notch evidence.",
+  "content": "Herodotus (c.450 BC) mentioned 'machines' (cranes); Diodorus of Sicily wrote 'mounds' (ramps). Single ramp would be ~1 mile long, no room on Giza plateau, volume as great as pyramid. Corkscrew ramp obscures corners for surveyors (Dieter Arnold). Crane theory: shadouf devices, but too much timber needed and no place for cranes near top. Houdin internal ramp: external ramp for bottom third, internal ramp 6ft wide 7% grade for top two-thirds; corner notches for turning blocks; 1986 French microgravimetry survey showed density image matching internal ramp prediction.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

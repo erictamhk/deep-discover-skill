@@ -1,0 +1,12 @@
+{
+  "id": "EV-0028",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/nature24647" },
+  "type": "summary",
+  "summary": "ScanPyramids muography: discovered the Big Void (SP-BV, min 30m, cross-section like Grand Gallery) and North Face Corridor (SP-NFC, ~9m long, 2m x 2m behind Chevron). These are voids, NOT confirmed ramps.",
+  "content": "ScanPyramids used cosmic-ray muon radiography. In 2017 discovered the ScanPyramids Big Void (SP-BV) above the Grand Gallery, cross-section similar to Grand Gallery, minimum length 30m, confirmed by three independent muon detection technologies. Also detected the North Face Corridor (SP-NFC) behind the Chevron on the north face, ~9m long, 2m x 2m, confirmed by muography, GPR, ultrasonic, and ERT. The NFC was predicted by Houdin's internal ramp theory, but its function is unknown. These are voids/corridors, not confirmed construction ramps. No direct evidence of a ramp has been found.",
+  "collected_by": "retrieval-worker-A",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

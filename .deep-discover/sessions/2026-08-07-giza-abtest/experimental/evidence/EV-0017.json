@@ -1,0 +1,12 @@
+{
+  "id": "EV-0017",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Construction_of_the_Egyptian_pyramids" },
+  "type": "statistic",
+  "summary": "Block count and timeline: 2-2.8 million blocks (avg 2.4M, reduced to ~2M); DMJM-Lehner study estimates completion in ~10 years at 180 blocks/hour; most sources say ~20 years.",
+  "content": "DMJM-Lehner construction management study estimates 2-2.8 million blocks (average 2.4 million), reduced to ~2 million after subtracting hollow spaces. Most sources agree on a number above 2.3 million. Study suggests completion in approximately 10 years, sustaining 180 blocks per hour (3 blocks/minute) with ten-hour workdays. Other sources say the Great Pyramid was completed in ~20 years. Blocks average 2.5 tons, with some granite beams up to 60-80 tons.",
+  "collected_by": "retrieval-worker-4",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0033",
+  "source": { "type": "web", "locator": "https://www.bbc.com/news/world-middle-east-64825526" },
+  "type": "summary",
+  "summary": "2023 endoscopic survey of the North Face Corridor: an empty corridor with vaulted ceiling, 9m long, 2.1m wide; officials say it may have redistributed weight around the entrance, NOT a construction ramp.",
+  "content": "Egyptian antiquities officials confirmed the North Face Corridor via endoscope in 2023. Video showed an empty corridor with walls of roughly-hewn stone blocks and a vaulted stone ceiling, 9m long and 2.1m wide. Officials say it could have been created to redistribute the pyramid's weight around the entrance, or lead to another as-yet-undiscovered chamber. Zahi Hawass called it a 'major discovery' and speculated there might be 'something important' below it. The corridor's function is NOT established as a construction ramp.",
+  "collected_by": "retrieval-worker-A",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

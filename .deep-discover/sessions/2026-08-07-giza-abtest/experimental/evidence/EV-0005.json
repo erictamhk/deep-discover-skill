@@ -1,0 +1,12 @@
+{
+  "id": "EV-0005",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Construction_of_the_Egyptian_pyramids" },
+  "type": "summary",
+  "summary": "Wikipedia: most Egyptologists acknowledge ramps are most tenable but incomplete, must be supplemented by levering; straight ramp widely discredited; Houdin internal ramp unproven and criticized.",
+  "content": "Most Egyptologists acknowledge ramps are the most tenable method to raise blocks, yet acknowledge it is an incomplete method that must be supplemented by another device (levering). Archaeological record gives evidence of only small ramps and inclined causeways, not something that could construct a majority of the monument. Large straight ramp routinely discredited on functional grounds. Houdin internal ramp thesis remains unproven; Egyptologist David Jeffreys called it 'far-fetched and horribly complicated'; John Baines 'suspicious of any theory that seeks to explain only how the Great Pyramid was built'.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

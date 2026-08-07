@@ -1,0 +1,12 @@
+{
+  "id": "EV-0031",
+  "source": { "type": "web", "locator": "https://www.pnas.org/doi/10.1073/pnas.2202530119" },
+  "type": "summary",
+  "summary": "PNAS 2022 study: the Khufu branch of the Nile and a harbor/canal complex at Giza are well-evidenced; Old Kingdom engineers harnessed the Nile flood to transport materials to the plateau.",
+  "content": "PNAS 2022 (Sheisha et al.): palaeoecological analysis reconstructs an 8,000-year fluvial history. The Khufu branch of the Nile remained at high water level (~40% of Holocene maximum) during the reigns of Khufu, Khafre, Menkaure, facilitating transport of construction materials. The harbor complex (Ro-She Khufu) is supported by the Wadi el-Jarf papyri, core drillings, and Lehner's model of canals and basins. The fluvial-port-complex hypothesis: builders cut through the western levee and dredged basins to harness the annual 7m flood rise like a hydraulic lift, bringing water to the base of the plateau. This is well-evidenced and strengthens the waterway-transport conclusion.",
+  "collected_by": "retrieval-worker-D",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

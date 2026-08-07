@@ -1,0 +1,12 @@
+{
+  "id": "EV-0013",
+  "source": { "type": "web", "locator": "https://www.scientificamerican.com/article/how-egypt-s-great-pyramid-changed-civilization/" },
+  "type": "summary",
+  "summary": "Scientific American: pyramid workers were an elite labor force, not slaves; Heit el-Ghurab had ~6,000 residents living comfortably with meat, beer, imported olive oil.",
+  "content": "Herodotus thought pyramids built by armies of slaves, but discoveries show gangs of Egyptian citizens provided most labor. Great Pyramid alone would have required about 26,000 people to set blocks at the bottom. Heit el-Ghurab's estimated 6,000 residents lived comfortably - baking bread, brewing beer, meat (goat for crew, beef for foreman), olive oil imported from the Levant. Workers were an elite labor force that also sailed trade missions. Workers were religiously motivated, building a tomb for a god. Brier: 'It wasn't a technological wonder. It was a sociological wonder.'",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

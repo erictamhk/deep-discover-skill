@@ -1,0 +1,12 @@
+{
+  "id": "EV-0006",
+  "source": { "type": "web", "locator": "https://fundacionieae.es/wp-content/uploads/2024/08/Brichieri-Colombi_PJAEE_12_1_2015.pdf" },
+  "type": "summary",
+  "summary": "Brichieri-Colombi engineering paper: demonstrates a ramp/sled combination was feasible with resources of the time; main ramp + secondary helical ramp; but no conclusive evidence about actual method.",
+  "content": "We do not yet have conclusive evidence about how the Great Pyramid was built. Paper demonstrates ramps were possible with resources of the time. Proposes main ramp to level 60 (King's Chamber roof) plus a secondary anti-clockwise helical ramp for the top 14% of volume. Notes heaviest granite beams (up to ~60 tons) at levels 49-60 were the greatest challenge. Concludes there were technical constraints that would have had to be respected whatever solution was adopted.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

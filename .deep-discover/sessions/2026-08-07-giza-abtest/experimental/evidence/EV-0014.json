@@ -1,0 +1,12 @@
+{
+  "id": "EV-0014",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Construction_of_the_Egyptian_pyramids" },
+  "type": "statistic",
+  "summary": "Workforce size estimates range widely: Herodotus 100,000; modern estimates 14,567 average / 40,000 peak (DMJM-Lehner study); Verner ~30,000; ~5,000 permanent salaried workers.",
+  "content": "Workforce estimates: Herodotus cited 100,000; physicist Kurt Mendelssohn up to 50,000; Borchardt and Croon 36,000; Miroslav Verner no more than 30,000. DMJM-Lehner construction management study: average workforce 14,567, peak 40,000. Evidence suggests ~5,000 permanent workers on salaries, balance working 3-4 month shifts in lieu of taxes receiving subsistence wages of ten loaves of bread and a jug of beer per day. Zahi Hawass believes majority may have been volunteers. Two crews of ~2,000 subdivided into named gangs of 1,000, divided into five phyles of 200, split into groups of ~20.",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

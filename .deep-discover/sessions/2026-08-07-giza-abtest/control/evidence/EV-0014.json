@@ -1,0 +1,12 @@
+{
+  "id": "EV-0014",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Construction_of_the_Egyptian_pyramids" },
+  "type": "summary",
+  "summary": "A construction-management study (Daniel, Mann, Johnson & Mendenhall with Mark Lehner) estimates average workforce ~14,567 and peak ~40,000, and suggests the pyramid could be completed in ~10 years using critical path analysis.",
+  "content": "A construction management study carried out by the firm Daniel, Mann, Johnson, & Mendenhall in association with Mark Lehner, and other Egyptologists, estimates that the total project required an average workforce of 14,567 people and a peak workforce of 40,000. Without the use of pulleys, wheels, or iron tools... they used critical path analysis to suggest the Great Pyramid was completed from start to finish in approximately 10 years.",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

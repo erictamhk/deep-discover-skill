@@ -1,0 +1,12 @@
+{
+  "id": "EV-0016",
+  "source": { "type": "web", "locator": "https://en.wikipedia.org/wiki/Construction_of_the_Egyptian_pyramids" },
+  "type": "summary",
+  "summary": "The Great Pyramid is ~146.6 m tall and ~230 m per side, composed of ~2.3 million blocks (avg ~2.5 tons); to finish within Khufu's ~27-year reign requires placing roughly one block every ~2-3 minutes on average.",
+  "content": "The Great Pyramid of Giza, built c. 2560 BCE as Khufu's tomb, rises ~146.6 m over a ~230 m-per-side base and comprises ~2.3 million blocks... Finishing it within Khufu's ~27-year reign implies ≈1 block every ~3 min on average across the project.",
+  "collected_by": "retrieval-worker-4",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0007",
+  "source": { "type": "web", "locator": "https://archaeology.org/issues/july-august-2022/features/egypt-wadi-el-jarf-port-papyri/" },
+  "type": "summary",
+  "summary": "Wadi al-Jarf papyri (Merer's logbook): oldest inscribed papyri, document transport of Tura limestone blocks by boat to Giza via artificial basins/canals.",
+  "content": "Papyri discovered at Wadi al-Jarf (Red Sea port) are the oldest inscribed papyri ever found, dating to Khufu's reign. Inspector Merer led a phyle of ~40 men (one of four units of ~200). Logbooks document transporting fine limestone blocks from Tura quarries to Giza by boat, passing through 'She Khufu' (Lake of Khufu) and 'Akhet Khufu' (Horizon of Khufu). Supports Mark Lehner's theory of a network of artificial basins/canals allowing boats to deposit cargo at the plateau's edge. Merer reported to 'the noble Ankh-haf', Khufu's half-brother, overseeing construction.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0012",
+  "source": { "type": "web", "locator": "https://www.aap.com.au/factcheck/the-pyramids-of-giza-were-not-built-by-slaves/" },
+  "type": "summary",
+  "summary": "AAP FactCheck: archaeological evidence shows the pyramids were NOT built by slaves; skilled workers paid in food and lodging, with conscripted farm laborers during Nile flood.",
+  "content": "Macquarie University Egyptologist Dr Karin Sowada: archaeological evidence shows the pyramids were not built by slaves. Merer's papyrus shows a well-organised, well-provisioned team of about 40 men who were not slaves but skilled workers. Workers' settlement at Giza shows accommodations of an Egyptian workforce. Farm labourers were drafted during yearly Nile flooding as obligatory public service, not slavery - 'an ancient work for the dole arrangement, except wages were paid in food and lodging'. AAP FactCheck found the claim that slaves built the pyramids to be false.",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

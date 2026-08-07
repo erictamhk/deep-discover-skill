@@ -1,0 +1,12 @@
+{
+  "id": "EV-0021",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 (sub-question 5)" },
+  "type": "claim",
+  "summary": "CLAIM C-0003: The labor force was a large, well-fed, rotating body of Egyptian workers (corvée / paid), not slaves; the exact size is contested but the 'slave labor' narrative is rejected.",
+  "content": "The 'slaves built the pyramids' idea is rejected by archaeologists; the builders were Egyptian workers organized into gangs/phyles/divisions, fed well (beef, bread, beer) and housed in a workers' town (EV-0012, EV-0015). Labor size estimates range widely: Herodotus ~100,000 (EV-0013), Lehner ~5,000 local builders plus others (EV-0013), DMJM average ~14,567 / peak ~40,000 (EV-0014). Consensus on 'not slaves'; exact number contested.",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["EV-0012", "EV-0013", "EV-0014", "EV-0015"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

@@ -1,0 +1,140 @@
+{
+  "claims": {
+    "C-0001": {
+      "text": "The exact method of lifting/moving blocks is genuinely unknown and contested; no consensus exists.",
+      "evidence_file": "EV-0021",
+      "supports_evidence": ["EV-0001", "EV-0002", "EV-0003", "EV-0004", "EV-0005", "EV-0006", "EV-0008"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-1: EV-0008 (Tallet primary publication) states 'no mention of the construction techniques... object of passionate and contradictory debates'. Multiple independent sources confirm no consensus. Claim verified.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0002": {
+      "text": "The labor force was NOT slaves; it was a large, organized, well-fed workforce of Egyptian citizens (consensus).",
+      "evidence_file": "EV-0022",
+      "supports_evidence": ["EV-0010", "EV-0012", "EV-0013", "EV-0014", "EV-0015", "EV-0016"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-1: Six independent sources converge on 'not slaves, organized Egyptian workforce'. Strong multi-source consensus. Claim verified. NOTE: boundary condition applies - see C-0006.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0003": {
+      "text": "Transport of materials to the site via Nile waterways is well-established (Merer papyrus + Ahramat branch).",
+      "evidence_file": "EV-0023",
+      "supports_evidence": ["EV-0007", "EV-0009", "EV-0018", "EV-0019", "EV-0031"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-1: Merer papyrus (EV-0007, EV-0019) primary documentary evidence; Ahramat branch (EV-0009, EV-0018) peer-reviewed; PNAS 2022 (EV-0031) confirms Khufu branch and harbor complex. Waterway transport is the strongest-established part. Claim verified.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0004": {
+      "text": "What is genuinely unknown: the exact lifting mechanism, the leveling of the base, and how the final top blocks were placed.",
+      "evidence_file": "EV-0024",
+      "supports_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0028", "EV-0029"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-1: EV-0004 (Nature) confirms lifting mechanism unknown; EV-0028 (ScanPyramids) confirms voids but not ramps; EV-0029 confirms heaviest granite beams (40-70 tons) unsolved. Claim verified.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0005": {
+      "text": "The ScanPyramids voids (Big Void, North Face Corridor) are confirmed but their function is unknown; they do NOT confirm the internal ramp theory.",
+      "evidence_file": "EV-0028",
+      "supports_evidence": ["EV-0028", "EV-0032", "EV-0033"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-2: EV-0028 (Nature muography) confirms voids exist but purpose unknown. EV-0033 (BBC, 2023 endoscopic survey) shows the NFC is an empty corridor likely for weight redistribution, not a ramp. Claim verified.",
+      "verified_by": "verifier-facts-2"
+    },
+    "C-0006": {
+      "text": "The 'not slaves' finding is specific to the 4th Dynasty Great Pyramid; slavery and coerced labor existed in other periods (e.g., Middle Kingdom foreigners from Canaan).",
+      "evidence_file": "EV-0030",
+      "supports_evidence": ["EV-0030"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-2: EV-0030 (Wikipedia, corroborated by Springer chapter on Egyptian slavery) confirms Middle Kingdom used foreigners from Canaan and that slavery/coerced labor existed at various periods. This is a boundary condition on C-0002. Claim verified.",
+      "verified_by": "verifier-facts-2"
+    },
+    "C-0007": {
+      "text": "The North Face Corridor's function is likely weight redistribution around the entrance, not a construction ramp.",
+      "evidence_file": "EV-0033",
+      "supports_evidence": ["EV-0033", "EV-0036"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-3: EV-0033 (BBC, 2023) reports officials state the corridor 'could have been created to redistribute the pyramid's weight around the entrance'. EV-0036 (Nature Communications) confirms the corridor stops at its south side and does not connect to other structures. Claim verified as the current official interpretation.",
+      "verified_by": "verifier-facts-3"
+    },
+    "C-0008": {
+      "text": "The hydraulic lift theory applies to the Step Pyramid of Djoser, NOT the Great Pyramid; it is controversial and unproven.",
+      "evidence_file": "EV-0034",
+      "supports_evidence": ["EV-0034"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-3: EV-0034 (PLOS ONE 2024 + Science News/Live Science coverage) confirms the hydraulic lift proposal is for the Step Pyramid of Djoser, not the Great Pyramid, and is criticized by archaeologists. Claim verified.",
+      "verified_by": "verifier-facts-3"
+    },
+    "C-0009": {
+      "text": "The North Face Corridor does not connect to the Big Void or other chambers; it is a discrete sealed void.",
+      "evidence_file": "EV-0036",
+      "supports_evidence": ["EV-0036"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-4: EV-0036 (Nature Communications 2023) states 'no structure with a cross section of more than 1 m x 1 m further on the South' — the NFC is a discrete void, not a through-ramp. Claim verified.",
+      "verified_by": "verifier-facts-4"
+    },
+    "C-0010": {
+      "text": "The Giza harbor's 7m Nile flood rise was used for TRANSPORT of materials by boat, not to lift blocks vertically.",
+      "evidence_file": "EV-0037",
+      "supports_evidence": ["EV-0037", "EV-0031"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-4: EV-0037 (Lehner AERAGRAM) and EV-0031 (PNAS) confirm the flood rise made canals deep enough for cargo boats to deliver materials. The 'hydraulic lift' language refers to raising water levels for transport, not a block-elevator. Claim verified.",
+      "verified_by": "verifier-facts-4"
+    },
+    "C-0011": {
+      "text": "Most alternative pyramid construction theories come from non-Egyptologist outsiders and are often less well accepted by academic Egyptologists.",
+      "evidence_file": "EV-0038",
+      "supports_evidence": ["EV-0038", "EV-0032"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts-4: EV-0038 (Cambridge Archaeological Journal + Müller-Römer) confirms most alternative theories are created by male outsiders, cite sources selectively, and are less well accepted by academic Egyptologists. EV-0032 (Houdin) is a concrete example. Claim verified.",
+      "verified_by": "verifier-facts-4"
+    }
+  },
+  "links": [
+    { "from": "EV-0001", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0002", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0003", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0004", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0005", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0006", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0008", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0010", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0012", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0013", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0014", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0015", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0016", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0007", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0009", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0018", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0019", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0031", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0004", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0005", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0006", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0028", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0029", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0028", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0032", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0033", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0030", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0033", "to": "C-0007", "relation": "supports" },
+    { "from": "EV-0036", "to": "C-0007", "relation": "supports" },
+    { "from": "EV-0034", "to": "C-0008", "relation": "supports" },
+    { "from": "EV-0036", "to": "C-0009", "relation": "supports" },
+    { "from": "EV-0037", "to": "C-0010", "relation": "supports" },
+    { "from": "EV-0031", "to": "C-0010", "relation": "supports" },
+    { "from": "EV-0038", "to": "C-0011", "relation": "supports" },
+    { "from": "EV-0032", "to": "C-0011", "relation": "supports" }
+  ]
+}

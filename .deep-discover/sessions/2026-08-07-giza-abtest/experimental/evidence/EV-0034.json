@@ -1,0 +1,12 @@
+{
+  "id": "EV-0034",
+  "source": { "type": "web", "locator": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306690" },
+  "type": "summary",
+  "summary": "The hydraulic lift theory (Landreau, PLOS ONE 2024) applies to the Step Pyramid of Djoser, NOT the Great Pyramid; it is controversial and criticized by archaeologists.",
+  "content": "Landreau et al. (PLOS ONE, Aug 2024) proposed a hydraulic lift for the Step Pyramid of Djoser at Saqqara, using the Gisr el-Mudir enclosure as a check dam and the Dry Moat as a water treatment system, with a float in the north shaft raising stones. This applies to the Step Pyramid, NOT the Great Pyramid of Giza. It is controversial: critics note no Egyptologists/archaeologists were directly involved (Julia Budka), Gisr el-Mudir could not hold enough water (Oren Siegel), the proposed lake is not attested in any texts (Kamil Kuraszkiewicz), and Djoser's blocks were much smaller (~300kg) than later pyramids'. The theory is unproven and does not bear on the Great Pyramid's construction.",
+  "collected_by": "retrieval-worker-B",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

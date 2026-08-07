@@ -1,0 +1,12 @@
+{
+  "id": "EV-0023",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5" },
+  "type": "claim",
+  "summary": "CLAIM C-0003: Transport of materials to the site via Nile waterways is well-established (Merer papyrus + Ahramat branch).",
+  "content": "Transport of materials to the site via Nile waterways is well-established. The Merer papyrus documents limestone blocks shipped by boat from Tura to Giza through artificial basins/canals (EV-0007, EV-0019). The 2024 Ahramat branch discovery confirms a 64km extinct Nile branch ran beside the pyramids, likely used for transport (EV-0009, EV-0018). This is the strongest-established part of the construction story.",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["C-0003"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

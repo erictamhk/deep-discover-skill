@@ -1,0 +1,12 @@
+{
+  "id": "EV-0015",
+  "source": { "type": "web", "locator": "https://www.harvardmagazine.com/2003/07/who-built-the-pyramids-html" },
+  "type": "summary",
+  "summary": "Lehner's excavation of the Heit el-Ghurab 'workers town' found long galleries/barracks that he hypothesizes housed a rotating labor force of ~1,600-2,000 workers, fed well (young male cattle, bread, beer).",
+  "content": "We now see the enigmatic rows of long galleries... as barracks housing for a rotating labor force, perhaps as large as 1,600 to 2,000 workers... There are scores of bakeries flanking the galleries, as well as an abundance of bone... [Redding] could identify much of it as 'young, under two years of age, and it tended to be male.' Here was evidence of many people... feasting on prime beef.",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

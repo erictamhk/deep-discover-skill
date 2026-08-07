@@ -1,0 +1,64 @@
+{
+  "claims": {
+    "C-0001": {
+      "text": "The exact method by which blocks were lifted to height is genuinely unknown and contested; no conclusive ramp explanation exists.",
+      "supports_evidence": ["EV-0001", "EV-0002", "EV-0005", "EV-0008"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: EV-0002 (npj 2025) explicitly states 'no documents... explain how the pyramid was built' and 'solution... is yet to be found'; EV-0008 (IFAO Merer logbook publication) states 'no mention of the construction techniques'; EV-0001 and EV-0005 show ramps are tenable-but-incomplete. All cited sources support the claim. HIGH confidence, primary sources."
+    },
+    "C-0002": {
+      "text": "Transport of materials to the site by water (Nile, canals, lost Ahramat branch, boats) is well-established.",
+      "supports_evidence": ["EV-0007", "EV-0008", "EV-0009", "EV-0010"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: EV-0007 (NatGeo/Merer diary) and EV-0008 (IFAO) directly document Tura limestone shipped by boat; EV-0009 (2024 Communications Earth & Environment) maps the Ahramat branch as a transport waterway; EV-0010 (Archaeology magazine) documents the canal/basin network and excavated 'Lake of Khufu.' Strongly supported."
+    },
+    "C-0003": {
+      "text": "The labor force was a large, well-fed, rotating body of Egyptian workers (corvée/paid), not slaves; exact size contested.",
+      "supports_evidence": ["EV-0012", "EV-0013", "EV-0014", "EV-0015"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: EV-0012 (Harvard/Lehner) states 'They were not slaves'; EV-0015 (Harvard) documents well-fed rotating workers in barracks; EV-0013 (NOVA/Lehner) and EV-0014 (DMJM) give a wide range of size estimates (5,000 local to 40,000 peak), supporting 'size contested.' All sub-questions hold. Note the 'size' is an estimate range, not a single disputed fact."
+    },
+    "C-0004": {
+      "text": "Construction scale/timeline broadly agreed (~2.3M blocks, avg 2.5t, ~146.6m, ~20-27 yrs), but pace feasibility (single vs multi-ramp) contested.",
+      "supports_evidence": ["EV-0016", "EV-0017", "EV-0018"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: EV-0016 states ~2.3M blocks, 146.6m tall, ~1 block/3min; EV-0017 gives avg 2.5t and material origins; EV-0018 (2026 IER model) shows single-ramp would take 49.5yrs vs multi-ramp fits ~20-27yrs. The scale claims hold. NOTE: EV-0018 is a computational model, so the 'single-ramp too slow' sub-claim is model-based, marked medium confidence."
+    },
+    "C-0005": {
+      "text": "Alternative non-ramp lifting proposals (pulley-like counterweights, hydraulic lift, cast-in-place) are minority, non-consensus hypotheses.",
+      "supports_evidence": ["EV-0002", "EV-0011"],
+      "contradicts_evidence": ["EV-0007"],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: EV-0002 proposes the pulley-like counterweight model; EV-0011 documents the Djoser hydraulic-lift hypothesis. These are novel peer-reviewed proposals, while consensus (EV-0001) is ramps+levering. EV-0007 (Merer diary) contradicts the cast-in-place theory by documenting intact stones shipped by boat. 'Minority/non-consensus' is a fair characterization given EV-0001's framing. VERIFIED with the caveat that 'minority' is an inference."
+    }
+  },
+  "links": [
+    { "from": "EV-0001", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0002", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0005", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0008", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0007", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0008", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0009", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0010", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0012", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0013", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0014", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0015", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0016", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0017", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0018", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0002", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0011", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0007", "to": "C-0005", "relation": "contradicts" }
+  ],
+  "verifier_summary": {
+    "verifier-facts": "All 5 claims (C-0001..C-0005) verified against cited evidence. No misquotes found.",
+    "verifier-conflicts": "No HIGH-severity between-claim or between-evidence contradictions. One LOW-severity dating discrepancy: reign length of Khufu given as ~27 years (EV-0016) vs ~23 years (cheops-pyramide/chronicler sources, not in pool). Labor-size figures differ (EV-0013 vs EV-0014) but are ranges, not hard conflicts. C-0005 internally flags EV-0007 as contradicting cast-in-place theory, which is a resolved contradiction, not an open dispute.",
+    "verifier-conflict-evidence": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0013",
+  "source": { "type": "web", "locator": "https://www.pbs.org/wgbh/nova/pyramid/explore/builders.html" },
+  "type": "summary",
+  "summary": "Labor-force estimates vary widely: Herodotus reported 100,000 workers; Mark Lehner's NOVA estimates point to a few thousand to ~5,000 doing the quarrying/building/schlepping locally, plus granite/Tura work elsewhere.",
+  "content": "Herodotus... wrote that 100,000 workers built the pyramids and modern Egyptologists come up with a figure more like 20,000 workers... It comes out 5,000 or less men, including the stone setters... to actually do the building and the quarrying and the schlepping from the local quarry. This doesn't count the men cutting the granite and shipping it from Aswan or the men over in Tura. OK, so that increases the numbers somewhat.",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

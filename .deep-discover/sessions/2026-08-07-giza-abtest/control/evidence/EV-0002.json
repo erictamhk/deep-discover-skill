@@ -1,0 +1,12 @@
+{
+  "id": "EV-0002",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s40494-025-02018-w" },
+  "type": "summary",
+  "summary": "A 2025 npj Heritage Science paper argues no documents from Khufu's time explain how the pyramid was built; ramp models face physics, ramp-length/space, and spiral-slowness problems; proposes a pulley-like counterweight model.",
+  "content": "No documents from Khufu's times were found that explain how the pyramid was built. ... The generally accepted theories rely on construction-ramps on which stone blocks mounted on sledges were pulled up the growing pyramid... The appeal of construction-ramp models is their simplicity. ... [But] the use of construction-ramps runs into three major problems: (i) the physics is unfavorable... (ii) The large length of ramps and absence of archeological traces... (iii) The slowness to operate on spiral ramps. ... indicating that ultimately modern-day Egyptologists might agree that the solution to how the Great Pyramid was built is yet to be found.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

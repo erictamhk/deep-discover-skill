@@ -1,0 +1,12 @@
+{
+  "id": "EV-0023",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 (sub-question 5)" },
+  "type": "claim",
+  "summary": "CLAIM C-0005: Alternative/non-ramp lifting proposals exist (pulley-like counterweights 2025, hydraulic lift for Djoser, cast-in-place concrete) but remain minority, non-consensus hypotheses.",
+  "content": "Radical alternatives to ramps exist but are not consensus: a 2025 npj paper proposes pulley-like counterweight systems on sliding ramps (EV-0002); a 2024 PLoS ONE paper proposes a hydraulic lift for the Step Pyramid of Djoser (EV-0011 context); the 'cast-in-place' theory of Davidovits is contradicted by the Merer diary documenting intact stones shipped by boat (EV-0007). These are minority hypotheses, not established consensus.",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["EV-0002", "EV-0011"],
+  "contradicts": ["EV-0007"],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

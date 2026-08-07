@@ -1,0 +1,12 @@
+{
+  "id": "EV-0011",
+  "source": { "type": "web", "locator": "https://archive.archaeology.org/0907/etc/khufu_pyramid.html" },
+  "type": "summary",
+  "summary": "Bob Brier (Archaeology Magazine): climbed to a notch on the northeast edge; evidence of an L-shaped chamber consistent with Houdin's internal ramp theory, but internal ramp not confirmed.",
+  "content": "Bob Brier climbed to a notch ~270 feet up the northeast edge of the Great Pyramid. The notch (~18ft per side, ~20ft high) and an L-shaped chamber behind it are consistent with Houdin's internal ramp theory (a corner turning point). Mortar extruding into the chamber suggests blocks pushed from below. 1980s microgravimetry survey recorded density variations possibly showing an internal ramp. But the internal ramp remains unconfirmed; permission for nondestructive survey still pending.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

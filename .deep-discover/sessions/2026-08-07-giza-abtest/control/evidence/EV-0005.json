@@ -1,0 +1,12 @@
+{
+  "id": "EV-0005",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s40494-026-02405-x" },
+  "type": "summary",
+  "summary": "A 2026 npj Heritage Science computational study (Integrated Edge Ramp) notes each major ramp family has constraints: straight/frontal ramps need prohibitively large material and leave no attested footings at Giza; internal spirals assume undocumented corridors.",
+  "content": "Straight or frontal ramps require prohibitively large volumes of material and leave no attested footings at Giza. Zig-zag or side ramps obstruct survey control and block perimeter access. External spiral designs impede corner visibility and turning, while internal spirals assume undocumented internal corridors and struggle to match muography results.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

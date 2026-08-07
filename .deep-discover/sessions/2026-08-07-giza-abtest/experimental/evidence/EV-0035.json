@@ -1,0 +1,12 @@
+{
+  "id": "EV-0035",
+  "source": { "type": "web", "locator": "https://bpb-us-w2.wpmucdn.com/people.smu.edu/dist/4/562/files/2023/08/Muller_Romer_2008.pdf" },
+  "type": "summary",
+  "summary": "Cross-cultural and engineering review (Müller-Römer 2008): no conclusive explanation for pyramid construction; argues perpendicular and spiral ramps are unlikely, proposes steep ramps parallel to core steps with winches.",
+  "content": "Müller-Römer (2008): 'no conclusive explanation has been proposed so far' for Old Kingdom pyramid construction. Argues perpendicular and spiral ramps are not likely to have played a significant role, citing ramp volume, lack of archaeological evidence, and schedule problems. Proposes steep ramps erected parallel to the sides of the core steps, hauling material with winches (rollers), with a working platform for casing. Notes the Great Pyramid construction time frame is a maximum of 23 years. This is one more competing engineering hypothesis; the Inca at Ollantaytambo used ramps and slides, showing ramps were a common ancient technique, but the Egyptian method remains debated.",
+  "collected_by": "retrieval-worker-C",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

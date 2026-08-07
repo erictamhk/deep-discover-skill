@@ -1,0 +1,12 @@
+{
+  "id": "EV-0021",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5" },
+  "type": "claim",
+  "summary": "CLAIM C-0001: The exact method of lifting/moving blocks is genuinely unknown and contested; no consensus exists.",
+  "content": "The precise construction method for lifting and placing the Great Pyramid's blocks is genuinely unknown and actively contested. No contemporary document from Khufu's time explains the technique (EV-0008). Multiple competing theories exist (external ramp, spiral ramp, internal ramp, levering, pulley/counterweight) with none conclusively proven (EV-0001, EV-0002, EV-0003, EV-0004, EV-0005, EV-0006). Even the most accepted ramp theory is acknowledged as incomplete and must be supplemented by another device (EV-0005).",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["C-0001"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

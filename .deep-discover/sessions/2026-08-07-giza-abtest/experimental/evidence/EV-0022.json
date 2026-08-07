@@ -1,0 +1,12 @@
+{
+  "id": "EV-0022",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5" },
+  "type": "claim",
+  "summary": "CLAIM C-0002: The labor force was NOT slaves; it was a large, organized, well-fed workforce of Egyptian citizens (consensus).",
+  "content": "The labor force was not slaves; this is established consensus among Egyptologists. Workers were organized Egyptian citizens, skilled and well-fed, paid in food and lodging (EV-0012, EV-0013, EV-0016). Organized into crews/gangs (aprw), phyles (zAw), and divisions (EV-0010, EV-0015). Workforce size estimates range widely from ~14,000 average to ~40,000 peak (EV-0014). The 'slave labor' idea originated with Herodotus and Hollywood, not archaeology (EV-0010, EV-0013).",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["C-0002"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}

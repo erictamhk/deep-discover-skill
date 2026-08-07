@@ -1,0 +1,12 @@
+{
+  "id": "EV-0012",
+  "source": { "type": "web", "locator": "https://www.harvardmagazine.com/2003/07/who-built-the-pyramids-html" },
+  "type": "summary",
+  "summary": "The popular 'slaves built the pyramids' idea is rejected by archaeologists; workers' graffiti (gang names like 'Friends of Khufu') and the workers' settlement show they were organized into gangs/phyles/divisions and were fed well (beef, bread, beer), not slaves.",
+  "content": "Rooted firmly in the popular imagination is the idea that the pyramids were built by slaves... But graffiti from inside the Giza monuments themselves have long suggested something very different. ... He has found the city of the pyramid builders. They were not slaves. ... workers were organized into labor units with names like 'Friends of Khufu' or 'Drunkards of Menkaure.' Within these units were five divisions...",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-07T00:00:00Z"
+}
