@@ -199,31 +199,45 @@ The orchestrator **never trusts a worker's conclusion until a verifier signs off
 
 Verifiers write their findings back to the evidence pool — they append `verifier_notes` to claims in `evidence_graph.json` and may create new evidence of type `claim` (e.g. "EV-0001 is a blog post, not a primary source — downgrading confidence").
 
-### 5. Assess (the cycle's decision point)
+### 5. Assess (the cycle's decision point) — the discovery engine
 
 This is where the skill becomes a cyclic graph. The skill is **not a linear pipeline with a repair patch** — it is a Reason → Verify → Correct loop, where each cycle can re-decompose the question, not just patch broken claims. The verify step's output feeds back into decomposition, allowing the *act of researching* to surface new sub-questions that the original plan didn't anticipate. This is the difference between error-correction and genuine discovery.
 
-After the verify step, before any synthesis, you (the orchestrator) read the evidence pool and the verifier verdicts and ask three questions explicitly:
+After the verify step, before any synthesis, you (the orchestrator) read the evidence pool and the verifier verdicts and apply the **generative operators** — a systematic discovery engine that forces the evidence to surface new sub-questions. Do **not** rely on "did anything interesting come up?" — that is how discovery stops early. Apply all seven operators explicitly and list what each produces.
+
+The seven operators (each reads the evidence and produces NEW sub-questions):
+
+1. **Negation** — for every verified claim C, ask "What evidence would falsify C?" and "What is the strongest case against C?" → counter-search sub-questions.
+2. **Pairwise conflict** — for every pair (EV-i, EV-j), ask "Do they conflict?" → resolution sub-questions. Combinatorial; grows with the pool.
+3. **Implication** — for every claim C, ask "What does C imply that we haven't verified?" → downstream sub-questions.
+4. **Provenance** — for every source, ask "Who produced this, with what incentive, and what would they distort?" → meta-questions about source reliability.
+5. **Absence** — for every sub-question, ask "What evidence would decisively answer this, and is it in the pool?" → gap-filling sub-questions.
+6. **Boundary** — for every claim, ask "Under what conditions is this true/false?" → scope/condition sub-questions.
+7. **Analogy** — "In which closest domain is this pattern known to differ?" → cross-domain sub-questions.
+
+Then answer the three questions — but the operators are the primary generator of new sub-questions, not the three questions:
 
 1. **Are there open disputes?** Claims still `disputed` or `unverified` at HIGH severity need targeted correction. This is the repair path.
-
-2. **Did the evidence surface new sub-questions that weren't in the original plan?** This is the discovery path — the one the previous linear version of this skill couldn't do. A verifier-facts check might reveal that a cited source actually points at a deeper question (e.g. "the paper says X is true *if* condition Y holds — but we never searched for whether Y holds"). A verifier-conflicts finding might reveal that two claims are in tension in a way that needs a new retrieval worker to resolve, not just a softening of one claim. The reasoning worker might have produced a claim that, now that you read it, depends on a sub-question no worker ever searched. **List these new sub-questions explicitly.**
-
+2. **Did the operators surface new sub-questions that weren't in the original plan?** This is the discovery path. A verifier-facts check might reveal that a cited source actually points at a deeper question (e.g. "the paper says X is true *if* condition Y holds — but we never searched for whether Y holds"). A verifier-conflicts finding might reveal that two claims are in tension in a way that needs a new retrieval worker to resolve, not just a softening of one claim. The reasoning worker might have produced a claim that, now that you read it, depends on a sub-question no worker ever searched. **List these new sub-questions explicitly, tagged with the operator that produced them.**
 3. **Is the evidence sufficient to answer the user's question, or is it thin in a way that isn't a dispute but a gap?** Thinness is not the same as a dispute. If three workers returned evidence about the ritual but the history angle has only one weak source, that's a gap. The linear skill would have shipped it as a low-confidence section; the cyclic skill dispatches a targeted worker to fill it.
 
-Write the assessment to `{RUN_DIR}/assessments/round-N.md` (create the directory on first use), recording: which claims need correction, which new sub-questions were surfaced, which gaps need filling, and the current cycle count.
+Write the assessment to `{RUN_DIR}/assessments/round-N.md` (create the directory on first use), recording: which claims need correction, which new sub-questions each operator surfaced (tagged with the operator), which gaps need filling, and the current cycle count.
 
 ### 6. Cycle or stop (the loop with guards)
 
 The loop is: **Assess → Re-decompose → Dispatch new/targeted workers → Verify → Assess again.** Each pass through this loop is one cycle. The loop is what makes this a cyclic graph (Reason → Verify → Correct), not a linear pipeline.
 
-**Guards against infinite loops — mandatory, non-negotiable:**
+**The stop condition is closure saturation.** You stop only when applying all seven operators (step 5) to the current pool produces **no genuinely new sub-questions** — the set of operator-produced questions equals the set already asked. This is the "generative closure is saturated" condition. It is the difference between "we stopped because we found enough" and "we stopped because we can justify every question we didn't ask."
+
+**Failure is evidence, not a stop signal.** A failed search is not a reason to stop — write it as an EV of type `claim` ("Searched X for Y, found nothing, effort Z") and change strategy (different source type, domain, phrasing). Only stop when the strategy space for a question is exhausted, not when one strategy fails.
+
+**Guards — hard ceilings, mandatory, non-negotiable:**
 
 1. **Max 4 cycles total** (including the initial dispatch as cycle 1). After cycle 4, you stop and synthesize with whatever you have, reporting open gaps and disputes as explicit uncertainty. Do not exceed 4 cycles regardless of how tempting the next search feels.
 
-2. **Diminishing-returns guard.** Track the number of claims promoted from `unverified`/`disputed` to `verified` in each cycle. If a cycle promotes **fewer than 2 claims** or resolves **fewer than 1 HIGH-severity dispute**, stop — you have hit diminishing returns and another cycle is unlikely to help. Synthesize with current evidence.
+2. **Diminishing-returns guard.** Track the number of **genuinely new sub-questions** the operators produce in each cycle. If a cycle produces **0 new sub-questions** from all seven operators, stop — the closure is saturated and another cycle is unlikely to help. Synthesize with current evidence. (Do not measure this on claim-promotion; a cycle that fills a previously-unasked question is valuable even if it promotes no claims.)
 
-3. **No-rework guard.** A claim that has been the target of correction in two consecutive cycles and is *still* `disputed` is declared a **permanent dispute** — stop trying to fix it. It becomes an explicit uncertainty in the final report, with the verifier notes attached. Do not spend a third cycle on it.
+3. **No-rework guard.** A claim that has been the target of correction in two consecutive cycles and is *still* `disputed` is declared a **permanent dispute** — stop trying to fix it. It becomes an explicit uncertainty in the final report, with the verifier notes attached. **But a permanent dispute is a redirect, not a dead end:** spawn the meta-question "why do the sources disagree?" (provenance, methodology, temporal context) and probe it at least once before moving on.
 
 4. **Budget guard.** If the total evidence pool exceeds **400 EV files**, stop dispatching new workers regardless of cycle count. The pool is large enough; further growth will make verification harder, not easier. Synthesize.
 
@@ -231,7 +245,7 @@ The loop is: **Assess → Re-decompose → Dispatch new/targeted workers → Ver
 
 **The stop decision is: have ALL of these been met?**
 - No HIGH-severity disputes remain, OR remaining HIGH disputes have been declared permanent (guard 3).
-- No genuinely new sub-questions left unsearched (convergence guard 5).
+- Closure is saturated — the operators produce no genuinely new sub-questions (guards 2 and 5).
 - The evidence is sufficient to answer the user's question at the confidence the evidence supports — thinness in non-load-bearing areas is acceptable and reported as such.
 
 If yes → proceed to synthesis (step 7). If no → proceed to the next cycle: re-decompose (add the new sub-questions from the assessment to the plan), dispatch targeted workers for the gaps/disputes/new-questions, verify the new and re-corrected claims, then assess again.
@@ -263,7 +277,8 @@ Write the report to `{RUN_DIR}/report.md` and also surface it to the user in you
 
 - A worker that returns a confident conclusion with no evidence ids is not done — re-dispatch or discard.
 - A verifier that says "looks good" without citing specific evidence is not a verification — re-run with a stricter prompt.
-- A dispute that survives 2 consecutive correction cycles is a permanent dispute (guard 3). Report it, don't hide it, and stop trying to fix it.
+- A dispute that survives 2 consecutive correction cycles is a permanent dispute (guard 3). Report it, don't hide it, and stop trying to fix it — but redirect it: spawn the meta-question "why do the sources disagree?" and probe it once before moving on.
+- A failed search is evidence of absence, not a stop signal. Write it as an EV of type `claim` ("Searched X for Y, found nothing, effort Z") and change strategy — different source type, domain, or phrasing. Only stop when the strategy space for a question is exhausted, not when one strategy fails.
 - If you catch yourself writing the answer before the cycle's stop conditions are met, stop. You're the orchestrator, not a worker.
 - If you catch yourself writing a factual sentence in the report that doesn't cite an EV id, stop. The report is built only by citing evidence from the graph — no imported-from-memory assertions. The global verifier will fail you for this; better to catch it yourself.
 - If you realize mid-run that the grounding decision (step 1) was wrong — the evidence coming back is answering a question the user didn't ask — stop the run and re-ground. Do not silently pivot.
