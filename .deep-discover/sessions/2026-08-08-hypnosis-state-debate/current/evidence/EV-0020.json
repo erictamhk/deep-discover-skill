@@ -1,0 +1,12 @@
+{
+  "id": "EV-0020",
+  "source": { "type": "web", "locator": "https://pure.psu.edu/en/publications/social-cognitive-theories-of-hypnosis/" },
+  "type": "raw-quote",
+  "summary": "Lynn et al. 2012 social-cognitive review: claim that neurophysiological data resolve altered-state issue is NOT warranted; physiological markers may one day be found but not yet",
+  "content": "Although this article does not deny the possibility that reliable physiological markers of an altered state of hypnosis may one day be found, and underscore the importance of identifying the psychophysiological substrates of hypnosis, it argues that the claim that neurophysiological data resolve the altered state issue is not warranted by the available evidence.",
+  "collected_by": "retrieval-worker-2",
+  "supports": ["C-0002"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

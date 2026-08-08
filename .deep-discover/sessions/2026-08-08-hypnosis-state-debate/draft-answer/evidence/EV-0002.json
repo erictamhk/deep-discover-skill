@@ -1,0 +1,12 @@
+{
+  "id": "EV-0002",
+  "source": { "type": "web", "locator": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2023.1286336/full" },
+  "type": "summary",
+  "summary": "2023 fMRI study (de Matos et al., n=50): hypnotic states show depth-dependent functional connectivity changes in parieto-occipital-temporal areas, cuneus/precuneus, occipital cortices; respiration slowed during hypnosis. Frames as neurobiology of altered consciousness.",
+  "content": "de Matos et al. 2023 (Front Hum Neurosci), part of larger HypnoScience project. fMRI with 50 hypnosis-experienced participants, two hypnotic states (HS1, HS2) of differing depth vs two control conditions. Multi-voxel pattern analysis (MVPA) whole-brain. Key neural hubs in parieto-occipital-temporal areas, cuneal/precuneal and occipital cortices, lingual gyri, occipital pole. Comparing both hypnotic states revealed depth-dependent connectivity changes in left superior temporal/supramarginal gyri, cuneus, planum temporale, lingual gyri. Respiration rate significantly slowed during hypnosis. Authors frame findings as 'further knowledge related with the neurobiology of altered consciousness.' Both hypnosis states strongly overlapped in MVPA vs control states. Study explicitly designed to 'identify neural correlates that can distinguish hypnotic states from normal waking states of consciousness.'",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

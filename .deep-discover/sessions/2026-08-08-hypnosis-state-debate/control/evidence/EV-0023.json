@@ -1,0 +1,11 @@
+{
+  "id": "EV-0023",
+  "type": "summary",
+  "summary": "CYCLE-1 STOP DECISION (OLD guards): Cycle 1 promoted 7 claims (6 verified, 1 disputed) — well above the <2-claims threshold, so guard 2 does NOT fire. No HIGH disputes (guard 1/3 N/A). One genuinely-new sub-question surfaced (TMS/causal intervention). Per OLD convergence guard 5, new sub-Q is genuinely new, so dispatch a targeted cycle-2 worker rather than stop.",
+  "content": "OLD-step-6 guard evaluation after cycle 1:\n- Guard 1 (max 4 cycles): 1 ≤ 4, OK.\n- Guard 2 (diminishing returns on CLAIM PROMOTION): cycle 1 promoted 7 claims (7 unverified → 6 verified + 1 disputed). This is FAR above the 'fewer than 2 claims' stop threshold. Guard 2 does NOT fire.\n- Guard 3 (no-rework): no claim has been corrected in 2 consecutive cycles yet; N/A.\n- Guard 4 (400 EV cap): 22 EV, far below.\n- Guard 5 (convergence): the assessment surfaced ONE genuinely-new sub-question (TMS/causal-intervention evidence) not in the original plan. This is not a rephrasing of a prior sub-question. So convergence is NOT saturated.\nSTOP-CONDITION EVALUATION: All three stop conditions must be met: (a) no HIGH disputes OR permanent — met (only MEDIUM C-0001 reframing). (b) no genuinely new sub-questions left unsearched (convergence) — NOT met, TMS sub-Q is new and unsearched. (c) evidence sufficient — mostly met but TMS gap is potentially load-bearing for the state/causality question.\nDECISION: Proceed to cycle 2 with ONE targeted worker (TMS/causal intervention), because the OLD skill says to dispatch when new sub-questions are genuinely new. NOTE THE HYPOTHESIS-RELEVANT OBSERVATION: the OLD guard-2 framing (claim promotion) reads cycle 1 as a big success and creates pressure to feel 'done' — the only thing preventing early stop here is the convergence guard catching the one new sub-question. This is exactly the brittle dynamic the hypothesis predicts.",
+  "collected_by": "orchestrator",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

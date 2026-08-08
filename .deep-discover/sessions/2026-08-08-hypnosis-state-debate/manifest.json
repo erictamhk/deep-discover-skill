@@ -1,0 +1,49 @@
+{
+  "session_id": "2026-08-08-hypnosis-state-debate",
+  "created": "2026-08-08",
+  "type": "ab-test",
+  "purpose": "Three-way test: reproducibility of operators on new topic + draft-answer operator validation",
+  "test_question": "催眠到底是一個真實的意識狀態改變，還是只是社會順從？2023-2025 的科學證據到底怎麼說？",
+  "runs": [
+    {
+      "run_id": "control",
+      "condition": "old skill (no operators, claim-promotion diminishing returns)",
+      "cycles": 2,
+      "ev_count": 25,
+      "claims_verified": 7,
+      "claims_disputed_final": 1,
+      "source_conflicts_surfaced": 2,
+      "report_summary": "Synthesis reached; both extremes disconfirmed. But clinical-efficacy assertion shipped without backing (self-admitted gap). Did not stop at cycle 1 — old convergence guard pushed to cycle 2, found SHIFT RCT.",
+      "report_path": "control/report.md"
+    },
+    {
+      "run_id": "current",
+      "condition": "current skill (7 generative operators + closure saturation)",
+      "cycles": 2,
+      "ev_count": 35,
+      "claims_verified": 8,
+      "claims_disputed_final": 0,
+      "source_conflicts_surfaced": 3,
+      "report_summary": "Synthesis reached; 7 operators drove cycle 2. But never searched clinical efficacy (pool operators don't check draft assertions for backing). HIGH interpretive conflict declared permanent dispute.",
+      "report_path": "current/report.md"
+    },
+    {
+      "run_id": "draft-answer",
+      "condition": "current skill + draft-answer operator (8th operator)",
+      "cycles": 3,
+      "ev_count": 36,
+      "claims_verified": 8,
+      "claims_disputed_final": 0,
+      "source_conflicts_surfaced": 4,
+      "report_summary": "Only run to reach cycle 3. Draft-answer operator caught 3 [UNBACKED] + 3 [INFERRED] assertions across cycles, driving retrieval for clinical efficacy (cycle 2) and the hypnosis-vs-placebo discriminative question (cycle 3). Every load-bearing assertion has traceable backing.",
+      "report_path": "draft-answer/report.md"
+    }
+  ],
+  "artifacts": {
+    "initial_plan": "initial-plan.md",
+    "old_step5_step6_patch": "old-step5-step6.md",
+    "draft_answer_patch": "draft-answer-patch.md",
+    "audit": "audit.md"
+  },
+  "verdict": "Draft-answer operator effective; fills blind spot of 7 pool operators (catches unbacked assertions in draft synthesis). Adopted into SKILL.md as operator 8. Reproducibility finding: operators not a panacea — on mature debates even old skill reaches synthesis; operators' value is in exhausting question space and backing completeness."
+}

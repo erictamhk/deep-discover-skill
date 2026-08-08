@@ -1,0 +1,12 @@
+{
+  "id": "EV-0031",
+  "source": { "type": "web", "locator": "https://www.ishhypnosis.org/encyclopedia/neuromodulation-and-hypnosis-current-evidence-and-future-directions-2026/" },
+  "type": "summary",
+  "summary": "ISH 2026 neuromodulation review: TMS/tDCS evidence converges (Dienes&Hutton supported by Faerman; Coltheart partial fail but R-DLPFC worked; Perri tDCS +11-15% hypnotic depth); small samples, mostly subjective measures, limited neurophysiological confirmation",
+  "content": "Early TMS studies provided the first evidence that prefrontal modulation could influence hypnotic responsiveness. Dienes and Hutton (2013) reported that inhibitory stimulation of the left DLPFC produced a modest increase in subjective responses... a subsequent replication attempt failed to replicate (Coltheart et al., 2018), the same study found that inhibiting the right DLPFC increased behavioral responsiveness... More recently, Faerman et al. (2024)... demonstrated a significant increase in hypnotizability, although the magnitude of this effect was modest... Perri et al. (2022) applied inhibitory bilateral stimulation over the DLPFC and observed an approximately 11% increase in hypnotic depth... a more focal unilateral montage targeting the left DLPFC reported an approximately 15% increase in the hypnoidal state score... The main limitations of the current literature include small sample sizes, a predominant reliance on subjective measures of hypnotizability, the lack of neurophysiological assessments to objectively evaluate the effects of neurostimulation on brain activity.",
+  "collected_by": "retrieval-worker-cycle2-1",
+  "supports": ["C-0006"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T14:00:00Z"
+}

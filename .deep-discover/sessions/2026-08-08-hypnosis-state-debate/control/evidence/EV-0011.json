@@ -1,0 +1,12 @@
+{
+  "id": "EV-0011",
+  "source": { "type": "web", "locator": "https://www.sciencedirect.com/science/article/pii/S174438812300107X" },
+  "type": "summary",
+  "summary": "Geagea et al. 2023 integrative review: 'broad agreement across theoretical approaches' on analgesia effects, key components, and vocabulary despite dichotomies; proposes multifaceted integrative model combining social, biopsychosocial, and state-theory elements.",
+  "content": "Geagea et al. (2023, 'Redefining hypnosis: A narrative review of theories to move towards an integrative model', ScienceDirect S174438812300107X): 'Despite dichotomies, a broad agreement appears across theoretical approaches regarding hypnotic analgesia effects, key components, and vocabulary.' Social theories highlight social/contextual variables; state theories highlight biopsychosocial mechanisms and individual factors. Proposes an integrative model (building on Jensen's biopsychosocial model) presenting hypnosis as 'a complex multifaceted intervention encompassing multiple procedures, phenomena, and influencing factors.' Notes reduced metacognition/altered sense of agency distinguishes hypnotic responding from simple compliance. Recommends 'hypnotherapy'/'clinical hypnosis' terminology.",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0004", "C-0007"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

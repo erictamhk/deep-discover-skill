@@ -1,0 +1,12 @@
+{
+  "id": "EV-0025",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 synthesis of EV-0008, EV-0016, EV-0021, EV-0022" },
+  "type": "claim",
+  "summary": "C-0005: The strict 'trance required' (qualitative state) hypothesis is largely RULED OUT, but the broader 'is there a real altered state' question remains open and is best framed as a continuum, not a dichotomy",
+  "content": "CLAIM C-0005: Oakley & Halligan (2013) concluded neuroimaging data converge in 'ruling out the qualitative state hypothesis' — the view that suggested perceptual alterations CANNOT occur unless the subject is in a hypnotic trance. This is reinforced by Dienes et al.'s preregistered Stroop equivalence (suggestion ≈ volitional request) and by the repeated finding that induction adds little for many participants. So the STRONG/TRADITIONAL state claim is rejected. BUT this does not entail pure non-state: measurable brain changes DO occur (C-0001), and the absence of a unique fingerprint is an absence-of-evidence problem. The field now treats this as fuzzy points on a continuum (Oakley & Halligan) rather than a binary. SUPPORTS: both strict-state and pure-compliance extremes are disconfirmed; the live question is the nature/degree of the altered processing.",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:50:00Z"
+}

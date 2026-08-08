@@ -1,0 +1,12 @@
+{
+  "id": "EV-0030",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/23083914/" },
+  "type": "raw-quote",
+  "summary": "Dienes & Hutton 2013 rTMS (n=24): low-freq rTMS to L-DLPFC increased hypnotic response vs vertex; expectancy did NOT differ between conditions — supports cold control + hypofrontality",
+  "content": "Low frequency rTMS to the DLPFC rather than vertex increased the degree of combined behavioural and subjective response. Further, subjects did not differ in their expectancy that they would respond in the two conditions, so the rTMS had an effect on hypnotic response above and beyond expectancies... The results support theories, including cold control theory, postulating a component of hypofrontality in hypnotic response.",
+  "collected_by": "retrieval-worker-cycle2-1",
+  "supports": ["C-0004", "C-0006"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T14:00:00Z"
+}

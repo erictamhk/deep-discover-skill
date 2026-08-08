@@ -1,0 +1,12 @@
+{
+  "id": "EV-0017",
+  "source": { "type": "web", "locator": "https://www.tandfonline.com/doi/full/10.1080/00207144.2023.2276846" },
+  "type": "summary",
+  "summary": "Dell 2023 / Lush et al. 2020: 'phenomenological control' / 'ability to alter personal experience' — ability-based models that reject BOTH state AND nonstate models; ability exists independently of induction, hypnotist, state, suggestion",
+  "content": "Dell (2021) (re)conceptualizes hypnosis and hypnotizability in terms of... an ability [to alter personal experience] that exists independently of (1) an induction, (2) a hypnotist, (3) the hypnotic state, (4) alterations of consciousness, (5) suggestions, and (6) the context of hypnosis... In doing so, the ability-to-alter-personal-experiences model opposes both the state and nonstate models of hypnosis.",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0004"],
+  "contradicts": ["C-0001", "C-0002"],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

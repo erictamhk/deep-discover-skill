@@ -1,0 +1,11 @@
+{
+  "id": "EV-0018",
+  "type": "claim",
+  "summary": "CLAIM C-0004: A synthesis/integrative position is consolidating around predictive coding + active inference + cold-control, dissolving the sharp state/non-state dichotomy. Both camps are converging on computational-cognitive accounts.",
+  "content": "CLAIM C-0004: A synthesis position is consolidating. The sharp state vs non-state dichotomy is dissolving into integrative accounts: (a) Dienes & Perner's cold-control (executive control without HOTs — bridges neodissociation and social-cognitive views); (b) Jamieson/Oakley/Halligan predictive-coding/active-inference accounts (suggestions as strong top-down priors); (c) Lynn et al. 2022 recasting Kirsch's own response-expectancy theory IN predictive-coding terms; (d) Geagea et al. 2023 integrative multifaceted model. All agree on broad empirical common ground (analgesia efficacy, key components, vocabulary) even where mechanisms remain disputed. (Evidence: EV-0009, EV-0010, EV-0011, EV-0012.)",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["C-0004"],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

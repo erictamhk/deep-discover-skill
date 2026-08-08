@@ -1,0 +1,12 @@
+{
+  "id": "EV-0035",
+  "source": { "type": "web", "locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1363037/full" },
+  "type": "statistic",
+  "summary": "Front Psychol 2024 (secondary analysis, n=47): outcome expectations to hypnosis were NOT associated with perceived stress reduction at 5 weeks (B=0.326, p=0.812). Suggests hypnosis effect not driven by expectancy in this sample — partial support for hypnosis-specific mechanisms.",
+  "content": "Front Psychol 2024, 'The relevance of outcome expectations in group hypnosis for stress reduction' (secondary analysis of multicenter RCT, n=47 distressed participants). Group hypnosis program 5 weekly sessions + audio + educational booklet. Outcome expectations measured at baseline with Expectations for Treatment Scale (ETS). RESULT: unadjusted (B=0.326, p=0.812, R2=0.001) and adjusted (B=0.639, p=0.641, R2=0.168) regressions found outcome expectations to hypnosis were NOT associated with change in perceived stress between baseline and 5 weeks in the intervention group. CONCLUSION: 'beneficial effect of group hypnosis in distressed participants were not associated with outcome expectations. Other mechanisms of action may be more important for the effect of hypnosis.' Caveats: ceiling on expectations (M=13.74/20); single-arm (intervention only); ETS developed for acupuncture. KEY: partial support for hypnosis-SPECIFIC effects beyond expectancy — counterbalances EV-0033's large placebo component and EV-0034's induction-null finding.",
+  "collected_by": "retrieval-worker-7",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

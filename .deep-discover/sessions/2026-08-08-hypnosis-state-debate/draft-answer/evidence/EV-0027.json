@@ -1,0 +1,12 @@
+{
+  "id": "EV-0027",
+  "source": { "type": "web", "locator": "https://doi.org/10.31234/osf.io/rjn3k" },
+  "type": "summary",
+  "summary": "Lush, Dienes & Seth 2023 (preprint): Martin&Pacherie predictive-coding model of suggestion is falsifiable; identifies specific empirical challenges — dysfluency may reflect demand not precision; goal-directed fantasies not required; trait imagery vividness weakly related to phenomenological control. PC model 'novel and compelling' but predictions not yet decisively tested.",
+  "content": "Lush, Dienes & Seth 2023, 'Expectancies and the generation of perceptual experience: Predictive processing and phenomenological control' (preprint, OSF). Reviews Martin & Pacherie (2019) predictive-coding model of motor suggestion: priors for movement-related proprioceptive signals are particularly precise (due to suggestion); even with high sensory precision for the static limb, prior is more precise → movement occurs with experienced involuntariness. The model is constructed to be falsifiable. Specific empirical challenges identified: (1) dysfluency characteristic of motor suggestion response may reflect demand characteristics rather than precision balance; (2) attribution to external force ('goal-directed fantasy') is a strategy but not required (Comey & Kirsch 1999 — removing goal-directed fantasies can INCREASE response); (3) hypnotic response occurs for counter-imagery suggestions (Zamansky); (4) trait imagery vividness only weakly predicts phenomenological control (~0.2 points per scale point). 'the core notion that the sense of involuntariness arises because an unusually high sensory precision is produced is novel and compelling — and this too could be experimentally testable.' KEY for D9: hypnosis-specific PC predictions are identified as testable but NOT yet decisively tested; some predictions face empirical anomalies.",
+  "collected_by": "retrieval-worker-6",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

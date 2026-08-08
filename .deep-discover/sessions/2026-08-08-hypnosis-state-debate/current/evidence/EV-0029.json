@@ -1,0 +1,12 @@
+{
+  "id": "EV-0029",
+  "source": { "type": "web", "locator": "https://doi.org/10.1038/s44220-023-00184-z" },
+  "type": "statistic",
+  "summary": "Faerman et al. 2024 SHIFT RCT (n=80 fibromyalgia, preregistered, double-blind, sham-controlled): personalized neuroimaging-guided cTBS to L-DLPFC significantly increased hypnotizability vs sham after 92s (p=0.046); medium effect (d≈0.56 in earlier preprint)",
+  "content": "In a preregistered, double-blinded, randomized controlled trial, we recruited a sample of 80 patients with fibromyalgia syndrome... Participants were randomly assigned to active or sham continuous theta-burst stimulation over a personalized neuroimaging-derived left-DLPFC target... Pre-to-post SHIFT change in the hypnotic induction profile scores was significantly greater in the active versus sham group after 92 s of stimulation (P = 0.046). Only the active SHIFT group showed a significant increase in hypnotizability following stimulation (active: P < 0.001; sham: P = 0.607)... Our findings support a relationship between the inhibition of the left DLPFC and an increase in hypnotizability.",
+  "collected_by": "retrieval-worker-cycle2-1",
+  "supports": ["C-0006"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T14:00:00Z"
+}

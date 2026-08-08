@@ -1,0 +1,12 @@
+{
+  "id": "EV-0021",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 synthesis of EV-0001..EV-0020" },
+  "type": "claim",
+  "summary": "C-0001: Hypnosis is accompanied by measurable, replicable changes in brain activity/connectivity (DMN/SN/ECN, theta, parieto-occipital, frontoparietal) — supports a real neurophysiological correlate of the hypnotic condition",
+  "content": "CLAIM C-0001: Multiple 2023-2025 neuroimaging studies (fMRI, MRS, EEG) report consistent changes during hypnosis relative to control conditions: parieto-occipital/cuneal/precuneal connectivity (de Matos 2023), interhemispheric frontoparietal connectivity + theta enhancement (EEG 2024), alpha peak frequency dynamics in high-susceptibles post-induction (2024), and DMN/SN/ECN modulation. These are reviewed as the most-used neural correlates (2025 Brain Sci. review). This constitutes evidence that hypnosis involves a real, measurable change in brain activity — a necessary (though not sufficient) condition for any 'altered state' claim. SUPPORTS: state-leaning interpretation. LIMIT: presence of correlates ≠ proof of a special/causal state.",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:50:00Z"
+}

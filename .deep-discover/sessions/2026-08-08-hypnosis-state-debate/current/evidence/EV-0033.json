@@ -1,0 +1,12 @@
+{
+  "id": "EV-0033",
+  "source": { "type": "web", "locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1330238/full" },
+  "type": "statistic",
+  "summary": "Kekecs/Angle et al. 2024 meta-review: 49 meta-analyses, 261 RCTs; 99.2% of effects positive, >50% ≥medium (d≥0.5); largest for pain + medical procedures + children; hypnotizability is the only CONSISTENT moderator (r=0.24, medium-large); substantial heterogeneity",
+  "content": "We included 49 meta-analyses with 261 distinct primary studies... Reported effect sizes comparing hypnosis against control conditions ranged from d = −0.04 to d = 2.72. Of the reported effects, 25.4% were medium (d ≥ 0.5), and 28.8% were large (d ≥ 0.8)... The only consistent evidence was reported for hypnotizability, which had medium to large positive effects on the outcome of hypnosis... 34 effects from 10 studies and 283 participants revealed statistically significant correlation (r = 0.24), indicating that greater hypnotizability was associated with greater effects of hypnosis interventions... substantial heterogeneity of primary study results in about two thirds of the reported effects.",
+  "collected_by": "retrieval-worker-cycle2-2",
+  "supports": ["C-0008"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T14:00:00Z"
+}

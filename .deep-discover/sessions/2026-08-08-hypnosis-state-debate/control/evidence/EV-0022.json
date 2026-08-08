@@ -1,0 +1,11 @@
+{
+  "id": "EV-0022",
+  "type": "claim",
+  "summary": "CONFLICT FINDING: The apparent C-0001 vs C-0002 conflict is a FRAMING disagreement, not a factual one. Both sides accept brain changes occur; they disagree on whether 'state' is the right explanatory construct. Severity: MEDIUM (load-bearing for the user's question but not a hard factual contradiction).",
+  "content": "verifier-conflicts finding: The headline 'state vs non-state' conflict (C-0001 vs C-0002) is NOT a factual contradiction. Both camps accept: (a) hypnotic suggestions produce real, brain-verifiable alterations in experience; (b) inductions cause measurable brain changes. The disagreement is about EXPLANATORY NECESSITY and CAUSAL STATUS of a distinct 'trance state' construct — i.e., whether to label induction-correlated brain changes 'a state' with causal power (state view), treat them as epiphenomenal correlates (Wagstaff), or dispense with the state construct entirely (Kirsch/Lynn). This is captured by C-0007. A harder tension does exist: EV-0007 (Moujaes 2023: hypnosis is neurally DISTINCT from meditation/psychedelics) vs EV-0004 ('no robust neurophysiological evidence for a special state'). But distinctiveness ≠ unique-trance-state, so this is a MEDIUM-severity interpretive tension, not a HIGH-severity factual dispute. No claim downgraded solely on this basis; C-0001 remains disputed for the conflation noted in verifier-facts.",
+  "collected_by": "verifier-conflicts-1",
+  "supports": ["C-0007"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

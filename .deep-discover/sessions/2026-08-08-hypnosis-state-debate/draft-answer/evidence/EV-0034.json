@@ -1,0 +1,12 @@
+{
+  "id": "EV-0034",
+  "source": { "type": "web", "locator": "https://www.mdpi.com/2076-3425/13/6/875" },
+  "type": "summary",
+  "summary": "Brain Sci 2023 (n=31, EEG): formal hypnotic induction did NOT produce condition-related changes in theta/alpha/gamma PSD in either highs or lows. Authors conclude expectation/hypnotizability prevail over formal induction — supports sociocognitive theories. Induction not time-locked to EEG changes.",
+  "content": "Santarcangelo/Carli et al. 2023, 'Is Hypnotic Induction Necessary to Experience Hypnosis and Responsible for Changes in Brain Activity?' (Brain Sci 13(6):875). 16 highs + 15 lows (SHSS:A). EEG during open/closed-eyes relaxation, hypnotic induction, neutral hypnosis, post-hypnosis. Variables: theta/alpha/gamma PSD + Determinism/Entropy of multidimensional Recurrence Plot. Highs reported greater changes in state of consciousness than lows. BUT: 'theta, alpha and gamma PSD did not exhibit condition-related changes in either group.' Alpha PSD larger in highs on midline; theta/gamma regional differences between groups INDEPENDENT of condition. DET positively correlated with hypnotizability during hypnosis. CONCLUSION: 'formal hypnotic induction did not influence the EEG spectral correlates of neutral hypnosis.' Induction effects not time-locked to EEG changes. 'Greater relevance of the expectation of hypnosis... rather than induction to the experience of trance in highs.' Authors frame findings as 'support for socio-cognitive theories of hypnosis.' KEY: a 2023 EEG study directly supports the non-state/expectancy reading — induction itself (the would-be 'state' trigger) does not produce reliable EEG spectral changes. Caveat: n=31, effect sizes of non-significant interactions below 0.1.",
+  "collected_by": "retrieval-worker-7",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0012",
+  "source": { "type": "web", "locator": "https://www.ishhypnosis.org/encyclopedia/predictive-processing-and-hypnosis/" },
+  "type": "summary",
+  "summary": "Terhune 2024 (ISH encyclopedia): predictive processing provides single unified framework where relative dominance of objective vs subjective reality = interplay of prediction gain vs prediction-error gain, active inference vs predictive coding. PP can model expectancies, dissociation, top-down control within one architecture.",
+  "content": "Devin Terhune, 'Predictive processing and hypnosis,' ISH encyclopedia entry (2024). Within PP architectures: mismatch between predictions and lower-level inputs may drive prediction revision (predictive coding, dominant in perception) OR predictions/expectations drive effector systems to alter internal/external environment (active inference). Whether PC or AI dominate depends on relative gain of predictions vs prediction errors. 'PP provides a single unified framework in which the relative dominance of objective and subjective reality may be understood as the interplay between the gain of predictions and prediction errors, AI and PC in the dynamics of the self-system.' Comparator model of motor control (a PC version) successfully applied to predict/observe changes in neural correlates of volitional control in ideomotor/paralysis suggestions (Blakemore 2003). 'For those theories which emphasise response expectancies and top-down control, generative models in conjunction with AI provide a unifying framework within which to model these processes (Lynn et al., 2023). PP also able to model dissociative phenomena in hypnosis (Zahedi et al., 2024) as dynamic shifts in interplay between bottom-up and top-down control.'",
+  "collected_by": "retrieval-worker-4",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

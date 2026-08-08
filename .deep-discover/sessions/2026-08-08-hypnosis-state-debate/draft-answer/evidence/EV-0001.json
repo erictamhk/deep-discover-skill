@@ -1,0 +1,12 @@
+{
+  "id": "EV-0001",
+  "source": { "type": "web", "locator": "https://www.scienceopen.com/hosted-document?doi=10.14293%2FPR2199.000480.v2" },
+  "type": "summary",
+  "summary": "2024 systematic review of 35 fMRI hypnosis studies (n=689): heterogeneous effects, but hypnosis exerts top-down influence on internal mentation, attentional control, emotional processing via DMN/SN/ECN connectivity changes; reduced PCC/precuneus connectivity.",
+  "content": "2024 systematic review (preprint 2024-07-15) of fMRI studies of hypnosis. 35 experimental studies met inclusion (n=689 participants). Review found heterogeneous effects on network connectivity during hypnosis, with both increased and decreased connectivity reported depending on suggestions used. Evidence indicates potential therapeutic effects for pain and anxiety, but overall direct clinical support was limited. Preliminary findings suggest hypnosis impacts connectivity between salience/executive control networks, enhancing top-down regulation of interoception and affect. Reduced connectivity reported within default mode regions (posterior cingulate cortex, precuneus). Conclusions: While literature exhibits variability in protocols and results, findings overall indicate hypnosis exerts top-down influence on internal mentation, attentional control, and emotional processing through altering functional interactions between cortical and subcortical brain regions. Inconsistencies arising from methodological variations and study heterogeneity constrain definitive conclusions. Addressing limitations through standardized protocols and comparisons based on universal large scale brain network taxonomy would strengthen evidence for the neural signature of hypnosis.",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

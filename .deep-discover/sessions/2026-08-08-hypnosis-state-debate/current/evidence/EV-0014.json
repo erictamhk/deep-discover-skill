@@ -1,0 +1,12 @@
+{
+  "id": "EV-0014",
+  "source": { "type": "web", "locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1388347/full" },
+  "type": "summary",
+  "summary": "Zahedi, Lynn & Sommer 2024 (SATH): simulation-adaptation theory expanding predictive coding; explains objective + subjective (sense of agency, reality) hypnotic phenomena via top-down processes",
+  "content": "SATH expands the predictive coding framework by focusing on (a) redundancy elimination in generative models using intrinsically generated prediction errors, (b) adaptation due to amplified or prolonged neural activity, and (c) using internally generated predictions as a venue for learning new associations. The core of our treatise is that simulating proprioceptive, interoceptive, and exteroceptive signals, along with the top-down attenuation of the precision of sensory prediction errors due to neural adaptation, can explain objective and subjective hypnotic phenomena.",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0004"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

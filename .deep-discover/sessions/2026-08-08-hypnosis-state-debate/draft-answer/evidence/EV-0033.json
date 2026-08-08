@@ -1,0 +1,12 @@
+{
+  "id": "EV-0033",
+  "source": { "type": "web", "locator": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2841242" },
+  "type": "statistic",
+  "summary": "Elkins et al. 2025 (JAMA Netw Open, n=250): self-administered hypnosis vs SHAM white-noise 'hypnosis' for hot flashes. Hypnosis 53.4% reduction vs sham 40.9% (P=.04). Sham reached ~80% of real-hypnosis effect. Designed to control placebo/expectancy. Editor critique: sham may itself be relaxing; confounded.",
+  "content": "Elkins et al. 2025, 'Self-Administered Hypnosis vs Sham Hypnosis for Hot Flashes' (JAMA Network Open 8(11):e2542537, PMID 41217756). Multicenter 2-arm single-blind RCT, n=250 postmenopausal women, March 2019–Feb 2024. Self-administered hypnosis (cooling imagery + relaxation suggestions) vs self-administered SHAM white-noise condition. Sham 'designed to be an active control accounting for all components present in the intervention arm, including placebo and cognitive expectancy effects, without the therapeutic components.' Result: hot flash score decreased 53.4% in hypnosis group vs 40.9% in white-noise/sham group (P=.04). Hypnosis also greater reduction in daily interference and greater perceived benefit (90.3% vs 64.3%). KEY FOR STATE DEBATE: sham (placebo/expectancy-matched) achieved ~80% of the real-hypnosis effect (41% vs 53% reduction). The DIFFERENCE is statistically significant but modest — consistent with a small hypnosis-SPECIFIC effect on top of a large expectancy/placebo component. Editor critique: sham white-noise may itself be relaxing; no treatment-as-usual arm; regression to mean possible. So the 'specific effect beyond expectancy' evidence is positive but small and methodologically contested.",
+  "collected_by": "retrieval-worker-7",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0007",
+  "source": { "type": "web", "locator": "https://orbi.uliege.be/bitstream/2268/305497/1/1-s2.0-S245190222300174X-main.pdf" },
+  "type": "summary",
+  "summary": "Moujaes et al. 2023 (Biological Psychiatry: Cognitive Neuroscience and Neuroimaging): directly compared neural correlates of psychedelics (psilocybin, LSD), hypnosis, meditation. NO network reaches significance in all four ASC methods. Hypnosis and meditation are NEURALLY DISTINCT. Hypnosis-specific changes centered on V1/lingual gyrus.",
+  "content": "Moujaes et al. (2023, Biol Psych Cog Neurosci Neuroimaging, DOI 10.1016/j.bpsc.2023.07.003). Direct head-to-head comparison of neural correlates of 4 altered-state methods (psilocybin, LSD, hypnosis n=30, meditation n=29) using same MRI scanner and within-subject controls. KEY findings: (i) NO network reaches significance in all four ASC methods; (ii) pharmacological vs non-pharmacological methods show DISTINCT connectivity patterns, predictive at individual level; (iii) hypnosis and meditation DIFFER significantly in functional connectivity both when compared directly and jointly vs pharmacological methods; (iv) binary SVM could classify hypnosis vs meditation but could NOT distinguish psilocybin vs LSD. Hypnosis-specific changes: decreased connectivity within V1, increased V1-to-associative-network connectivity (aDMN, pSTG, limbic, somatomotor) — consistent with lingual gyrus meta-analytic finding. Implication: hypnosis has a distinctive neural signature but it is NOT shared with other ASCs.",
+  "collected_by": "retrieval-worker-3",
+  "supports": ["C-0001", "C-0003"],
+  "contradicts": ["C-0002"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0036",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5/C-0008" },
+  "type": "claim",
+  "summary": "C-0008 (fills D9/N1): The decisive hypnosis-vs-expectancy/placebo test yields MIXED evidence. Sham/expectancy-matched controls account for a LARGE fraction (~80% in hot-flash RCT) of the effect, and formal induction often produces no reliable EEG change — but a small hypnosis-specific residual persists. This is the field's central unresolved empirical question.",
+  "content": "C-0008 (new claim, fills D9/N1 — the decisive test): The hypnosis-vs-expectancy/placebo comparison — the single most decisive test for distinguishing 'real altered state' from 'expectancy-mediated response' — yields MIXED evidence as of 2023-2025. (1) A 2025 sham-controlled RCT (EV-0033, n=250) shows hypnosis beats expectancy-matched sham (53.4% vs 40.9% hot-flash reduction, P=.04), but sham achieves ~80% of the real effect — so a LARGE component is expectancy/placebo, with a small but significant hypnosis-specific residual. (2) A 2023 EEG study (EV-0034, n=31) finds formal induction produces NO condition-related spectral changes, supporting the expectancy/sociocognitive reading. (3) A 2024 secondary analysis (EV-0035, n=47) finds outcome expectations do NOT predict stress reduction, partially supporting hypnosis-specific mechanisms. CONCLUSION: expectancy/context account for a substantial (often majority) share of hypnotic effects; a smaller hypnosis-specific residual is real but not large, not uniquely tied to formal induction, and not yet cleanly attributable to a distinctive 'state.' This is the field's central unresolved empirical question (consistent with Jensen 2017 EV-0016 redirecting away from the state/nonstate contrast). supports: EV-0033, EV-0034, EV-0035; qualifies C-0004, C-0005, C-0006.",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

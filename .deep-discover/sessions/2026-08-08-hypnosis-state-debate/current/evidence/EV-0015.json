@@ -1,0 +1,12 @@
+{
+  "id": "EV-0015",
+  "source": { "type": "web", "locator": "https://users.sussex.ac.uk/~dienes/cold%20control%20chapter.pdf" },
+  "type": "raw-quote",
+  "summary": "Dienes & Perner cold control theory: hypnosis = forming intention without higher-order thoughts (HOTs) about intending; rTMS to DLPFC prediction differs from dissociated control theory",
+  "content": "The cold control theory of hypnosis states that a successful response to hypnotic suggestions can be achieved by forming an intention (imperative representation in the SAS) to perform the action or cognitive activity required, without forming the HOTs about intending that action that would normally accompany the reflective performance of the action... cold control theory predicts that if the performance of the executive system is compromised, hypnotic response is likely to be affected as well... In contrast, the dissociated control theory of Woody and Bowers (1994) predicts an increase in hypnotizability with a disruption of frontal lobe activity.",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0004"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

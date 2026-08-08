@@ -1,0 +1,12 @@
+{
+  "id": "EV-0023",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5/C-0005" },
+  "type": "claim",
+  "summary": "C-0005: However, sociocognitive factors (expectancy, context, demand) demonstrably modulate hypnotic responding, and induction effects are often small relative to non-hypnotic suggestibility — so social factors are real and significant contributors.",
+  "content": "C-0005 (claim): Sociocognitive factors (response expectancy, context, demand characteristics, motivation) demonstrably modulate hypnotic responding and must be part of any complete account. Hypnotic and non-hypnotic suggestibility correlate strongly (r=0.67 behavioral, r=0.82 subjective). Inductions often have small or no incremental effect beyond suggestion alone (Zahedi 2024 review EV-0010). Spanos (EV-0018) shows involuntariness is partly shaped by self-presentation/demand. Kirsch response-set theory (EV-0008) shows the hypnotic context 'intensifies the effects of suggestion' via expectancy. supports: EV-0008, EV-0010, EV-0013, EV-0018. contradicts: (qualifies C-0004).",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

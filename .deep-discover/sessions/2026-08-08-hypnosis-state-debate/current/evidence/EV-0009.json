@@ -1,0 +1,12 @@
+{
+  "id": "EV-0009",
+  "source": { "type": "web", "locator": "https://www.cambridge.org/core/journals/bjpsych-advances/article/reconciling-myths-and-misconceptions-about-hypnosis-with-scientific-evidence/051A63FBE5C377754668EE35E1DD9609" },
+  "type": "raw-quote",
+  "summary": "Lynn/Kirsch/Terhune 2023 (BJPsych): no robust neurophysiological evidence hypnosis is a special/unique state; 54% equally or less suggestible after induction; relaxation not necessary",
+  "content": "There is no robust neurophysiological evidence to demonstrate that hypnosis is a special or unique state (Terhune, Cleeremans and Raz, 2017). Similarly, relaxation is not necessary to experience or use hypnosis (Banyai and Hilgard, 1976)... It is more parsimonious to consider hypnosis as a set of procedures in which verbal suggestions are used to modulate awareness, perception and cognition (Terhune, 2014), rather than to unnecessarily invoke 'special states'... Chan et al state that hypnosis is characterised by increased suggestibility; however, 54% participants are equally, or less, suggestible following a hypnotic induction (Braffman and Kirsch, 1999).",
+  "collected_by": "retrieval-worker-2",
+  "supports": ["C-0002"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

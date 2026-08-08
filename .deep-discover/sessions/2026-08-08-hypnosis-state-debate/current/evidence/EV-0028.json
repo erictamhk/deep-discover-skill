@@ -1,0 +1,12 @@
+{
+  "id": "EV-0028",
+  "source": { "type": "reasoning", "locator": "verifier-conflicts-1 cross-pool scan" },
+  "type": "claim",
+  "summary": "verifier-conflicts: One MEDIUM conflict (C-0001 vs C-0002 'brain changes exist' vs 'no unique fingerprint') — resolvable: they dispute specificity, not existence. One HIGH conflict: brain-change studies interpret correlates as state-supporting while sociocognitive studies call same data epiphenomenal — a provenance/interpretation conflict, not a data conflict.",
+  "content": "VERIFIER-CONFLICTS FINDINGS:\n\nCONFLICT 1 (MEDIUM, resolvable): C-0001 ('measurable brain changes') vs C-0002 ('no unique fingerprint'). These are NOT logically contradictory — 'there are brain changes' and 'none of them is unique to hypnosis' can both be true. EV-0001/0003/0019 (changes exist) vs EV-0005/0006/0018 (not unique/heterogeneous). Resolution: both hold; the dispute is about SPECIFICITY, a dimension neither claim denies. No claim needs downgrading.\n\nCONFLICT 2 (HIGH — interpretive/provenance): The SAME neuroimaging data is read as state-supporting (de Matos 2023 frames findings as 'neurobiology of altered consciousness'; 2025 review frames ECN changes as supporting cold/dissociated control) AND as non-state-supporting (Lynn/Kirsch/Terhune 2023: 'no robust neurophysiological evidence... special or unique state'; Wagstaff epiphenomenal view). This is a hermeneutic disagreement about what brain correlates MEAN, not a disagreement about the data. Better-sourced side: both cite primary data; the disagreement is at the theoretical layer. Recommended resolution: cannot be adjudicated by more imaging — requires causal intervention designs (TMS/lesion/pharmacological) that dissociate state from non-state predictions. This is the crux of why the debate persists.\n\nCONFLICT 3 (LOW): EV-0006 (2023, induction did NOT change PSD) vs EV-0003 (2024, theta enhanced during hypnosis) vs EV-0019 (2024, alpha peak distinguishes post-induction). These EEG results diverge — likely due to different paradigms (PSD vs graph-theoretic vs alpha-peak-variability), different samples (highs-only vs hypnosis-experts), different induction protocols. Reflects EV-0018's 'substantial heterogeneity' point. Not a hard contradiction; reinforces C-0003 (heterogeneity).",
+  "collected_by": "verifier-conflicts-1",
+  "supports": ["C-0003", "C-0006"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:55:00Z"
+}

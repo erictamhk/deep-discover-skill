@@ -1,0 +1,12 @@
+{
+  "id": "EV-0028",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/28238944/" },
+  "type": "summary",
+  "summary": "Landry, Barnett, Raz et al. 2017 (Neurosci Conscious): ALE meta-analysis of hypnosis neuroimaging. Hypothesized DMN/SN/ECN involvement but ALE showed ONLY lingual gyrus consistently activated; other regions did NOT consistently activate/deactivate across studies. Authors attribute lingual to mental imagery or suggestion-specific visual effects.",
+  "content": "Landry, Barnett, Raz et al. 2017, 'Brain correlates of hypnosis: A systematic review and meta-analytic exploration' (Neuroscience of Consciousness, PMID 28238944). Twofold approach: systematic review + ALE meta-analysis seeking specific activation/deactivation patterns typifying hypnosis. Anchored around top-down control; focused on executive, salience, default networks. RESULT: 'hypnosis correlates with activation of the lingual gyrus — a brain region involved in higher-order visual processing and mental imagery.' Other regions did NOT consistently display activation/deactivation across studies. Authors' interpretation: 'few reliable brain patterns emerge across studies.' Landry et al. offered two explanations for lingual gyrus: (1) 'intrinsic component of hypnosis' tied to mental imagery; (2) suggestion-specific visual effects. KEY resolution to ALE-vs-individual-studies tension (pairwise SQ3): ALE tests CONVERGENCE OF ACTIVATION PEAKS across studies, which is conservative and largely blind to functional CONNECTIVITY patterns (DLPFC-insula, DLPFC-PCC). Individual studies (esp. seed-based FC) report connectivity changes ALE cannot detect. So ALE 'null for DMN/SN/ECN' and individual-FC 'positive for DMN/SN/ECN' are NOT strictly contradictory — they test different things. This is a methodological, not substantive, disagreement.",
+  "collected_by": "retrieval-worker-6",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0032",
+  "source": { "type": "reasoning", "locator": "retrieval-worker-cycle2-1 synthesis of EV-0029,0030,0031 + EV-0015" },
+  "type": "claim",
+  "summary": "C-0007 (NEW, cycle 2): Causal-intervention evidence (TMS/tDCS) is the most decisive test available, but it does NOT cleanly separate cold-control from dissociated-control — BOTH predict DLPFC-inhibition increases hypnotizability, and that is what is observed. The causal evidence supports a state-leaning (frontal-mechanism) account but cannot adjudicate the specific theory.",
+  "content": "CLAIM C-0007: The 2024 SHIFT RCT (Faerman, n=80), the original Dienes & Hutton rTMS (n=24), and the Perri tDCS studies all converge: inhibiting the (left) DLPFC INCREASES hypnotizability/hypnotic depth. Crucially, BOTH cold-control theory and dissociated-control theory predict this (cold control: disrupts metacognitive HOTs; dissociated control: weakens frontal executive control) — see EV-0015. So the causal evidence CONFIRMS that frontal mechanisms are causally involved (state-leaning, against pure sociocognitive compliance), but does NOT adjudicate between the leading mechanistic theories because they make the same directional prediction on this manipulation. Note: Dienes&Hutton found expectancy did NOT differ between conditions, which partially answers the sociocognitive concern that any effect is just expectancy. LIMIT: small samples, mostly subjective measures, and rTMS to a single node cannot test precision-weighting (predictive coding) predictions.",
+  "collected_by": "retrieval-worker-cycle2-1",
+  "supports": ["C-0001", "C-0006"],
+  "contradicts": ["C-0002"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T14:00:00Z"
+}

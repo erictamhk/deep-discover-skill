@@ -1,0 +1,12 @@
+{
+  "id": "EV-0009",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/36108171/" },
+  "type": "summary",
+  "summary": "Lynn et al. 2022 'response set theory reconsidered: toward an integrative model' — extends Kirsch's response-expectancy theory by integrating it with PREDICTIVE CODING. The non-state side is itself moving toward a synthesis with Bayesian/computational accounts.",
+  "content": "Lynn et al. (2022, 'The response set theory of hypnosis reconsidered: toward an integrative model', PubMed 36108171): honors Kirsch by EXTENDING response expectancy theory in 'an integrative model that encompasses predictive coding.' Reviews expectancy construct and proposes novel hypotheses to align response set theory with predictive coding model. Conclusion: an 'open and evidence-based integrative model of hypnosis.' Significance: the leading non-state theorist's framework is being recast in predictive-coding terms — blurring the state/non-state boundary and pointing toward convergence.",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0004"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

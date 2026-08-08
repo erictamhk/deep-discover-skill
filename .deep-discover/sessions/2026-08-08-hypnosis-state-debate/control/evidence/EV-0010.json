@@ -1,0 +1,12 @@
+{
+  "id": "EV-0010",
+  "source": { "type": "web", "locator": "https://users.sussex.ac.uk/~dienes/cold%20control%20chapter.pdf" },
+  "type": "summary",
+  "summary": "Dienes & Perner cold-control theory: hypnosis = executive control WITHOUT higher-order thoughts (HOTs) about intending; explains involuntariness (the 'classical suggestion effect'). Bridges state and social-psychological accounts; compatible with Hilgard neodissociation under 'no HOTs' reading.",
+  "content": "Dienes & Perner 'cold control theory of hypnosis' (chapter): hypnosis = forming an intention to perform the suggested action WITHOUT forming the higher-order thoughts (HOTs) about intending that action. Explains the 'classical suggestion effect' (Weitzenhoffer 1974) — the experience of involuntariness. Explicitly notes the theory BRIDGES traditions: 'cold control can also be simply described at the personal level... entirely consistent with the social psychological approach... Where cold control theory goes beyond social psychological approaches is in a specific commitment to HOT theory.' Compatible with Hilgard neodissociation under the 'no HOTs' interpretation. Makes testable brain-imaging predictions distinguishing cold control from 'empty heat.'",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0004"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

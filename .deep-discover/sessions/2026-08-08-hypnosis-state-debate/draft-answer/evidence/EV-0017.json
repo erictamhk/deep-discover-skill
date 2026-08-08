@@ -1,0 +1,12 @@
+{
+  "id": "EV-0017",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/2708654/" },
+  "type": "summary",
+  "summary": "Surreptitious observation design (PMID 2708654): when unaware of being observed, simulators were significantly LESS responsive than when openly observed; genuine high-hypnotizable behavior unaffected by experimenter presence. Rules out simple compliance/demand as full explanation.",
+  "content": "Surreptitious observation design (PMID 2708654). Administered hypnotic induction + 5 standard suggestions twice via audiotape to high-hypnotizable subjects and to low-hypnotizable simulators. First administration: subjects believed they were alone; behavior secretly videotaped. Second administration: in presence of experimenter blind to group assignment. RESULTS: when unaware of being observed, simulators were significantly LESS responsive to suggestions than when openly observed. In contrast, behavior of genuine (nonsimulating) subjects was NOT affected by presence of experimenter. CONCLUSION: responses of highly hypnotizable subjects to standard hypnotic suggestions cannot be accounted for in terms of simple compliance with experimental demand. KEY: this is direct evidence against pure role-playing/compliance accounts — a core empirical leg distinguishing 'real' hypnosis from simulation.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

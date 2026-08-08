@@ -1,0 +1,12 @@
+{
+  "id": "EV-0013",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/23026758/" },
+  "type": "raw-quote",
+  "summary": "Oakley & Halligan / Kirsch 2013 'Neuroimaging resolution of the altered state hypothesis': neuroimaging has NOT resolved the state debate. Many studies confound induction with suggestion. Data rule out the QUALITATIVE state hypothesis but remain equivocal on a causal state-suggestion relation.",
+  "content": "'Neuroimaging resolution of the altered state hypothesis' (Cortex 2013, PubMed 23026758): 'Has neuroimaging research resolved the altered state debate? For the moment the answer is negative.' Delineates FIVE positions: Qualitative State Hypothesis (trance needed), Quantitative State Hypothesis (Hilgard — state enhances but isn't necessary), Non-State Hypothesis (Barber/Sarbin — no special state), Weak State View (Kihlstrom — label only), Epiphenomenal Hypothesis (Wagstaff — subjective changes are real but don't cause responsiveness). Key methodological critique: 'A major impediment to resolution... has been the use of research designs that confound the two principal components of hypnosis: the induction of the hypothesized hypnotic state and the provision of suggestions while in hypnosis.' Conclusion: McGeown 2012 + behavioral data 'seem to converge in ruling out the qualitative state hypothesis.' Whether induction-produced changes are uniquely hypnotic vs mundane remains UNCERTAIN.",
+  "collected_by": "retrieval-worker-1",
+  "supports": ["C-0006", "C-0005"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

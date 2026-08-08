@@ -1,0 +1,12 @@
+{
+  "id": "EV-0020",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5/C-0002" },
+  "type": "claim",
+  "summary": "C-0002: However, there is NO single, replicable, unique 'hypnosis signature' in the brain — effects are heterogeneous across studies, suggestions, and individuals; the ALE meta-analysis did not confirm DMN/SN/ECN, instead linking hypnosis to lingual gyrus.",
+  "content": "C-0002 (claim): Despite direction-of-effect consistency, there is NO single, replicable, unique 'neural signature of hypnosis.' Effects are heterogeneous across studies, suggestion types, and individuals. The Landry et al. ALE meta-analysis (cited in EV-0004, EV-0007) did not confirm the hypothesized DMN/SN/ECN involvement, instead linking hypnosis to the medial lingual gyrus (visual processing). 2024 systematic review (EV-0001) and 2024 multicomponent chapter (EV-0014) both explicitly state heterogeneity 'constrains definitive conclusions' and 'limits establishment of a consistent neurophysiological framework.' supports: EV-0001, EV-0004, EV-0007, EV-0014. contradicts: (qualifies C-0001).",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

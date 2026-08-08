@@ -1,0 +1,12 @@
+{
+  "id": "EV-0005",
+  "source": { "type": "web", "locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1267658/full" },
+  "type": "raw-quote",
+  "summary": "2023 study (n=56, BIS/CSI monitors): no hypnosis-specific physiological fingerprint exists; neurophysiological correlates exist but none characteristic of hypnosis with specificity",
+  "content": "Even if many hypnotic phenomena have been shown to leave clear traces in neurophysiological measurements... neither neuroimaging with fMRT or PET nor electrophysiological monitoring allow us to describe the state of hypnosis with specificity (De Benedittis, 2015). There are neurophysiological correlates of hypnosis but no hypnosis-specific fingerprint. Rather, recent findings provide preliminary evidence regarding the variables that might facilitate hypnotic responses, that is, structural connectivity, hemisphere asymmetry, higher levels of theta bandwidth activity, expectancies, trait hypnotisability, motivation, absorptive capacity, rapport, and context (Jensen et al., 2015b).",
+  "collected_by": "retrieval-worker-2",
+  "supports": ["C-0002"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

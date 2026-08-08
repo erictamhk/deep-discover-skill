@@ -1,0 +1,12 @@
+{
+  "id": "EV-0004",
+  "source": { "type": "web", "locator": "https://www.cambridge.org/core/journals/bjpsych-advances/article/reconciling-myths-and-misconceptions-about-hypnosis-with-scientific-evidence/051A63FBE5C377754668EE35E1DD9609" },
+  "type": "raw-quote",
+  "summary": "Lynn/Kirsch/Terhune (2023, BJPsych Advances): 'no robust neurophysiological evidence to demonstrate that hypnosis is a special or unique state.' More parsimonious to define hypnosis as procedures using verbal suggestion to modulate awareness/perception/cognition.",
+  "content": "Lynn, Kirsch, Terhune et al. (2023, BJPsych Advances): 'there is no robust neurophysiological evidence to demonstrate that hypnosis is a special or unique state (Terhune 2017).' Argues 'It is more parsimonious to consider hypnosis as a set of procedures in which verbal suggestions are used to modulate awareness, perception and cognition (Terhune 2014), rather than to unnecessarily invoke special states.' Also: 54% of participants are equally or LESS suggestible following a hypnotic induction (Braffman & Kirsch 1999); no evidence of blind obedience or loss of control; spontaneous amnesia is incredibly rare.",
+  "collected_by": "retrieval-worker-2",
+  "supports": ["C-0002", "C-0005"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

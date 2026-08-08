@@ -1,0 +1,12 @@
+{
+  "id": "EV-0031",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5/C-0006" },
+  "type": "claim",
+  "summary": "C-0006 (new, fills D10 gap): 2023-2024 meta-analytic evidence supports REAL but MODEST clinical efficacy of hypnosis, especially for pain and procedural anxiety; effects are heterogeneous and certainty is low-to-very-low; over active psychological controls the added benefit is small or absent.",
+  "content": "C-0006 (new claim, fills D10 UNBACKED gap): 2023-2024 meta-analytic evidence supports a REAL but MODEST clinical efficacy of hypnosis, especially for pain and procedural anxiety. Akkermann 2024 meta-review (EV-0024): 49 meta-analyses / 261 RCTs, effect sizes d=−0.04 to 2.72, 25.4% medium + 28.8% large, most robust for medical procedures and pain, but substantial heterogeneity in ~2/3 of effects and only 9/49 meta-analyses high-quality. Adjunctive-pain meta-analysis (EV-0025, n=6078): small added analgesic effect over usual care (MD ~−7 to −9 on 0-100), medium over education/medicines for chronic pain, but NO added benefit over psychological interventions alone at post-treatment; overall certainty VERY LOW. Anaesthesia meta-analysis (EV-anaesthesia): pre/per-intervention hypnosis reduces pain and anxiety and post-op nausea/vomiting. Supports: hypnosis is a real phenomenon with measurable clinical effects, NOT explainable as pure sham. But the modest effect sizes and low certainty are equally consistent with an expectancy-mediated (non-state) account. supports: EV-0024, EV-0025.",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

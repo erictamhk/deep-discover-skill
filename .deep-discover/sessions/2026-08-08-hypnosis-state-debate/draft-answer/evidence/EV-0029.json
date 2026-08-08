@@ -1,0 +1,12 @@
+{
+  "id": "EV-0029",
+  "source": { "type": "reasoning", "locator": "retrieval-worker-6/provenance-summary" },
+  "type": "claim",
+  "summary": "Provenance finding (SQ4): The 'three-signature' pattern (dACC↓, DLPFC-insula↑, DLPFC-PCC↓) is primarily from the Spiegel/Stanford group (Hoeft/Jiang et al. 2016/2017). Independent groups (de Matos 2023, Vazquez 2023) report OVERLAPPING but NOT identical findings — partial convergence, not a clean independent replication.",
+  "content": "Provenance check on C-0001 / D2 (the 'three brain signatures' claim). The dACC↓ / DLPFC-insula↑ / DLPFC-PCC↓ pattern originates primarily from the Stanford/Spiegel group (Hoeft et al. 2012; Jiang/Hoeft et al. 2016/2017, EV-0006). David Spiegel is a prominent advocate of hypnosis as a clinical tool and distinctive-state proponent — incentive to emphasize distinctive signatures. Independent-group findings: de Matos 2023 (EV-0002, Zurich group) reports parieto-occipital-temporal/cuneus/precuneus connectivity changes — OVERLAPS in posterior components but does NOT specifically replicate the DLPFC-insula/DLPFC-PCC pattern. Vazquez 2023 (EV-0007) found DAN/SN/SMN increases but NO significant ECN or DMN differences — does NOT replicate the DLPFC-PCC decrease. The Brain Sci 2024 review (EV-0007) explicitly frames functional connectivity as supporting dissociated/cold-control theories, not the three-signature account per se. CONCLUSION (claim): there is PARTIAL independent convergence on posterior (precuneus/cuneus/lingual) changes and SN involvement, but the specific 'three-signature' DLPFC-centric pattern is NOT cleanly replicated by independent groups. This qualifies C-0001 — the strongest state-neuroimaging evidence rests substantially on one research line.",
+  "collected_by": "retrieval-worker-6",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

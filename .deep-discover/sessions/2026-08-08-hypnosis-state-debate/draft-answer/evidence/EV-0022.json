@@ -1,0 +1,12 @@
+{
+  "id": "EV-0022",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5/C-0004" },
+  "type": "claim",
+  "summary": "C-0004: Pure social-compliance/role-playing is empirically insufficient — surreptitious-observation and simulator studies show genuine high-hypnotizable behavior persists without observation and shows involuntariness/trance-logic that simulators don't reproduce.",
+  "content": "C-0004 (claim): Pure social-compliance / role-playing accounts are empirically insufficient as a complete explanation. Surreptitious-observation designs (EV-0017) show genuine high-hypnotizable subjects' behavior is unaffected by whether they believe they are observed, while simulators reduce responsiveness when unobserved — ruling out simple demand/compliance. Real vs simulator studies show trance-logic, source amnesia, and automaticity differences (Orne, EV-0017 / Marks replication). Non-state theorists themselves (Kirsch & Lynn EV-0008; Lynn EV-0013) concede real subjective and brain-physiology changes occur. supports: EV-0008, EV-0013, EV-0015, EV-0017. contradicts: (qualifies C-0005).",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

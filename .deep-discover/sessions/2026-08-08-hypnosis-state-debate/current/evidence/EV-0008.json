@@ -1,0 +1,12 @@
+{
+  "id": "EV-0008",
+  "source": { "type": "web", "locator": "https://www.sciencedirect.com/science/article/abs/pii/S0010945212002444" },
+  "type": "raw-quote",
+  "summary": "Oakley & Halligan 2013: as of writing, neuroimaging had NOT resolved the altered-state debate; data narrowed terms; qualitative state hypothesis (trance required) appears ruled out",
+  "content": "Has neuroimaging research resolved the altered state debate? For the moment the answer is negative, but the data acquired have narrowed down the terms of the debate. The data reported by McGeown et al. (2012) combined with a wealth of behavioral data... seem to converge in ruling out the qualitative state hypothesis, according to which suggested perceptual alterations and the corresponding brain activity cannot occur unless the subject is in a hypnotic trance.",
+  "collected_by": "retrieval-worker-2",
+  "supports": ["C-0002"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

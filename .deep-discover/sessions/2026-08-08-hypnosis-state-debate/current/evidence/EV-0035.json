@@ -1,0 +1,12 @@
+{
+  "id": "EV-0035",
+  "source": { "type": "reasoning", "locator": "retrieval-worker-cycle2-2 synthesis of EV-0033, EV-0034" },
+  "type": "claim",
+  "summary": "C-0008 (NEW, cycle 2): The state/non-state distinction has NO demonstrated bearing on clinical efficacy — hypnosis works regardless of which theory is true; the practical moderator is HYPNOTIZABILITY, not theoretical allegiance. This dissolves much of the practical urgency of the debate.",
+  "content": "CLAIM C-0008: Across 49 meta-analyses / 261 RCTs (Kekecs/Angle 2024), hypnosis shows reliably positive clinical effects (99.2% of effects positive; >50% medium-or-larger) for pain, medical-procedure distress, anxiety, etc., with substantial heterogeneity. The ONLY consistent moderator is hypnotizability (r=0.24), NOT theoretical model. The clinical question ('does it work?') is decoupled from the theoretical question ('state or non-state?'): hypnotizability — an individual-difference variable — predicts outcome, but whether hypnotizability reflects a trait-state or a sociocognitive disposition is exactly what is contested (C-0006). Wagstaff (2026) reinforces this by arguing the state/non-state framing itself is a false opposition. PRACTICAL UPSHOT: the debate is primarily theoretical/explanatory, not clinical; clinicians need not wait for its resolution. LIMIT: this does not mean the debate is meaningless — understanding mechanisms could improve targeting (e.g., SHIFT-style enhancement for low-hypnotizables).",
+  "collected_by": "retrieval-worker-cycle2-2",
+  "supports": ["C-0005"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T14:00:00Z"
+}

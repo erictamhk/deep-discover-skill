@@ -1,0 +1,12 @@
+{
+  "id": "EV-0008",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/10710811/" },
+  "type": "raw-quote",
+  "summary": "Kirsch & Lynn response-set theory (2000): rejects unique altered state BUT also rejects pure compliance. 'Suggestions, in or out of the social context of hypnosis, can produce profound alterations in experience, including dissociative experiences, and these can be verified through corresponding changes in brain physiology.' Response expectancies primary but not exclusive.",
+  "content": "Kirsch & Lynn (1997) response set theory of hypnosis, summarized in PubMed abstract. 'Is an extension of response expectancy theory (Kirsch, 1985), which is rooted in social cognitive approach. Although the idea of a uniquely hypnotic altered state of consciousness is rejected, so too are compliance-based explanations of hypnotic behavior. Suggestions, in or out of the social context of hypnosis, can produce profound alterations in experience, including dissociative experiences, and these can be verified through corresponding changes in brain physiology. Response expectancies play a major, but not exclusive, role in the production of subjective experience in general (Kinsbourne, 1998) and therefore of these suggested experiences as well. Because of widespread cultural beliefs about hypnosis, the hypnotic context intensifies the effects of suggestion for most people, and this is the primary source of its therapeutic effects.' KEY: modern non-state theory does NOT deny real subjective/brain changes; denies that a UNIQUE state is required.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

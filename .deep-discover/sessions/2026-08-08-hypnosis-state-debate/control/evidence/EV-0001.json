@@ -1,0 +1,12 @@
+{
+  "id": "EV-0001",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/28238944/" },
+  "type": "summary",
+  "summary": "Landry et al. 2017 meta-analysis (ALE) of neuroimaging of hypnosis: few reliable brain patterns emerge across studies; the only consistent correlate is activation in the lingual gyrus (visual imagery), NOT the hypothesized DMN/SN/CEN networks.",
+  "content": "Landry et al. (2017) systematic review + ALE meta-analysis of hypnosis neuroimaging. Found 'few reliable brain patterns emerge across studies.' The hypothesized involvement of the executive (CEN), salience (SN), and default (DMN) networks was NOT confirmed; instead hypnosis correlated with activation of the lingual gyrus, a region involved in higher-order visual processing and mental imagery. The authors discuss this as the 'lowest common denominator' across studies.",
+  "collected_by": "retrieval-worker-1",
+  "supports": ["C-0003", "C-0006"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

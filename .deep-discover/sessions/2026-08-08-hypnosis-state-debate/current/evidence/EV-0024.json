@@ -1,0 +1,12 @@
+{
+  "id": "EV-0024",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 synthesis of EV-0010..EV-0012, EV-0014, EV-0015, EV-0017" },
+  "type": "claim",
+  "summary": "C-0004: The emerging 2022-2025 synthesis dissolves the state/non-state dichotomy: predictive coding/active inference provides a unified framework where 'state-like' precision-weighting and 'non-state-like' priors/expectancy are two sides of one mechanism",
+  "content": "CLAIM C-0004: The most recent theoretical work (2022-2025) converges on predictive-processing/active-inference as a unifying framework that dissolves the classical state-vs-non-state dichotomy. Lynn et al. 2022 extend Kirsch's response expectancy INTO predictive coding. Jamieson et al. 2025 show dissociated-control, absorption, and response-expectancy can all be modelled in one active-inference framework. Terhune 2024 frames the objective/subjective reality balance as prediction-gain vs prediction-error-gain. SATH (Zahedi et al. 2024) explains both objective and subjective phenomena. Cold control (Dienes & Perner) provides a metacognitive mechanism. Ability-based models (Lush/Dell) go further and reject BOTH state and nonstate. SUPPORTS: synthesis position; the dichotomy is widely considered a false one in current literature. LIMIT: these are largely theoretical/computational proposals with testable but not-yet-decisively-tested predictions; predictive coding itself is debated in neuroscience.",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": ["C-0001", "C-0002"],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T13:50:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0012",
+  "source": { "type": "web", "locator": "https://www.sciencedirect.com/science/article/pii/S1053810024000977" },
+  "type": "raw-quote",
+  "summary": "2024 systematic review of hypnosis theories (Consciousness & Cognition): 'no consensus exists regarding the mechanisms' of hypnotic suggestions. Compares 8+ theories; notes hypnotic inductions often have little/no effect on responsiveness and may not be necessary.",
+  "content": "2024 systematic review (ScienceDirect S1053810024000977, 'How hypnotic suggestions work – A systematic review of prominent theories of hypnosis'): 'no consensus exists regarding the mechanisms driving these changes.' Compares theories incl. Integrative Model (Cardeña & Spiegel), Cold Control (Dienes & Perner), Interoceptive/active-inference coding (Jamieson), Predictive Coding (Martin & Pacherie), dissociation theories. Key empirical claims: 'abundant evidence exists that hypnotic inductions often have little or no effect on participants' responsiveness... and may not be necessary for the effectiveness of suggestions.' Even when inductions enhance responsiveness, effects are small vs other predictors (responsiveness to targeted suggestions outside hypnosis, motivation, fantasy-proneness, absorption). Hypnotizability has multifactorial structure. Cognitive processes (Stroop etc.) are intact during hypnosis (Egner 2005; Zahedi 2017), contradicting primary-process assumptions.",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0005", "C-0006"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0022",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 synthesis of EV-0005..EV-0009, EV-0016, EV-0020" },
+  "type": "claim",
+  "summary": "C-0002: There is NO hypnosis-specific, unique physiological 'fingerprint'; induction effects are small and expectancy/hypnotizability often matter more — supports non-state / sociocognitive interpretation",
+  "content": "CLAIM C-0002: Across multiple 2023-2025 sources, no robust neurophysiological signature UNIQUE to hypnosis has been identified. EEG spectral power (theta/alpha/gamma) was not time-locked to induction in highly hypnotizable participants when expectancy was controlled (2023). BIS/CSI monitors confirm 'neurophysiological correlates of hypnosis but no hypnosis-specific fingerprint' (2023). 54% of participants are equally or less suggestible after induction (Braffman & Kirsch 1999, cited in Lynn/Kirsch/Terhune 2023). A preregistered Stroop study found Bayesian equivalence between posthypnotic suggestion and volitional request (Dienes et al.). Social-cognitive theorists conclude neurophysiological data do NOT resolve the altered-state issue. SUPPORTS: non-state interpretation. LIMIT: 'no unique fingerprint yet' is not the same as 'no real state exists' (absence of evidence problem).",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:50:00Z"
+}

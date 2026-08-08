@@ -1,0 +1,12 @@
+{
+  "id": "EV-0024",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s44220-023-00184-z" },
+  "type": "summary",
+  "summary": "Faerman et al. 2024 SHIFT RCT (Nature Mental Health, s44220-023-00184-z, published Jan 4 2024): preregistered double-blind RCT, N=80 fibromyalgia patients. Active personalized cTBS to L-DLPFC temporarily INCREASED hypnotizability (HIP) vs sham (P=0.046; active P<0.001, sham P=0.607). CAUSAL evidence for L-DLPFC role in hypnotizability.",
+  "content": "Faerman, Bishop, Stimpson et al. (2024) 'Stanford Hypnosis Integrated with Functional Connectivity-targeted Transcranial Stimulation (SHIFT)' — Nature Mental Health, DOI 10.1038/s44220-023-00184-z, published 2024-01-04. PREREGISTERED, DOUBLE-BLINDED, RANDOMIZED CONTROLLED TRIAL, N=80 fibromyalgia patients (TMS-naive, low-moderate hypnotizable). Personalized neuroimaging-derived L-DLPFC target, continuous theta-burst stimulation (cTBS, inhibitory). Primary result: pre-to-post SHIFT change in Hypnotic Induction Profile (HIP) scores was significantly greater in active vs sham after 92s stimulation (P=0.046). Only active group showed significant hypnotizability increase (active P<0.001; sham P=0.607). Conclusion: 'modulation of trait hypnotizability is possible in humans using non-invasive neuromodulation... support[s] a relationship between the inhibition of the left DLPFC and an increase in hypnotizability.' Notes prior conflicting evidence (Hutton: L-DLPFC inhibition worked; Coltheart: did not replicate, but R-DLPFC inhibition increased objective responses). Builds on Hoeft 2012 finding that high hypnotizability is associated with increased L-DLPFC-dACC functional connectivity. ClinicalTrials.gov NCT02969707. This is CAUSAL (intervention) evidence — the strongest study design type in the pool.",
+  "collected_by": "retrieval-worker-6",
+  "supports": ["C-0008"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

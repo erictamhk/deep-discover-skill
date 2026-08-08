@@ -1,0 +1,12 @@
+{
+  "id": "EV-0021",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5/C-0003" },
+  "type": "claim",
+  "summary": "C-0003: The state vs non-state dichotomy is increasingly considered a false one; 2023-2024 work (predictive coding, SATH, response-set-with-PC) shows both positions can be computationally reconciled within a unified framework.",
+  "content": "C-0003 (claim): The state vs non-state dichotomy is increasingly treated by the field as a false/opposing dichotomy that should be retired. Multiple 2023-2024 works (SATH — EV-0011; Lynn 2023 integrative model — EV-0009; Terhune 2024 PP — EV-0012; Jamieson interoceptive coding) show that dissociated control, response expectancy, absorption, and top-down modulation can all be modeled within a single predictive-coding/active-inference framework. Jensen et al. (EV-0016) explicitly recommend redirecting resources AWAY from the state/nonstate contrast. supports: EV-0009, EV-0010, EV-0011, EV-0012, EV-0015, EV-0016. contradicts: (none).",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

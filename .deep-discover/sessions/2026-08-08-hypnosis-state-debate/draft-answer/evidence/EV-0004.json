@@ -1,0 +1,12 @@
+{
+  "id": "EV-0004",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s41598-024-80795-3" },
+  "type": "summary",
+  "summary": "2024 MRS study (HypnoScience, n=52): deeper hypnosis state (HS2) showed significant myo-Inositol increase in parieto-occipital region (possible reduced neuronal activity); respiration slowed; no significant pSTG neurochemical shift. First MRS of hypnosis.",
+  "content": "Neurochemical dynamics during two hypnotic states evidenced by MRS, Scientific Reports 2024-12-02, Project HypnoScience, n=52 healthy hypnosis-experienced participants. Targeted parieto-occipital (PO) and posterior superior temporal gyrus (pSTG) regions via proton MRS. Significant changes in myo-Inositol concentration relative to total creatine in PO region during deeper hypnosis state (HS2), 'possibly indicating reduced neuronal activity.' No significant neurochemical shifts in pSTG. Respiratory rates significantly slowed in both hypnotic states vs controls, more pronounced in deeper state. First MRS study of hypnosis states. Authors caution: 'results must be interpreted with the scientifically correct caution' and 'altered tmI levels [is not] a hypnosis specific neurochemical reaction.' References Landry et al. ALE meta-analysis: rather than confirming DMN/SN/CEN involvement, ALE linked hypnosis to medial lingual gyrus (advanced visual processing), an 'invitation for exploration of hypnosis correlates beyond DMN, SN, CEN and top-down model.'",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

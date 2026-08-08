@@ -1,0 +1,12 @@
+{
+  "id": "EV-0014",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/41242767/" },
+  "type": "summary",
+  "summary": "Neural dynamics of hypnotic responding chapter (2024 PubMed): neuroimaging/electrophysiology findings 'highly heterogeneous, limiting establishment of a consistent neurophysiological framework.' Proposes multicomponent approach — induction-driven network changes, suggestion-driven local modulations, susceptibility-amplified responses, plus individual-difference variability.",
+  "content": "PubMed 41242767 (2024), 'Neural dynamics of hypnotic responding: From unique to multicomponent perspectives on hypnotic phenomena.' 'Dominant approaches have often aimed to identify a single, distinct neural signature capable of accounting for the emergence of hypnotic phenomena. However, despite robust behavioural evidence supporting the concept of hypnotic responding, findings from neuroimaging and electrophysiological studies have been highly heterogeneous, limiting the establishment of a consistent neurophysiological framework.' Proposes componential approach: hypnotic process comprises multiple distinct interacting mechanisms — large-scale network connectivity changes induced by hypnotic induction; localized modulations driven by suggestion; individual susceptibility amplifying these responses. Additional variability may stem from individual differences beyond susceptibility, contributing to lack of convergence. Keywords: Altered state of consciousness; Hypnosis; Hypnotic responding; Hypnotic susceptibility; Neurophysiology.",
+  "collected_by": "retrieval-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

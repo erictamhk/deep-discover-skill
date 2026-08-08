@@ -1,0 +1,12 @@
+{
+  "id": "EV-0023",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5 synthesis of EV-0004, EV-0013, EV-0018" },
+  "type": "claim",
+  "summary": "C-0003: The field itself reports NO consensus on hypnosis mechanisms; the ALE meta-analysis failed to confirm predicted DMN/SN/CEN involvement — the brain-correlate story is heterogeneous and contested",
+  "content": "CLAIM C-0003: A 2024 systematic review (Zahedi et al.) states explicitly that 'no consensus exists regarding the mechanisms' driving hypnotic responses, and that each theory has distinct strengths/limits. The Landry et al. ALE meta-analysis (cited in the 2024 MRS paper) did NOT confirm the hypothesized DMN/SN/CEN involvement and instead found only a medial lingual gyrus link, attributed partly to methodological heterogeneity. The 2025 Brain Sci. review notes neural mechanisms are 'not fully understood'. This is the field's own self-reported unsettled status. SUPPORTS: the question is genuinely contested at the empirical level, not just philosophically.",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:50:00Z"
+}

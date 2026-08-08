@@ -1,0 +1,12 @@
+{
+  "id": "EV-0002",
+  "source": { "type": "web", "locator": "https://www.mdpi.com/2076-3425/14/2/115" },
+  "type": "summary",
+  "summary": "2024 review (MDPI Brain Sciences): hypnosis is associated with decreased DMN activity, increased DLPFC-insula (ECN-SN) connectivity, reduced DLPFC-PCC connectivity; consistent with dissociated-control and cold-control theories. Lingual gyrus most robust per Landry meta-analysis.",
+  "content": "2024 review (Farahzadi/Kerkecs et al., MDPI Brain Sciences 14:115, Jan 2024): neuroimaging correlates of hypnosis are 'inconsistent' (echoing Landry). Some consistent trends: heightened theta power proposed as a biomarker but criticized (could be a procedural artifact — auditory cortex entrains to 3-8Hz speech). Consensus on DECREASED DMN functional connectivity during hypnosis. Evidence that hypnosis reduces activity in dACC, increases functional connectivity between DLPFC (ECN) and insula (SN), reduces connectivity between DLPFC (ECN) and PCC (DMN). Findings support dissociated-control and cold-control theories (altered agency). Lipari et al. and Oakley & Halligan report partially contradictory DMN patterns. Standardization of induction/suggestion needed.",
+  "collected_by": "retrieval-worker-1",
+  "supports": ["C-0001", "C-0006"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

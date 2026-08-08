@@ -1,0 +1,12 @@
+{
+  "id": "EV-0010",
+  "source": { "type": "web", "locator": "https://www.sciencedirect.com/science/article/pii/S1053810024000977" },
+  "type": "summary",
+  "summary": "Zahedi et al. systematic review of hypnosis theories (Conscious Cogn 2024): each theory has strengths/limits; no consensus; catalogues state theories (Hilgard), sociocognitive (Wagstaff/Spanos/Sarbin), response-set (Kirsch), dissociated control (Woody/Bowers), cold control (Dienes/Perner), interoceptive coding (Jamieson), predictive coding (Martin/Pacherie).",
+  "content": "Zahedi et al. 2024, 'How hypnotic suggestions work – A systematic review of prominent theories of hypnosis,' Consciousness and Cognition. Systematically reviews theories: (table) Sociocognitive (Coe&Sarbin, Wagstaff, Spanos); Response-Set (Kirsch 2000, Lynn 2023, 2015); Dissociated Control Theory (Jamieson&Woody 2007, Woody&Bowers 1994); Cold Control (Dienes&Perner 2007); Interoceptive coding Model (Jamieson 2016/2018/2021); Predictive Coding Model (Martin&Pacherie 2019). 'Our systematic review reveals that each perspective possesses salient strengths, limitations, and heuristic values.' Notes: 'abundant evidence exists that hypnotic inductions often have little or no effect on participants' responsiveness (Lynn 2017, Mazzoni 2009, McGeown 2012; but see Weitzenhoffer&Sjoberg 1961) and may not be necessary for the effectiveness of suggestions (Parris&Dienes 2013). Even when inductions enhance responsiveness, their effects are usually small compared to other predictors.' Non-hypnotic and hypnotic suggestibility correlated strongly (r=0.67 behavioral; r=0.82 subjective, Braffman&Kirsch 1999). Sociocognitive: 'hypnotic phenomena can be explained by mundane and everyday social and cognitive processes, which eliminates the necessity of assuming a special condition, ability, or neurocognitive process.'",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0030",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5/C-0001-revised" },
+  "type": "claim",
+  "summary": "C-0001-REVISED (cycle 2 correction): Hypnosis produces DIRECTION-CONSISTENT but HETEROGENEOUS changes in large-scale network connectivity. Posterior regions (precuneus/cuneus/lingual) most reliably implicated across independent groups; the DLPFC-centric 'three-signature' pattern rests substantially on one lab (Stanford/Spiegel) and is not cleanly independently replicated.",
+  "content": "C-0001-REVISED (replaces disputed C-0001): Hypnosis produces DIRECTION-CONSISTENT but HETEROGENEOUS changes in large-scale brain network connectivity. Posterior regions (precuneus, cuneus, lingual gyrus) are the most reliably implicated across independent groups (de Matos 2023, Vazquez 2023, Landry ALE 2017). The DLPFC-centric 'three-signature' pattern (dACC↓, DLPFC-insula↑, DLPFC-PCC↓) originates primarily from the Stanford/Spiegel group and is NOT cleanly replicated by independent groups — Vazquez found no ECN/DMN differences. There is NO single, unique, individually-classifiable neural signature (this is now consistent with C-0002). supports: EV-0001, EV-0002, EV-0006, EV-0007, EV-0028, EV-0029. contradicts: none (resolved tension with C-0002).",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

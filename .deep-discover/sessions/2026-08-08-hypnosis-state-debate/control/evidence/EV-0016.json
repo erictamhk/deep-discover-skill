@@ -1,0 +1,11 @@
+{
+  "id": "EV-0016",
+  "type": "claim",
+  "summary": "CLAIM C-0002: Hypnosis need not be explained by a unique 'trance state'; the evidence is parsimoniously accounted for by social-cognitive/response-expectancy mechanisms, and no robust neurophysiological signature proves a special state.",
+  "content": "CLAIM C-0002: Hypnosis need not invoke a unique altered state of consciousness. The leading non-state accounts (Kirsch response-set/response-expectancy; Spanos; Barber; Wagstaff) hold that hypnotic responding is driven by response expectancies, motivation, context, and normal cognitive processes. Lynn/Kirsch/Terhune (2023): 'no robust neurophysiological evidence to demonstrate that hypnosis is a special or unique state.' 54% of participants are equally or less suggestible after hypnotic induction (Braffman & Kirsch 1999). (Evidence: EV-0003, EV-0004, EV-0012.) COUNTER-EVIDENCE: EV-0007 (hypnosis has a distinctive neural signature not shared with meditation/psychedelics).",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["C-0002"],
+  "contradicts": ["C-0001"],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

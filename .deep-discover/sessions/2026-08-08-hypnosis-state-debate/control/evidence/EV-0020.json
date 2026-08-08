@@ -1,0 +1,11 @@
+{
+  "id": "EV-0020",
+  "type": "claim",
+  "summary": "CLAIM C-0006: GENUINELY UNRESOLVED — whether induction-specific brain changes constitute a causally-relevant 'altered state' or are epiphenomenal correlates. The 50-year stalemate is NOT resolved by neuroimaging due to methodological confounds (induction vs suggestion) and heterogeneity.",
+  "content": "CLAIM C-0006: GENUINELY UNRESOLVED. Whether induction-specific brain changes constitute a causally-relevant 'altered state' or are merely epiphenomenal correlates (Wagstaff) remains open. Oakley/Halligan/Kirsch (2013): 'Has neuroimaging research resolved the altered state debate? For the moment the answer is negative.' Stalemate persists because (i) many neuroimaging studies CONFOUND induction with suggestion; (ii) findings are highly heterogeneous (EV-0001, EV-0008, EV-0014); (iii) it remains 'uncertain whether the changes in activation produced by hypnotic inductions reflect a uniquely hypnotic state as opposed to more mundane processes' (EV-0013). This is a live, not settled, dispute.",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["C-0006"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

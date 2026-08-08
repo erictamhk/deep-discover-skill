@@ -1,0 +1,11 @@
+{
+  "id": "EV-0017",
+  "type": "claim",
+  "summary": "CLAIM C-0003: 2023-2025 neuroimaging does NOT reveal a single reliable 'hypnosis signature.' Findings are heterogeneous; the only meta-analytically consistent correlate is the lingual gyrus (V1/visual imagery). A componential account (induction vs suggestion vs susceptibility) fits better than a single-state marker.",
+  "content": "CLAIM C-0003: 2023-2025 neuroimaging does NOT support a single, reliable, universal 'hypnosis brain signature.' Multiple 2023-2025 sources (EV-0001 Landry meta-analysis, EV-0008 2025 componential chapter, EV-0014 APA 2024) emphasize heterogeneity and 'little consensus.' The only meta-analytically consistent correlate is the lingual gyrus (V1, mental imagery) — not the hypothesized DMN/SN/CEN. New work (EV-0005 de Matos 2023, EV-0006 MRS 2024, EV-0007 Moujaes 2023) adds depth-dependent connectivity and shows hypnosis is neurally DISTINCT from meditation and psychedelics, but no single biomarker. The 2025 componential framing (induction effects vs suggestion effects vs susceptibility effects) best fits the data. (Evidence: EV-0001, EV-0005, EV-0006, EV-0007, EV-0008, EV-0014.)",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["C-0003"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

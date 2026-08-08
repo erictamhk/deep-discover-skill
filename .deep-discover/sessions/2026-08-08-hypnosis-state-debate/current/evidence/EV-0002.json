@@ -1,0 +1,12 @@
+{
+  "id": "EV-0002",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s41598-024-80795-3" },
+  "type": "statistic",
+  "summary": "MRS 2024 (n=52, HypnoScience project): deeper hypnotic state shows significant myo-Inositol change in parieto-occipital region (~1.6% change) — possible tonic reduction in neuronal activity; first MRS study of hypnosis",
+  "content": "Significant changes in myo-Inositol concentration relative to total creatine were observed in the PO region during the deeper hypnosis state, possibly indicating reduced neuronal activity... the observed effects between HS2 and CS2 are small with mean percent changes of 1.6%... the results do not suggest that altered tmI levels is a hypnosis specific neurochemical reaction.",
+  "collected_by": "retrieval-worker-1",
+  "supports": ["C-0001"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

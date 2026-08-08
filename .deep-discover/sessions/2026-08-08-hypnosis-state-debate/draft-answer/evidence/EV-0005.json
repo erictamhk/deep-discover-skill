@@ -1,0 +1,12 @@
+{
+  "id": "EV-0005",
+  "source": { "type": "web", "locator": "https://orbi.uliege.be/handle/2268/303438" },
+  "type": "summary",
+  "summary": "Panda et al. 2023 (J Cogn Neurosci) EEG graph-theory (n=9): hypnosis shows increased delta connectivity (frontal, frontoparietal), decreased alpha/beta-2, increased network segregation (delta/alpha) and integration (beta-2). Frames hypnosis as non-ordinary state of consciousness.",
+  "content": "Panda et al. 2023, Journal of Cognitive Neuroscience. High-density EEG in 9 healthy subjects during eyes-closed wakefulness and hypnosis (muscle relaxation + eye fixation). Region-wise connectivity across 6 ROIs (frontal, parietal, midline). During hypnosis: (1) increased delta connectivity between left/right frontal and right frontal-parietal; (2) decreased alpha connectivity (right frontal-parietal, upper/lower midline) and beta-2 (upper midline-right frontal, frontal-parietal, midline); (3) increased network segregation (short-range) in delta/alpha, increased integration (long-range) in beta-2. Frontal and right parietal electrodes = central hub regions during hypnosis. Authors frame this as 'modification of internal and external awareness brain networks' reflecting 'efficient cognitive-processing and lower incidences of mind-wandering.' Title explicitly: 'non-ordinary state of consciousness induced by hypnosis.' Note: very small sample (n=9).",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

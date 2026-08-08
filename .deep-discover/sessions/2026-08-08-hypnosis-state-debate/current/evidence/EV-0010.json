@@ -1,0 +1,12 @@
+{
+  "id": "EV-0010",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/36108171/" },
+  "type": "summary",
+  "summary": "Lynn et al. 2022: response set theory reconsidered — extends Kirsch's response expectancy INTO an integrative model that encompasses predictive coding (synthesis direction)",
+  "content": "We honor his prodigious contributions... and extend his response expectancy theory in an integrative model that encompasses predictive coding... We especially focus on (I) how the response set theory can be conceptualized in terms of the predictive coding model and (II) psycho-social constructs that need to be considered to better understand the effects of expectancies on hypnotic phenomena in an open and evidence-based integrative model of hypnosis.",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0004"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

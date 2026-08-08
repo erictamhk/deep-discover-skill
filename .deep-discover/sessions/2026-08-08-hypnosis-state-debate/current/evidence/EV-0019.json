@@ -1,0 +1,12 @@
+{
+  "id": "EV-0019",
+  "source": { "type": "web", "locator": "https://www.mdpi.com/2076-3425/14/9/883" },
+  "type": "raw-quote",
+  "summary": "2024 EEG: alpha peak frequency variability distinguishes high- vs low-susceptibility BUT only AFTER induction; supports state-related dynamic neural change mediated by susceptibility",
+  "content": "Our results show that variations in the alpha center frequency distinguish between HHSIs and LHSIs above chance level following the induction procedure. This outcome indicates that the dynamics of brain states, as reflected by alpha center frequency activity, represents a key neurophysiological feature of hypnotic phenomena... Highly hypnotic-susceptible individuals exhibit higher variability in alpha peak center frequency.",
+  "collected_by": "retrieval-worker-3",
+  "supports": ["C-0001"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0006",
+  "source": { "type": "web", "locator": "https://ichgcp.net/clinical-trials-registry/publications/170212-brain-activity-and-functional-connectivity-associated-with-hypnosis" },
+  "type": "summary",
+  "summary": "Spiegel/Hoeft et al. fMRI (n=57 of 545 screened, high vs low hypnotizable): hypnosis = reduced dACC activity, increased DLPFC-insula connectivity, reduced DLPFC-PCC/DMN connectivity. The 'three brain signatures' cited widely as state evidence.",
+  "content": "Brain Activity and Functional Connectivity Associated with Hypnosis (Spiegel lab / Hoeft et al.). 57 of 545 healthy subjects selected for very high or low hypnotizability using two scales. Four scanner conditions: rest, memory retrieval, two hypnosis experiences (standard pre-recorded, counterbalanced). Seeds: ECN (left/right DLPFC), SN (dACC), DMN (PCC). During hypnosis: reduced activity in dACC; increased functional connectivity between DLPFC (ECN) and insula (SN); reduced connectivity between ECN (DLPFC) and DMN (PCC). Hypnosis intensity covaried inversely with DLPFC-DMN connectivity. Changes underlie focused attention, enhanced somatic/emotional control, lack of self-consciousness. Group x condition interaction significant for highs but not lows on dACC fALFF and DLPFC-insula FC. This is the widely-cited 'three brain signatures of hypnosis' study (often associated with Stanford/Spiegel).",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

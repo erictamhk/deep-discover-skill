@@ -1,0 +1,12 @@
+{
+  "id": "EV-0006",
+  "source": { "type": "web", "locator": "https://www.mdpi.com/2076-3425/13/6/875" },
+  "type": "raw-quote",
+  "summary": "2023 EEG study (n=31): formal induction did not change theta/alpha/gamma PSD in highs; expectation/hypnotizability prevailed over induction — supports sociocognitive theory",
+  "content": "The stability of theta, alpha and gamma PSD observed in both groups across the session suggests greater relevance of the expectation of hypnosis (likely sustained by different hypnotic level) rather than induction to the experience of trance in highs... The theoretical significance of the described findings is in their support for socio-cognitive theories of hypnosis, in that they provide EEG evidence in line with behavioral/experiential findings indicating a major role of expectation and hypnotizability in the experience of hypnosis.",
+  "collected_by": "retrieval-worker-2",
+  "supports": ["C-0002"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

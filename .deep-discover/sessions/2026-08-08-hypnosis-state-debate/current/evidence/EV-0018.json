@@ -1,0 +1,12 @@
+{
+  "id": "EV-0018",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s41598-024-80795-3" },
+  "type": "raw-quote",
+  "summary": "HypnoScience MRS paper: Landry et al. ALE meta-analysis did NOT confirm CEN/SN/DMN involvement; found only medial lingual gyrus link; heterogeneity of methods blamed — challenges a simple top-down/network account",
+  "content": "An activation likelihood estimates (ALE) meta-analysis conducted by Landry et al. aimed at identifying consistent neural correlates of hypnosis and hypothesized the involvement of the CEN, SN and DMN as a commonality across the included neuroimaging studies. However, rather than confirming their hypotheses, ALE findings showed a link between hypnosis and medial lingual gyrus, an occipital area... Although the lack of confirmation... is partly attributable to the substantial heterogeneity of applied technical methodologies and hypnotic procedures in the included studies, the surprising finding could also be viewed as an invitation for the exploration of hypnosis correlates beyond DMN, SN, CEN and the concept of top-down model of hypnosis.",
+  "collected_by": "retrieval-worker-3",
+  "supports": ["C-0003"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0003",
+  "source": { "type": "web", "locator": "https://orbi.uliege.be/handle/2268/305497" },
+  "type": "summary",
+  "summary": "Moujaes et al. 2024 (Biol Psychiatry Cogn Neurosci Neuroimaging): direct comparison of psilocybin, LSD, hypnosis, meditation rs-fcMRI. No single network reaches significance across all four ASC methods. Hypnosis & meditation show distinct functional connectivity from psychedelics and each other; patterns are individually predictive.",
+  "content": "Moujaes, Demertzi et al. 2024 (Biological Psychiatry: Cognitive Neuroscience and Neuroimaging 9(5):533-543). Directly compared pharmacological ASC (psilocybin n=23; LSD n=25) and non-pharmacological ASC (hypnosis n=30; meditation n=29) using resting state functional connectivity MRI + machine learning. Results: (i) no network reaches significance in all four ASC methods; (ii) pharmacological and non-pharmacological interventions show distinct connectivity patterns that are predictive at the individual level; (iii) hypnosis and meditation show differences in functional connectivity when compared directly, and drive distinct differences when jointly compared to pharmacological ASC; (iv) psilocybin and LSD show no differences when directly compared. Conclusion: extends understanding of ASC mechanisms, highlights importance of exploring how effects can be leveraged in psychiatric treatment.",
+  "collected_by": "retrieval-worker-3",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

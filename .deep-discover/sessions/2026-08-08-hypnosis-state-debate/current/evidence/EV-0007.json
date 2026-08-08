@@ -1,0 +1,12 @@
+{
+  "id": "EV-0007",
+  "source": { "type": "web", "locator": "https://www.tandfonline.com/doi/abs/10.1080/00029157.2000.10734362" },
+  "type": "raw-quote",
+  "summary": "Kirsch response set theory (2000): rejects unique altered state AND rejects pure compliance; suggestions produce real experience changes verifiable in brain physiology; response expectancy primary but not exclusive",
+  "content": "Although the idea of a uniquely hypnotic altered state of consciousness is rejected, so too are compliance-based explanations of hypnotic behavior. Suggestions, in or out of the social context of hypnosis, can produce profound alterations in experience, including dissociative experiences, and these can be verified through corresponding changes in brain physiology. Response expectancies play a major, but not exclusive, role in the production of suggested experiences as well.",
+  "collected_by": "retrieval-worker-2",
+  "supports": ["C-0002", "C-0004"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

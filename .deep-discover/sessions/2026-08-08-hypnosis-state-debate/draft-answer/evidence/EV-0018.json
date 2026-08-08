@@ -1,0 +1,12 @@
+{
+  "id": "EV-0018",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/4034815/" },
+  "type": "summary",
+  "summary": "Spanos et al. (PMID 4034815): even excellent hypnotic subjects RETAIN control over responses; contextual demands shape whether subjects present responses as involuntary. Non-state counterpoint — involuntariness is partly a self-presentation effect of demand characteristics.",
+  "content": "Spanos et al. (PMID 4034815) 'Failing to resist hypnotic test suggestions: a strategy for self-presenting as deeply hypnotized.' Contends that even excellent hypnotic subjects RETAIN voluntary control over responses. Subjects are 'invested in presenting themselves as deeply hypnotized' and use contextual information to guide hypnotic enactments. Contextual demands in the hypnotic test situation usually reinforce the idea that hypnotic behavior is involuntary, so enactments of highly hypnotizable subjects are typically designed to convey the impression that responses are involuntary happenings that cannot be resisted. Tested by varying demands associated with 'deep hypnosis' — highly hypnotizable subjects presented themselves as unable to resist, OR easily able to resist, depending on which self-presentation they associated with 'deep hypnosis.' KEY non-state counterpoint to EV-0017: involuntariness/automaticity is itself partly a product of demand characteristics and self-presentation, not (only) a genuine metacognitive change.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

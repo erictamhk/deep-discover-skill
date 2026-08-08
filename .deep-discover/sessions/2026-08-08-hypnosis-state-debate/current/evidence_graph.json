@@ -1,0 +1,140 @@
+{
+  "claims": {
+    "C-0001": {
+      "text": "Hypnosis is accompanied by measurable, replicable brain-activity/connectivity changes (DMN/SN/ECN, theta, parieto-occipital, frontoparietal) — a necessary condition for an altered-state claim.",
+      "evidence_file": "EV-0021",
+      "supports_evidence": ["EV-0001", "EV-0002", "EV-0003", "EV-0004", "EV-0019"],
+      "contradicts_evidence": ["EV-0005", "EV-0006", "EV-0018", "EV-0020"],
+      "status": "verified",
+      "verifier_notes": "See EV-0027. Reinforced in cycle 2 by causal TMS evidence (EV-0029/0030/0031) which goes beyond correlation.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0002": {
+      "text": "No hypnosis-specific unique physiological fingerprint exists; induction effects are small and expectancy/hypnotizability often matter more — supports non-state/sociocognitive interpretation.",
+      "evidence_file": "EV-0022",
+      "supports_evidence": ["EV-0005", "EV-0006", "EV-0007", "EV-0008", "EV-0009", "EV-0016", "EV-0020"],
+      "contradicts_evidence": ["EV-0001", "EV-0003", "EV-0019"],
+      "status": "verified",
+      "verifier_notes": "See EV-0027. Note: cycle-2 causal evidence (C-0007) complicates the strong sociocognitive reading — TMS effects beyond expectancy (EV-0030) show frontal mechanisms are causally involved — but does not refute 'no unique fingerprint'.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0003": {
+      "text": "The field itself reports NO consensus on hypnosis mechanisms; the ALE meta-analysis failed to confirm predicted DMN/SN/CEN involvement — brain-correlate story is heterogeneous and contested.",
+      "evidence_file": "EV-0023",
+      "supports_evidence": ["EV-0004", "EV-0013", "EV-0018"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "See EV-0027.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0004": {
+      "text": "Emerging 2022-2025 synthesis dissolves the state/non-state dichotomy: predictive coding/active inference unifies 'state-like' precision-weighting and 'non-state-like' priors/expectancy.",
+      "evidence_file": "EV-0024",
+      "supports_evidence": ["EV-0010", "EV-0011", "EV-0012", "EV-0014", "EV-0015", "EV-0034"],
+      "contradicts_evidence": ["EV-0017"],
+      "status": "verified",
+      "verifier_notes": "VERIFIED-BUT-SCOPED. Reinforced by Wagstaff 2026 (EV-0034) explicitly arguing no necessary contradiction between altered-state and ordinary-process accounts.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0005": {
+      "text": "The strict 'trance required' (qualitative state) hypothesis is largely ruled out, but the broader altered-state question remains open and is best framed as a continuum, not a dichotomy.",
+      "evidence_file": "EV-0025",
+      "supports_evidence": ["EV-0008", "EV-0016", "EV-0021", "EV-0022", "EV-0034", "EV-0035"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "See EV-0027. Reinforced by EV-0034 (Wagstaff continuum framing) and EV-0035 (clinical decoupling).",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0006": {
+      "text": "Genuinely unresolved: (a) causal vs epiphenomenal brain changes; (b) trait vs state hypnotizability; (c) which mechanistic theory (cold control vs dissociated control vs SATH vs ability-based) is correct.",
+      "evidence_file": "EV-0026",
+      "supports_evidence": ["EV-0013", "EV-0015", "EV-0017", "EV-0018", "EV-0019", "EV-0029", "EV-0031"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "See EV-0027. Cycle 2 PARTIALLY addresses axis (a): TMS shows frontal mechanisms are causally involved (not purely epiphenomenal), but does not resolve axes (b) or (c). C-0007 sharpens (c): cold-control and dissociated-control make the same prediction for the DLPFC manipulation.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0007": {
+      "text": "Causal-intervention evidence (TMS/tDCS) is the most decisive test available but does NOT cleanly separate cold-control from dissociated-control — both predict DLPFC-inhibition increases hypnotizability, which is what is observed. The causal evidence supports a state-leaning (frontal-mechanism) account but cannot adjudicate the specific theory.",
+      "evidence_file": "EV-0032",
+      "supports_evidence": ["EV-0015", "EV-0029", "EV-0030", "EV-0031"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "EV-0029 (Faerman SHIFT RCT, p=0.046), EV-0030 (Dienes&Hutton, expectancy controlled), EV-0031 (ISH review converging) all support DLPFC-inhibition→increased hypnotizability. EV-0015 documents both theories predict same direction. Logic holds. Note the ISH review (EV-0031) caveats: small samples, subjective measures, limited neurophysiological confirmation. Confirmed beyond-expectancy effect (EV-0030) is the key anti-pure-sociocognitive point.",
+      "verified_by": "verifier-facts-2"
+    },
+    "C-0008": {
+      "text": "The state/non-state distinction has NO demonstrated bearing on clinical efficacy — hypnosis works regardless of which theory is true; the practical moderator is HYPNOTIZABILITY, not theoretical allegiance. This dissolves much of the practical urgency of the debate.",
+      "evidence_file": "EV-0035",
+      "supports_evidence": ["EV-0033", "EV-0034"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "EV-0033 (49 meta-analyses, 99.2% positive, hypnotizability only consistent moderator r=0.24). EV-0034 (Wagstaff false-dichotomy). The decoupling of clinical efficacy from theoretical model is directly supported. Caveat: hypnotizability itself is the contested construct, so 'decoupled' is practical not philosophical.",
+      "verified_by": "verifier-facts-2"
+    }
+  },
+  "verifier_conflicts": [
+    {
+      "between": ["C-0001", "C-0002"],
+      "severity": "medium",
+      "resolution": "resolvable — dispute is over specificity/uniqueness, not existence of change",
+      "conflict_ref": "EV-0028"
+    },
+    {
+      "between": ["state-leaning interpretations of imaging", "non-state/epiphenomenal interpretations of same imaging"],
+      "severity": "high",
+      "resolution": "hermeneutic/provenance conflict; cycle-2 causal evidence (C-0007) partially adjudicates by showing frontal mechanisms are causally involved beyond expectancy, weakening pure-epiphenomenal reading but not settling specific theory",
+      "conflict_ref": "EV-0028"
+    },
+    {
+      "between": ["EV-0006 (PSD not changed)", "EV-0003 (theta enhanced)", "EV-0019 (alpha peak distinguishes)"],
+      "severity": "low",
+      "resolution": "paradigm/sample/protocol heterogeneity, not hard contradiction; reinforces C-0003",
+      "conflict_ref": "EV-0028"
+    }
+  ],
+  "links": [
+    { "from": "EV-0001", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0002", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0003", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0004", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0019", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0005", "to": "C-0001", "relation": "contradicts" },
+    { "from": "EV-0006", "to": "C-0001", "relation": "contradicts" },
+    { "from": "EV-0018", "to": "C-0001", "relation": "contradicts" },
+    { "from": "EV-0020", "to": "C-0001", "relation": "contradicts" },
+    { "from": "EV-0005", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0006", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0007", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0008", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0009", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0016", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0020", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0004", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0013", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0018", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0010", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0011", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0012", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0014", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0015", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0034", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0017", "to": "C-0004", "relation": "contradicts" },
+    { "from": "EV-0008", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0016", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0034", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0035", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0013", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0015", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0017", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0019", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0029", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0031", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0015", "to": "C-0007", "relation": "supports" },
+    { "from": "EV-0029", "to": "C-0007", "relation": "supports" },
+    { "from": "EV-0030", "to": "C-0007", "relation": "supports" },
+    { "from": "EV-0031", "to": "C-0007", "relation": "supports" },
+    { "from": "EV-0033", "to": "C-0008", "relation": "supports" },
+    { "from": "EV-0034", "to": "C-0008", "relation": "supports" }
+  ]
+}

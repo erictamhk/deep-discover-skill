@@ -1,0 +1,11 @@
+{
+  "id": "EV-0015",
+  "type": "claim",
+  "summary": "CLAIM C-0001: Hypnosis produces measurable, reproducible changes in brain activity and large-scale network connectivity (DMN, ECN-SN), supporting the view that it involves a real neurobiological change rather than mere role-playing.",
+  "content": "CLAIM C-0001: Hypnosis is associated with measurable, reproducible changes in brain activity and functional connectivity — particularly decreased DMN activity/connectivity, altered DLPFC-insula (ECN-SN) coupling, and consistent engagement of the lingual gyrus. This supports the position that hypnosis involves a real neurobiological change in consciousness-processing, not merely social compliance. (Evidence: EV-0002, EV-0005, EV-0007, EV-0014.) COUNTER-EVIDENCE: EV-0004, EV-0012 — these changes do not establish a 'special/unique state' and may reflect suggestion effects rather than induction-specific state effects.",
+  "collected_by": "reasoning-worker-5",
+  "supports": ["C-0001"],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

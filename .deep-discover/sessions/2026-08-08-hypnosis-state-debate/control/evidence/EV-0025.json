@@ -1,0 +1,11 @@
+{
+  "id": "EV-0025",
+  "type": "claim",
+  "summary": "CLAIM C-0008 (cycle-2): Causal-intervention evidence (SHIFT/TMS RCT, Faerman 2024) demonstrates that neuromodulating the L-DLPFC-dACC circuit causally alters hypnotizability. This is the strongest-design evidence in the debate and supports that hypnotizability has a real neurobiological substrate — but it speaks to the TRAIT/mechanism, not to whether a uniquely-hypnotic STATE exists.",
+  "content": "CLAIM C-0008: The 2024 SHIFT trial (EV-0024, Faerman et al., preregistered double-blind RCT, N=80) provides CAUSAL evidence that inhibitory cTMS to a personalized L-DLPFC target temporarily increases hypnotizability (HIP) vs sham (P=0.046 active-vs-sham; P<0.001 within active). This is the only causal-intervention (RCT) study in the pool and the strongest design type. Interpretation for the state/non-state debate: it establishes that hypnotizability has a genuine, causally-manipulable neurobiological substrate (the L-DLPFC-dACC / salience-network circuit) — undermining any pure 'it's only role-playing/compliance' reading, since you cannot TMS your way to a fake trait change that shows up on a validated scale vs sham. HOWEVER, it does NOT directly settle whether the hypnotic EXPERIENCE is a uniquely-hypnotic altered STATE: it speaks to the trait/mechanism of hypnotizability, not to whether induction produces a special state beyond suggestion. Consistent with both the state view (real neural substrate) and the non-state view's concession (EV-0003) that suggestions produce real brain-verifiable changes. The prior conflicting TMS evidence (Hutton yes-L-DLPFC; Coltheart no-but-R-DLPFC) means laterality/parameters remain unsettled.",
+  "collected_by": "reasoning-worker-6",
+  "supports": ["C-0008"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

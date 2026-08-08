@@ -1,0 +1,12 @@
+{
+  "id": "EV-0006",
+  "source": { "type": "web", "locator": "https://www.nature.com/articles/s41598-024-80795-3" },
+  "type": "summary",
+  "summary": "2024 MRS study (HypnoScience, N=52): FIRST neurochemical investigation of hypnosis. Found increased myo-Inositol (tmI) in parieto-occipital region in deeper hypnotic state (small ~1.6% change), possibly reflecting reduced neuronal activity. Authors stress results are PRELIMINARY, need replication.",
+  "content": "Scientific Reports 2024 (HypnoScience MRS study, N=52, published Dec 2 2024). First MRS investigation of neurochemical changes during hypnosis. Targeted parieto-occipital (PO) and posterior superior temporal gyrus (pSTG). Significant increase in myo-Inositol concentration (relative to total creatine) in PO region during deeper hypnotic state (HS2) vs control — interpreted cautiously as possibly indicating tonic reduction in neuronal activity (~1.6% mean change). No significant shifts in pSTG. Respiratory rate slowed significantly in both hypnotic states. Authors repeatedly stress: 'results must be interpreted with adequate caution and need to be regarded as preliminary until further studies have been conducted'; 'do not suggest that altered tmI levels is a hypnosis specific neurochemical reaction.' Recalls Landry ALE: lingual gyrus emerged, not the hypothesized CEN/SN/DMN.",
+  "collected_by": "retrieval-worker-3",
+  "supports": ["C-0003"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

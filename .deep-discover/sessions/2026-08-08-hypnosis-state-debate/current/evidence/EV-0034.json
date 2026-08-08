@@ -1,0 +1,12 @@
+{
+  "id": "EV-0034",
+  "source": { "type": "web", "locator": "https://www.sciencedirect.com/science/article/abs/pii/S0732118X26000322" },
+  "type": "raw-quote",
+  "summary": "Wagstaff 2026: NO necessary contradiction between an 'altered state' with physiological parameters and that state arising from everyday social/cognitive processes — argues for reconciling state and non-state by reframing 'altered state' as dissociation arising from ordinary processes",
+  "content": "We will argue that there is no necessary contradiction between the idea that there exists what we could term an 'altered state' associated with hypnosis, that has related physiological parameters and effects, and the possibility that its properties may arise from a variety of everyday phenomena... it may be appropriate and meaningful to describe the experiences resulting from the application of hypnosis procedures in terms of an altered state of consciousness, characterised by a non-pathological form of dissociation. However, as formulated here, there is no necessary contradiction between this conception as an altered state and the idea that it arises from the sorts of standard kinds of psychological processes.",
+  "collected_by": "retrieval-worker-cycle2-2",
+  "supports": ["C-0004", "C-0005"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T14:00:00Z"
+}

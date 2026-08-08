@@ -1,0 +1,12 @@
+{
+  "id": "EV-0016",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/29034102/" },
+  "type": "summary",
+  "summary": "Jensen et al. 2017 'New directions in hypnosis research' (Am J Clin Hypn): recommends redirecting resources AWAY from contrasting state vs nonstate positions; high hypnotic suggestibility associated with atypical brain connectivity profiles; clinical efficacy supported.",
+  "content": "Jensen et al. 2017, 'New directions in hypnosis research: strategies for advancing the cognitive and clinical neuroscience of hypnosis' (PubMed 29034102). Summarizes: (i) clinical research supports hypnosis efficacy for several symptoms/conditions; (ii) research supports role of ACC and prefrontal cortex divisions in hypnotic responding; (iii) emerging finding that high hypnotic suggestibility associated with atypical brain connectivity profiles. Recommendations: strongly consider how hypnotic suggestibility is assessed; include middle-range suggestibility participants; use designs delineating roles of inductions vs specific suggestions. KEY meta-recommendation: redirect resources away from contrasting state and nonstate positions toward (a) efficacy of hypnotic treatments for CNS-influenced conditions, (b) neurophysiological underpinnings of hypnotic phenomena. This is the position many in the field converged on by 2017 and that 2023-2025 work largely operationalizes.",
+  "collected_by": "retrieval-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

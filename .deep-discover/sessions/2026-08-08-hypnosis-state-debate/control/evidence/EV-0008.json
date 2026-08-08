@@ -1,0 +1,12 @@
+{
+  "id": "EV-0008",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/41242767/" },
+  "type": "raw-quote",
+  "summary": "2025 chapter (PubMed 41242767): neuroimaging/electrophysiology of hypnosis is 'highly heterogeneous, limiting the establishment of a consistent neurophysiological framework.' Proposes componential (multi-mechanism) approach: induction effects vs suggestion effects vs susceptibility effects.",
+  "content": "2025 chapter (PubMed 41242767, 'Neural dynamics of hypnotic responding: From unique to multicomponent perspectives'): 'despite robust behavioural evidence supporting the concept of hypnotic responding, findings from neuroimaging and electrophysiological studies have been highly heterogeneous, limiting the establishment of a consistent neurophysiological framework.' Proposes a COMPONENTIAL approach: hypnotic process comprises multiple distinct interacting mechanisms — (a) large-scale network connectivity changes from induction, (b) localized modulations from specific suggestions, (c) individual susceptibility amplifying responses. Additional variability from individual differences beyond susceptibility. Keywords: Altered state of consciousness; Hypnosis; Hypnotic responding; Hypnotic susceptibility; Neurophysiology.",
+  "collected_by": "retrieval-worker-3",
+  "supports": ["C-0003", "C-0006"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

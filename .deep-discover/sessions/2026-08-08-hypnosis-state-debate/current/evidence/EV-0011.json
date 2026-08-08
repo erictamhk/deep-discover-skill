@@ -1,0 +1,12 @@
+{
+  "id": "EV-0011",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/41242765/" },
+  "type": "summary",
+  "summary": "Jamieson et al. 2025 (PubMed): interoceptive predictive coding/active inference can unify dissociated-control, absorption, response-expectancy theories; multiple testable predictions",
+  "content": "Predictive coding is shown to be a framework able to generate multiple theoretical explanations with testable predictions and distinct consequences for the growth of knowledge and clinical practice. Current theories of dissociated control, absorption and response expectancy can be modelled within this unifying framework. The unique Bayesian mechanism of Active Inference plays a central role in each of the accounts compared and testable neurophysiological predictions are drawn from each model.",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0004"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

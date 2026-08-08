@@ -1,0 +1,12 @@
+{
+  "id": "EV-0013",
+  "source": { "type": "web", "locator": "https://pure.psu.edu/en/publications/social-cognitive-theories-of-hypnosis/" },
+  "type": "raw-quote",
+  "summary": "Lynn et al. social-cognitive theories review: 'the claim that neurophysiological data resolve the altered state issue is not warranted by the available evidence.' Non-state theorists do not deny physiological changes; dispute their interpretation as proof of a UNIQUE state.",
+  "content": "Lynn et al. (2012 onward, social cognitive theories of hypnosis, PSU). 'Hypnosis theories are often dichotomized into state and nonstate theories, with social cognitive theories being the most prominent exemplars of nonstate theories. However, neither state nor nonstate theories of hypnosis are monolithic as there are a number of differently nuanced social cognitive theories of hypnosis. Although this article does not deny the possibility that reliable physiological markers of an altered state of hypnosis may one day be found, and underscore the importance of identifying the psychophysiological substrates of hypnosis, it argues that the claim that neurophysiological data resolve the altered state issue is not warranted by the available evidence.' KEY for the debate: non-state theorists explicitly allow that brain changes occur; the disagreement is over whether they constitute a unique state vs contextual/expectancy-mediated response.",
+  "collected_by": "retrieval-worker-2",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

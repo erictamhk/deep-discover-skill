@@ -1,0 +1,12 @@
+{
+  "id": "EV-0024",
+  "source": { "type": "web", "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10807512/" },
+  "type": "statistic",
+  "summary": "Akkermann et al. 2024 (Front Psychol, 20-yr meta-review): 49 meta-analyses, 261 RCTs. Hypnosis vs control effect sizes range d=−0.04 to d=2.72; 25.4% medium (d≥0.5), 28.8% large (d≥0.8), 99.2% positive. Most robust: medical procedures (12 reviews/79 studies), pain (4/65). Substantial heterogeneity in ~2/3 of effects. Hypnotizability = consistent moderator (r=0.24).",
+  "content": "Akkermann et al. 2024 (Front Psychol, 'Meta-analytic evidence on the efficacy of hypnosis for mental and somatic health issues: a 20-year perspective'). Systematic review of meta-analyses of RCTs (post-2000). 49 meta-analyses, 261 distinct primary studies. AMSTAR-2 quality rating: only 9 meta-analyses high quality. 118 effect sizes extracted (Cohen's d), ranging d=−0.04 to d=2.72; M=9.19 primary studies / M=796 patients per effect. 63.6% significant. 34.7% small, 25.4% medium, 28.8% large. Most robust evidence: medical procedures (12 reviews, 79 primary studies); pain (4 reviews, 65 studies). Largest effects: children/adolescents, pain, medical procedures. Pain effect sizes d=0.37 to d=0.81. Cancer pain/anxiety/nausea: d=0.43–2.72 (9 of 11 large). Mental/psychosomatic disorders: d=0.06–1.58. KEY CAVEAT: 'substantial heterogeneity of primary study results in about two thirds of the reported effects, which clearly limits the generalizability.' Hypnotizability = only consistent moderator (r=0.24, medium-large). 99.2% of outcomes positive; only one null effect. Recommends more studies comparing hypnosis to established interventions.",
+  "collected_by": "retrieval-worker-6",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

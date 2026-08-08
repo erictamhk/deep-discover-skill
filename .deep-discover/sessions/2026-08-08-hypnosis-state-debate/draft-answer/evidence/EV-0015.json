@@ -1,0 +1,12 @@
+{
+  "id": "EV-0015",
+  "source": { "type": "web", "locator": "https://www.sciencedirect.com/science/article/pii/S174438812300107X" },
+  "type": "summary",
+  "summary": "Geagea et al. narrative review (2023): no consensus on whether hypnosis involves distinctive state; APA defines hypnosis as 'state of focused attention and reduced peripheral awareness'; social theories don't explain automaticity/involuntariness distinguishing hypnosis from simple compliance.",
+  "content": "Geagea et al. 2023, 'Redefining hypnosis: A narrative review of theories to move towards an integrative model.' 'Despite extensive investigations... disagreements have prevailed among theorists, clinicians, and researchers... there is still no consensus on whether hypnosis involves a distinctive state.' APA definition: 'a state of focused attention and reduced peripheral awareness characterised by sensory, perceptive-cognitive, or behavioural alterations following suggestions.' Critique of non-state: 'social theories do not adequately describe the subjective alterations in experiences that distinguish hypnotic responding from simple compliance with suggestions, such as the automaticity accompanying hypnotic responses, that were reported in highly suggestible individuals versus simulators.' Reduced metacognition / altered sense of agency distinguishes hypnosis from simple instructions. Notes cold control (Dienes/Perner): hypnotic responses arise from diminished metacognition limiting accessibility of intentions. Concludes with integrative model; recommends 'clinical hypnosis' terminology.",
+  "collected_by": "retrieval-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

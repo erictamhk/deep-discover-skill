@@ -1,0 +1,12 @@
+{
+  "id": "EV-0012",
+  "source": { "type": "web", "locator": "https://www.ishhypnosis.org/encyclopedia/predictive-processing-and-hypnosis/" },
+  "type": "raw-quote",
+  "summary": "Terhune 2024 (ISH encyclopedia): PP provides a single unified framework where objective/subjective reality interplay as prediction gain vs prediction-error gain — dissolves state/non-state dichotomy",
+  "content": "PP provides a single unified framework in which the relative dominance of objective and subjective reality may be understood as the interplay between the gain of predictions and prediction errors, AI and PC in the dynamics of the self-system. The combined factors that influence these gains and the shifting balance of these factors constitute the major determinants of differences in response to hypnotic suggestion.",
+  "collected_by": "retrieval-worker-4",
+  "supports": ["C-0004"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

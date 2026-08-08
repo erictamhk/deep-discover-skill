@@ -1,0 +1,12 @@
+{
+  "id": "EV-0007",
+  "source": { "type": "web", "locator": "https://www.mdpi.com/2076-3425/14/2/115" },
+  "type": "summary",
+  "summary": "2024 review (Brain Sci 14:115): functional connectivity findings support dissociated/cold-control theories; aperiodic EEG slope is best predictor of hypnotizability (baseline trait); hypnosis neural mechanisms not fully understood; no single mechanism covers all hypnotic phenomena.",
+  "content": "Brain Sci 2024, 14(2), 115. Review of fMRI/PET/EEG of hypnosis and hypnotizability. 'Reviewed functional connectivity findings support the notion that disruptions in the available integration between different components of the executive control network during hypnosis may correspond to altered subjective appraisals of the agency during the hypnotic response, as per dissociated and cold control theories.' Cites Terhune: 'improbable that a single mechanism can comprehensively elucidate the entire spectrum of hypnotic phenomena.' Notes Vazquez et al. 2023 (n=24) found neutral hypnosis showed higher DAN/SN/SMN connectivity than resting, but NO significant differences for ECN and DMN. Cites Landry et al. multivariate classification of resting EEG: slope of aperiodic non-oscillatory component of EEG is the best predictor of hypnotizability, significantly greater in highs than lows; 'predominant discriminative neurophysiological feature is non-oscillatory and promotes idea that primary neural distinction in hypnotizability is evident at baseline, even before hypnosis.' Reviews 270 studies.",
+  "collected_by": "retrieval-worker-1",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

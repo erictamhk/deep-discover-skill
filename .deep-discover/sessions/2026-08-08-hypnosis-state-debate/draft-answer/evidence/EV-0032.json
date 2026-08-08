@@ -1,0 +1,12 @@
+{
+  "id": "EV-0032",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5/C-0007" },
+  "type": "claim",
+  "summary": "C-0007 (new, fills D9 gap): The predictive-coding/active-inference unifying framework is theoretically appealing but its HYPNOSIS-SPECIFIC predictions have NOT been decisively empirically tested; foundational PC/AI evidence is only 'modest' and alternative feedforward models explain similar results.",
+  "content": "C-0007 (new claim, fills D9 UNBACKED gap): The predictive-coding/active-inference unifying framework that 2023-2024 hypnosis theorists invoke (SATH, Lynn 2023, Terhune 2024, Martin & Pacherie) is theoretically appealing and generates falsifiable predictions, but its HYPNOSIS-SPECIFIC predictions have NOT been decisively empirically tested. Foundational review (Pean et al. 2023, EV-0026): predictive coding has 'modest support,' positive results also explained by feedforward alternatives; active inference fits behavior but is not validated against alternative models. Lush/Dienes/Seth 2023 (EV-0027): Martin & Pacherie model is falsifiable but faces anomalies (dysfluency may reflect demand; goal-directed fantasies not required; trait imagery vividness weakly predicts phenomenological control). CONCLUSION: the 'convergence on predictive coding' (C-0003) is a CONVERGENCE OF THEORY, not yet of decisive empirical tests. The unification is heuristic/provisional. supports: EV-0026, EV-0027. qualifies C-0003.",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

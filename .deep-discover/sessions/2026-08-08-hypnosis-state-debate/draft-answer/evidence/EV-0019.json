@@ -1,0 +1,12 @@
+{
+  "id": "EV-0019",
+  "source": { "type": "reasoning", "locator": "reasoning-worker-5/C-0001" },
+  "type": "claim",
+  "summary": "C-0001: 2023-2025 neuroimaging shows hypnosis produces reliable, replicable changes in large-scale brain network connectivity (DMN/SN/ECN), consistent with a genuine altered brain state rather than pure faking.",
+  "content": "C-0001 (claim): Recent (2023-2025) neuroimaging converges on the finding that hypnosis induction produces measurable changes in large-scale brain network connectivity — particularly reduced activity in dACC, reduced DLPFC-PCC/DMN coupling, altered DLPFC-insula coupling, and depth-dependent parieto-occipital-temporal connectivity. Multiple independent groups (de Matos 2023, Moujaes 2024, Vazquez 2023) report consistent direction-of-effect. This is more consistent with a genuine altered brain state than with pure compliance/role-playing. supports: EV-0001, EV-0002, EV-0003, EV-0005, EV-0006, EV-0007. contradicts: (none directly; but see C-0002).",
+  "collected_by": "reasoning-worker-5",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "medium",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

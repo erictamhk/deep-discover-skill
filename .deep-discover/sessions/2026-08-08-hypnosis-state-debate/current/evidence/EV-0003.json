@@ -1,0 +1,12 @@
+{
+  "id": "EV-0003",
+  "source": { "type": "web", "locator": "https://pubmed.ncbi.nlm.nih.gov/38865762/" },
+  "type": "raw-quote",
+  "summary": "EEG 2024 (n=30 hypnosis experts): interhemispheric frontoparietal connectivity distinguishes hypnosis from control; theta power enhanced; betweenness centrality reduced. Supports top-down control account.",
+  "content": "Bridging top-down and lateralisation models of hypnosis, we found that interhemispheric frontoparietal connectivity distinguished hypnosis and control conditions, while no difference was found between the two hypnotic states. Using a graph-theoretic measure, we revealed that the amount of information passing through individual nodes (measured via betweenness centrality) is reduced during hypnosis relative to control states. Finally, we found that theta power was enhanced during hypnosis... Our findings support the notion that altered top-down control in frontoparietal regions facilitates hypnosis by integrating information between cortical hemispheres.",
+  "collected_by": "retrieval-worker-3",
+  "supports": ["C-0001"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

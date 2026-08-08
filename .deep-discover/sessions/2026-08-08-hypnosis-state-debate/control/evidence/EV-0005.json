@@ -1,0 +1,12 @@
+{
+  "id": "EV-0005",
+  "source": { "type": "web", "locator": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2023.1286336/full" },
+  "type": "summary",
+  "summary": "de Matos et al. 2023 (HypnoScience project, fMRI, N=50): hypnosis produces robust changes in functional connectome (parieto-occipital-temporal, cuneal/precuneal, lingual gyri); depth-dependent changes between two hypnotic states; lingual gyrus = lowest common denominator (confirms Landry).",
+  "content": "de Matos et al. (2023, Front Hum Neurosci, HypnoScience fMRI study, N=50 hypnosis-experienced). Whole-brain MVPA comparing 2 hypnotic states (differing in depth) vs matched controls. Key hubs: parieto-occipital-temporal areas, cuneal/precuneal, occipital cortices, lingual gyri, occipital pole. Direct comparison of the two hypnotic states revealed depth-dependent connectivity changes (left superior temporal/supramarginal gyri, cuneus, planum temporale, lingual gyri). Lingual gyrus involved in ALL statistical comparisons — supports Landry meta-analysis 'lowest common denominator' finding. Authors: 'neural correlates of hypnotic states HS1 and HS2 strongly overlap when compared to respective control states.' Respiration rate significantly slowed during hypnosis. Provides further evidence of hypnotic depth-dependent connectivity differences (cf. McGeown 2015).",
+  "collected_by": "retrieval-worker-3",
+  "supports": ["C-0001", "C-0003"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

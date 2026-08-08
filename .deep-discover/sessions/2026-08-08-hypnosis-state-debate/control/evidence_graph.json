@@ -1,0 +1,111 @@
+{
+  "claims": {
+    "C-0001": {
+      "text": "Hypnosis produces measurable, reproducible changes in brain activity and large-scale network connectivity (DMN down, ECN-SN coupling, lingual gyrus), supporting a real neurobiological change rather than mere role-playing.",
+      "evidence_file": "EV-0015",
+      "supports_evidence": ["EV-0002", "EV-0005", "EV-0007", "EV-0014"],
+      "contradicts_evidence": ["EV-0004", "EV-0012"],
+      "status": "disputed",
+      "verifier_notes": "verifier-facts: The factual sub-claims are individually CONFIRMED — Landry 2017 lingual-gyrus finding re-verified via 3 independent sources (PMID 28238944, ScienceDirect S0149763416306030, EuropePMC); Jiang 2017 DMN/ECN-SN pattern confirmed (PMID 27469596); de Matos 2023 + Moujaes 2023 confirmed. BUT the interpretive leap ('supports a real neurobiological change rather than mere role-playing') is contested: EV-0004 and EV-0012 argue these changes do not establish a 'special/unique state' and may be suggestion- rather than induction-specific. The non-state side does not deny brain changes occur — it denies they prove a uniquely-hypnotic STATE. So the claim CONFLATES 'brain changes occur' (undisputed) with 'therefore a real altered state' (disputed). Downgrade to DISPUTED pending reframing.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0002": {
+      "text": "Hypnosis need not invoke a unique trance state; social-cognitive/response-expectancy mechanisms parsimoniously account for the evidence, and no robust neurophysiological signature proves a special state.",
+      "evidence_file": "EV-0016",
+      "supports_evidence": ["EV-0003", "EV-0004", "EV-0012"],
+      "contradicts_evidence": ["EV-0007"],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: All sub-claims confirmed against cited evidence. Kirsch 2000 response-set quote is verbatim accurate (EV-0003). Lynn/Kirsch/Terhune 2023 'no robust neurophysiological evidence... special or unique state' is verbatim accurate (EV-0004, BJPsych Advances). The Braffman & Kirsch 1999 finding re-confirmed (PMID 10510510 abstract: 'hypnosis was found to decrease suggestibility for a substantial minority of participants'; the 54% figure is cited in Lynn 2023). CAVEAT recorded (not a dispute): EV-0007 (Moujaes 2023) shows hypnosis has a distinctive neural signature vs meditation/psychedelics — this is a genuine tension but does not refute 'no special state' because distinctiveness ≠ unique-trance-state. Promoted to VERIFIED with the noted tension.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0003": {
+      "text": "2023-2025 neuroimaging does NOT support a single reliable universal 'hypnosis brain signature'; the only meta-analytically consistent correlate is the lingual gyrus; a componential account fits better.",
+      "evidence_file": "EV-0017",
+      "supports_evidence": ["EV-0001", "EV-0005", "EV-0006", "EV-0007", "EV-0008", "EV-0014"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: Strongly supported and well-hedged. Landry 2017 lingual-gyrus + 'few reliable patterns' re-confirmed (3 sources). 2025 componential chapter (PMID 41242767) explicitly says findings 'highly heterogeneous, limiting the establishment of a consistent neurophysiological framework.' APA 2024 Monitor confirms 'little consensus.' Moujaes 2023 confirms no shared network across 4 ASC methods. The claim is appropriately modest (no single biomarker, componential framing). VERIFIED.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0004": {
+      "text": "A synthesis/integrative position is consolidating around predictive coding + active inference + cold-control, dissolving the sharp state/non-state dichotomy.",
+      "evidence_file": "EV-0018",
+      "supports_evidence": ["EV-0009", "EV-0010", "EV-0011", "EV-0012"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: Each cited source confirmed. Lynn et al. 2022 (PMID 36108171) explicitly extends response-expectancy into predictive coding. Dienes & Perner cold-control chapter (sussex.ac.uk PDF) confirmed — bridges neodissociation and social-cognitive. Geagea et al. 2023 integrative review confirmed. 2024 systematic review confirms no consensus but multiple integrative efforts. The 'consolidating' framing is fair — these are active recent (2022-2024) efforts. VERIFIED.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0005": {
+      "text": "ESTABLISHED: inductions produce real brain/subjective changes but are not necessary for suggestion responses and only modestly increase responsiveness; the strong 'trance required' qualitative-state view is rejected.",
+      "evidence_file": "EV-0019",
+      "supports_evidence": ["EV-0004", "EV-0012", "EV-0013", "EV-0011"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: Each established-fact sub-claim confirmed. EV-0013 (Cortex 2013) explicitly states the qualitative-state hypothesis is 'ruled out' by converging data. EV-0004/0012 confirm inductions modest/non-necessary. Braffman & Kirsch 1999 re-confirmed. This is the strongest area of agreement in the field. VERIFIED.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0006": {
+      "text": "GENUINELY UNRESOLVED: whether induction-specific brain changes are a causally-relevant altered state or epiphenomenal correlates. The 50-year stalemate is not resolved by neuroimaging due to confounds (induction vs suggestion) and heterogeneity.",
+      "evidence_file": "EV-0020",
+      "supports_evidence": ["EV-0001", "EV-0008", "EV-0013", "EV-0014"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: Directly confirmed by EV-0013 (Cortex 2013): 'Has neuroimaging research resolved the altered state debate? For the moment the answer is negative.' The induction-vs-suggestion confound is explicitly named as 'a major impediment.' Heterogeneity confirmed by EV-0001, EV-0008, EV-0014. This is an accurate characterization of the field's open question. VERIFIED.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0007": {
+      "text": "The state vs non-state dichotomy is a false/fuzzy dichotomy; both sides agree suggestions produce real brain-verifiable alterations; the real disagreement is about the explanatory necessity/causal role of a 'state' construct.",
+      "evidence_file": "EV-0021",
+      "supports_evidence": ["EV-0003", "EV-0011"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts: Kirsch 2000 quote (EV-0003) directly states he rejects the unique-state idea BUT ALSO rejects compliance-only — affirming real alterations. Geagea 2023 (EV-0011) confirms 'broad agreement across theoretical approaches.' This is an accurate meta-characterization of where the actual disagreement lies. VERIFIED.",
+      "verified_by": "verifier-facts-1"
+    },
+    "C-0008": {
+      "text": "Causal-intervention evidence (SHIFT/TMS RCT, Faerman 2024) shows neuromodulating the L-DLPFC-dACC circuit causally alters hypnotizability — strongest-design evidence in the debate; supports a real neurobiological substrate for hypnotizability but does not by itself settle the unique-state question.",
+      "evidence_file": "EV-0025",
+      "supports_evidence": ["EV-0024", "EV-0014"],
+      "contradicts_evidence": [],
+      "status": "verified",
+      "verifier_notes": "verifier-facts (cycle 2): The SHIFT trial (EV-0024) confirmed via 3 independent loci — Nature Mental Health (s44220-023-00184-z, published 2024-01-04), the medRxiv preprint (doi 10.1101/2021.07.08.21260222), and ClinicalTrials.gov NCT02969707. Preregistered, double-blind, RCT, N=80. The P-value and design details (cTBS, personalized L-DLPFC target, HIP measure) confirmed verbatim across sources. The interpretive claim is appropriately hedged: it correctly distinguishes (a) causal evidence for a neurobiological substrate of the TRAIT hypnotizability (established by SHIFT) from (b) whether induction produces a uniquely-hypnotic STATE (not settled by SHIFT). The claim also correctly notes the prior conflicting TMS laterality findings (Hutton vs Coltheart). VERIFIED. This claim materially strengthens the answer's causal-evidence component and is consistent with both sides' concessions.",
+      "verified_by": "verifier-facts-2"
+    }
+  },
+  "links": [
+    { "from": "EV-0002", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0005", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0007", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0014", "to": "C-0001", "relation": "supports" },
+    { "from": "EV-0004", "to": "C-0001", "relation": "contradicts" },
+    { "from": "EV-0012", "to": "C-0001", "relation": "contradicts" },
+    { "from": "EV-0003", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0004", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0012", "to": "C-0002", "relation": "supports" },
+    { "from": "EV-0007", "to": "C-0002", "relation": "contradicts" },
+    { "from": "EV-0001", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0005", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0006", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0007", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0008", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0014", "to": "C-0003", "relation": "supports" },
+    { "from": "EV-0009", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0010", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0011", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0012", "to": "C-0004", "relation": "supports" },
+    { "from": "EV-0004", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0011", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0012", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0013", "to": "C-0005", "relation": "supports" },
+    { "from": "EV-0001", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0008", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0013", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0014", "to": "C-0006", "relation": "supports" },
+    { "from": "EV-0003", "to": "C-0007", "relation": "supports" },
+    { "from": "EV-0011", "to": "C-0007", "relation": "supports" },
+    { "from": "EV-0024", "to": "C-0008", "relation": "supports" },
+    { "from": "EV-0014", "to": "C-0008", "relation": "supports" },
+    { "from": "EV-0022", "to": "C-0007", "relation": "supports" }
+  ]
+}

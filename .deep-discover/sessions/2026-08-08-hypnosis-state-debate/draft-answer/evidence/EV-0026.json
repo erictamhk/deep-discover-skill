@@ -1,0 +1,12 @@
+{
+  "id": "EV-0026",
+  "source": { "type": "web", "locator": "https://europepmc.org/article/med/38030100" },
+  "type": "summary",
+  "summary": "Pean et al. 2023 (Neurosci Biobehav Rev): empirical status of predictive coding/active inference. PC = 'modest support' but positive results also explained by feedforward alternatives. AI = models fit behavior but NOT empirically validated vs alternatives. Framework promising but empirical adequacy unproven.",
+  "content": "2023 review 'The empirical status of predictive coding and active inference' (Neuroscience & Biobehavioral Reviews 157:105473, PMID 38030100). For Predictive Coding: 'existing empirical evidence offers modest support. However, some positive results can also be explained by alternative feedforward (e.g., feature detection-based) models.' For Active Inference: 'most empirical studies have focused on fitting these models to behavior as a means of identifying and explaining individual or group differences... there has not been a focus on testing empirical validity of active inference theory per se, which would require formal comparison to other models (e.g., non-Bayesian or model-free reinforcement learning models).' Conclusion: 'while promising, a number of specific research directions are still necessary to evaluate the empirical adequacy and explanatory power of these algorithms.' KEY for D9: the unifying predictive-coding framework that 2023-2024 hypnosis theory relies on has only MODEST / not-yet-validated empirical support at the foundational level — so its application to hypnosis is theoretically appealing but empirically under-tested.",
+  "collected_by": "retrieval-worker-6",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0001",
+  "source": { "type": "web", "locator": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2023.1286336/full" },
+  "type": "raw-quote",
+  "summary": "de Matos et al. 2023 fMRI (n=50): hypnosis induces reliable connectivity changes in parieto-occipital/cuneal/precuneal regions; depth-dependent differences between two hypnotic states",
+  "content": "In this fMRI-study... An unbiased whole-brain analysis (multi-voxel-pattern analysis, MVPA), pinpointed key neural hubs in parieto-occipital-temporal areas, cuneal/precuneal and occipital cortices, lingual gyri, and the occipital pole. Comparing directly both hypnotic states revealed depth-dependent connectivity changes, notably in left superior temporal/supramarginal gyri, cuneus, planum temporale, and lingual gyri... these findings foster fresh insights into hypnosis-induced functional connectivity changes and illuminate further knowledge related with the neurobiology of altered consciousness.",
+  "collected_by": "retrieval-worker-1",
+  "supports": ["C-0001"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

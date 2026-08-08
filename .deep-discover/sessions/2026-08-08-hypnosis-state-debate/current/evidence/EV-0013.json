@@ -1,0 +1,12 @@
+{
+  "id": "EV-0013",
+  "source": { "type": "web", "locator": "https://www.sciencedirect.com/science/article/pii/S1053810024000977" },
+  "type": "raw-quote",
+  "summary": "2024 systematic review of hypnosis theories: NO consensus on mechanisms; each theory has strengths/limits/heuristic value; need evidence-based novel accounts; multiple competing theories coexist",
+  "content": "Despite abundant reports about the effectiveness of suggestions in altering behavior, perception, cognition, and agency, no consensus exists regarding the mechanisms driving these changes... our review reveals that each perspective possesses salient strengths, limitations, and heuristic values. We highlight the necessity of revisiting extant theories and formulating novel evidence-based accounts of hypnosis.",
+  "collected_by": "retrieval-worker-5",
+  "supports": ["C-0003"],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EV-0016",
+  "source": { "type": "web", "locator": "https://www.sciencedirect.com/science/article/abs/pii/S0010945220304202" },
+  "type": "raw-quote",
+  "summary": "Dienes et al. preregistered Stroop test: Bayesian evidence posthypnotic suggestion = volitional request in reducing Stroop; supports cold control (hypnosis grants no greater first-order ability)",
+  "content": "Crucially, there was Bayesian evidence that the reduction in Stroop interference was the same between the suggestion and the volitional request. That is, the results support the claim that responding hypnotically does not grant a person greater first order abilities than they have non-hypnotically, consistent with cold control theory.",
+  "collected_by": "retrieval-worker-2",
+  "supports": ["C-0002", "C-0004"],
+  "contradicts": ["C-0001"],
+  "confidence": "high",
+  "timestamp": "2026-08-08T13:45:00Z"
+}

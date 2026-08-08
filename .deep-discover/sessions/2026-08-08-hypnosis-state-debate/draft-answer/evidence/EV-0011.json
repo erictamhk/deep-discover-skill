@@ -1,0 +1,12 @@
+{
+  "id": "EV-0011",
+  "source": { "type": "web", "locator": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1388347/full" },
+  "type": "summary",
+  "summary": "Zahedi, Lynn & Sommer 2024 (Front Psychol): Simulation-Adaptation Theory of Hypnosis (SATH) — new predictive-coding framework unifying dissociated control, absorption, response expectancy; sim + neural adaptation explain objective AND subjective hypnotic phenomena including sense of agency/reality.",
+  "content": "Zahedi, Lynn & Sommer 2024, 'Cognitive simulation along with neural adaptation explain effects of suggestions: a novel theoretical framework,' Frontiers in Psychology 15:1388347. Proposes Simulation-Adaptation Theory of Hypnosis (SATH). SATH expands predictive coding framework: (a) redundancy elimination in generative models via intrinsically generated prediction errors; (b) adaptation due to amplified/prolonged neural activity; (c) internally generated predictions as venue for learning. Explains direct-ideomotor, challenge-ideomotor, perceptual, cognitive suggestions; accounts for subjective effects (sense of agency, reality). 'Previous factorial analyses of hypnotic suggestibility have shown that multiple groups of suggestions depend on correlated but distinguishable latent factors... mounting evidence suggests there are multiple groups of highly hypnotizable participants who rely predominantly on different cognitive processes.' KEY for synthesis: a single unifying predictive-coding framework can model dissociation, absorption, and expectancy — i.e., state and non-state mechanisms are computationally reconcilable.",
+  "collected_by": "retrieval-worker-4",
+  "supports": [],
+  "contradicts": [],
+  "confidence": "high",
+  "timestamp": "2026-08-08T00:00:00Z"
+}
