@@ -12,8 +12,8 @@
 2. **Decompose** it into independent sub-questions.
 3. **Dispatch workers** in parallel — each in its own isolated context — to gather raw evidence into a shared, append-only evidence pool.
 4. **Verify** every claim with *separate* verifier agents that only see the artifact and the evidence, never the worker's reasoning trace.
-5. **Assess** — re-decompose if verification surfaced new sub-questions (the discovery path), patch disputes, or fill gaps.
-6. **Cycle or stop** under hard guards (max 4 cycles, diminishing-returns, no-rework, 400-EV cap, convergence check).
+5. **Assess** — apply eight generative operators to the evidence pool and the draft answer, surfacing new sub-questions the original plan didn't anticipate (the discovery path). This is what makes the loop a genuine discovery engine, not just a repair patch.
+6. **Cycle or stop** — keep cycling until the generative closure is saturated (operators produce no genuinely new sub-questions AND the draft answer has no unsourced assertions), under hard guards (max 4 cycles, 400-EV cap, convergence check).
 7. **Synthesize** a final report that cites evidence by ID and marks every unresolved dispute as explicit uncertainty.
 
 The invariant that makes the whole thing work: **the agent that produces a claim never grades it.** This is the generator–verifier pattern lifted from training-time ML research and applied at orchestration time. A worker saying "X is true" is a *hypothesis* (status `unverified`) until a verifier — running in a clean context with only the claim text and the evidence files — promotes it to `verified` or flags it `disputed`.
@@ -28,7 +28,7 @@ Deep Discover stands on three shoulders:
 
 - **The generator–verifier loop** from the LLM reasoning literature — *Generative Verifiers* (Zhang et al., 2024), *Self-Rewarding Language Models* (Yuan et al., 2024), and the *Scaling Test-Time Compute* line of work all exploit the **verification asymmetry**: checking a claim against evidence is easier and more reliable than generating the claim in the first place. Deep Discover applies this at the orchestration layer — verifiers are a *separate agent role*, not the same model grading its own work.
 
-- **Test-time self-correction / "Reason, Verify, Correct" loops** — the skill is explicitly a *cyclic graph*, not a linear pipeline with a repair patch. Each cycle can re-decompose the question when verification surfaces a genuinely new sub-question (the discovery path), not just patch broken claims.
+- **Test-time self-correction / "Reason, Verify, Correct" loops** — the skill is explicitly a *cyclic graph*, not a linear pipeline with a repair patch. Each cycle applies eight generative operators to the evidence pool and the draft answer, forcing the *act of researching* to surface genuinely new sub-questions. The loop only stops when the generative closure is saturated — when the operators can no longer produce a question the run hasn't already asked, and every assertion in the draft answer has traceable evidence backing.
 
 The key design choice that distinguishes Deep Discover from the hosted deep-research products: **isolation between generation and verification**. A worker's chain-of-thought is never forwarded to its verifier. The verifier sees the claim and the evidence — nothing else. That's what keeps the verification honest.
 
@@ -81,6 +81,7 @@ On disk, each research run produces a structured directory you can audit later:
 ├── evidence_graph.json     # claims ↔ evidence links + verification status
 ├── assessments/
 │   ├── round-1.md           # per-cycle decisions: disputes, new sub-questions, gaps
+│   ├── draft-answer-round-1.md  # the draft-answer operator's assertion audit
 │   └── round-2.md
 ├── report.md                # the final, cited answer
 └── verification_report.md   # the global verifier's pass/fail + confidence
@@ -95,21 +96,38 @@ The report has two parts:
 - **Answer** — written from verified evidence only. Every factual sentence cites its evidence by ID: *"X is true (EV-0001, EV-0003)."*
 - **Evidence & verification notes** — every evidence ID used with its source, the verification status of each claim (`verified` / `disputed` / `unverified`), any unresolved disputes with severity, and a confidence summary for the answer as a whole.
 
-A claim that stays `disputed` after two correction cycles is declared a **permanent dispute** — it appears in the report as explicit uncertainty with the verifier notes attached, not as a silent assertion.
+A claim that stays `disputed` after two correction cycles is declared a **permanent dispute** — it appears in the report as explicit uncertainty with the verifier notes attached, not as a silent assertion. But it also triggers the meta-question "why do the sources disagree?", which gets probed at least once before the run closes.
+
+## How discovery works: the generative operators
+
+The thing that keeps Deep Discover from stopping early is its **discovery engine**: eight generative operators applied every cycle. Seven operate on the evidence pool; the eighth operates on the draft answer.
+
+| Operator | What it asks |
+|---|---|
+| **Negation** | For every verified claim: what evidence would *falsify* it? What's the strongest case against it? |
+| **Pairwise conflict** | For every pair of evidence units: do they conflict? |
+| **Implication** | For every claim: what does it imply that we haven't verified? |
+| **Provenance** | For every source: who produced it, with what incentive, and what would they distort? |
+| **Absence** | For every sub-question: what evidence would decisively answer it, and is it in the pool? |
+| **Boundary** | For every claim: under what conditions is it true / false? |
+| **Analogy** | In which closest domain is this pattern known to differ? |
+| **Draft-answer** | Write a rough answer now; tag each assertion `[BACKED]` / `[INFERRED]` / `[UNBACKED]`. Every unsourced assertion is a discovered gap. |
+
+The eighth operator is what catches implicit claims that "feel right" but were never sourced — the most dangerous kind of gap, because it's invisible until you force yourself to write the answer. A/B testing showed it was the only operator that surfaced load-bearing backing-gaps the seven pool operators missed.
 
 ## How the loop is guarded
 
-Infinite research loops are a real failure mode. Deep Discover enforces five hard guards:
+The loop runs until **closure saturation**: the operators produce no genuinely new sub-questions, AND the draft answer contains no unsourced load-bearing assertions. Four hard guards back this up:
 
 | Guard | Rule |
 |---|---|
 | **Max cycles** | Stop after 4 cycles total. Synthesize with whatever you have. |
-| **Diminishing returns** | If a cycle promotes < 2 claims or resolves < 1 HIGH-severity dispute, stop. |
-| **No rework** | A claim `disputed` in 2 consecutive cycles is permanent — stop fixing it. |
+| **Closure saturation** | Stop when all 8 operators produce 0 new sub-questions (including 0 `[UNBACKED]` assertions in the draft answer). |
+| **No rework** | A claim `disputed` in 2 consecutive cycles is a permanent dispute — but it redirects to the meta-question "why do the sources disagree?", not a dead end. |
 | **Budget** | If the evidence pool exceeds 400 EV files, stop dispatching. |
 | **Convergence** | Don't dispatch a sub-question that's just a rephrase of one a prior cycle already searched. |
 
-A stopped run with explicit uncertainty is considered a better outcome than a run that never ends.
+A failed search is **evidence of absence, not a stop signal** — it's written as an EV of type `claim` and the strategy changes (different source type, domain, phrasing). A stopped run with explicit uncertainty is a better outcome than a run that never ends.
 
 ## Portability
 
