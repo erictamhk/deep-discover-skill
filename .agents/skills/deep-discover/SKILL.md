@@ -205,7 +205,7 @@ This is where the skill becomes a cyclic graph. The skill is **not a linear pipe
 
 After the verify step, before any synthesis, you (the orchestrator) read the evidence pool and the verifier verdicts and apply the **generative operators** — a systematic discovery engine that forces the evidence to surface new sub-questions. Do **not** rely on "did anything interesting come up?" — that is how discovery stops early. Apply all seven operators explicitly and list what each produces.
 
-The seven operators (each reads the evidence and produces NEW sub-questions):
+The seven pool operators (each reads the evidence and produces NEW sub-questions):
 
 1. **Negation** — for every verified claim C, ask "What evidence would falsify C?" and "What is the strongest case against C?" → counter-search sub-questions.
 2. **Pairwise conflict** — for every pair (EV-i, EV-j), ask "Do they conflict?" → resolution sub-questions. Combinatorial; grows with the pool.
@@ -214,6 +214,17 @@ The seven operators (each reads the evidence and produces NEW sub-questions):
 5. **Absence** — for every sub-question, ask "What evidence would decisively answer this, and is it in the pool?" → gap-filling sub-questions.
 6. **Boundary** — for every claim, ask "Under what conditions is this true/false?" → scope/condition sub-questions.
 7. **Analogy** — "In which closest domain is this pattern known to differ?" → cross-domain sub-questions.
+
+**8. Draft-answer operator** — an 8th operator that operates on the *draft synthesis*, not the evidence pool. It catches a blind spot the seven pool operators cannot cover: a claim that "feels right" and slips into the synthesis without ever being sourced. Apply it once per cycle, after the seven pool operators:
+
+1. Write a rough draft of the answer — not the full report, just 5–10 sentences stating what the evidence currently supports, contests, and leaves open. Write it to `{RUN_DIR}/assessments/draft-answer-round-N.md`.
+2. For each assertion in the draft, ask "What is my evidence for this?" and tag it:
+   - `[BACKED]` — cites specific EV ids that support it.
+   - `[INFERRED]` — a bridge between two backed points, but no single EV states it directly. Candidate new sub-question: "Is this inference actually supported?"
+   - `[UNBACKED]` — no evidence in the pool supports this. This is a discovered gap.
+3. Treat every `[INFERRED]` and `[UNBACKED]` tag as a new sub-question, dispatched as targeted retrieval in the next cycle.
+
+This is different from the absence operator (operator 5). The absence operator asks "what evidence would answer a sub-question I already know I have." The draft-answer operator catches assertions you didn't know you were making — implicit claims that slip into a synthesis because they feel like common sense, but were never sourced. These are the most dangerous gaps because they are invisible until you force yourself to write the answer.
 
 Then answer the three questions — but the operators are the primary generator of new sub-questions, not the three questions:
 
@@ -227,7 +238,7 @@ Write the assessment to `{RUN_DIR}/assessments/round-N.md` (create the directory
 
 The loop is: **Assess → Re-decompose → Dispatch new/targeted workers → Verify → Assess again.** Each pass through this loop is one cycle. The loop is what makes this a cyclic graph (Reason → Verify → Correct), not a linear pipeline.
 
-**The stop condition is closure saturation.** You stop only when applying all seven operators (step 5) to the current pool produces **no genuinely new sub-questions** — the set of operator-produced questions equals the set already asked. This is the "generative closure is saturated" condition. It is the difference between "we stopped because we found enough" and "we stopped because we can justify every question we didn't ask."
+**The stop condition is closure saturation.** You stop only when applying all eight operators (step 5 — the seven pool operators plus the draft-answer operator) to the current pool produces **no genuinely new sub-questions** — the set of operator-produced questions equals the set already asked, AND the draft answer contains no `[UNBACKED]` load-bearing assertions. This is the "generative closure is saturated" condition. It is the difference between "we stopped because we found enough" and "we stopped because we can justify every question we didn't ask — and every assertion we're about to make."
 
 **Failure is evidence, not a stop signal.** A failed search is not a reason to stop — write it as an EV of type `claim` ("Searched X for Y, found nothing, effort Z") and change strategy (different source type, domain, phrasing). Only stop when the strategy space for a question is exhausted, not when one strategy fails.
 
@@ -235,7 +246,7 @@ The loop is: **Assess → Re-decompose → Dispatch new/targeted workers → Ver
 
 1. **Max 4 cycles total** (including the initial dispatch as cycle 1). After cycle 4, you stop and synthesize with whatever you have, reporting open gaps and disputes as explicit uncertainty. Do not exceed 4 cycles regardless of how tempting the next search feels.
 
-2. **Diminishing-returns guard.** Track the number of **genuinely new sub-questions** the operators produce in each cycle. If a cycle produces **0 new sub-questions** from all seven operators, stop — the closure is saturated and another cycle is unlikely to help. Synthesize with current evidence. (Do not measure this on claim-promotion; a cycle that fills a previously-unasked question is valuable even if it promotes no claims.)
+2. **Diminishing-returns guard.** Track the number of **genuinely new sub-questions** the operators produce in each cycle. If a cycle produces **0 new sub-questions** from all eight operators (including 0 `[UNBACKED]` assertions in the draft answer), stop — the closure is saturated and another cycle is unlikely to help. Synthesize with current evidence. (Do not measure this on claim-promotion; a cycle that fills a previously-unasked question is valuable even if it promotes no claims.)
 
 3. **No-rework guard.** A claim that has been the target of correction in two consecutive cycles and is *still* `disputed` is declared a **permanent dispute** — stop trying to fix it. It becomes an explicit uncertainty in the final report, with the verifier notes attached. **But a permanent dispute is a redirect, not a dead end:** spawn the meta-question "why do the sources disagree?" (provenance, methodology, temporal context) and probe it at least once before moving on.
 
@@ -245,7 +256,7 @@ The loop is: **Assess → Re-decompose → Dispatch new/targeted workers → Ver
 
 **The stop decision is: have ALL of these been met?**
 - No HIGH-severity disputes remain, OR remaining HIGH disputes have been declared permanent (guard 3).
-- Closure is saturated — the operators produce no genuinely new sub-questions (guards 2 and 5).
+- Closure is saturated — the operators produce no genuinely new sub-questions (guards 2 and 5), AND the draft answer contains no `[UNBACKED]` load-bearing assertions.
 - The evidence is sufficient to answer the user's question at the confidence the evidence supports — thinness in non-load-bearing areas is acceptable and reported as such.
 
 If yes → proceed to synthesis (step 7). If no → proceed to the next cycle: re-decompose (add the new sub-questions from the assessment to the plan), dispatch targeted workers for the gaps/disputes/new-questions, verify the new and re-corrected claims, then assess again.
@@ -281,6 +292,7 @@ Write the report to `{RUN_DIR}/report.md` and also surface it to the user in you
 - A failed search is evidence of absence, not a stop signal. Write it as an EV of type `claim` ("Searched X for Y, found nothing, effort Z") and change strategy — different source type, domain, or phrasing. Only stop when the strategy space for a question is exhausted, not when one strategy fails.
 - If you catch yourself writing the answer before the cycle's stop conditions are met, stop. You're the orchestrator, not a worker.
 - If you catch yourself writing a factual sentence in the report that doesn't cite an EV id, stop. The report is built only by citing evidence from the graph — no imported-from-memory assertions. The global verifier will fail you for this; better to catch it yourself.
+- If your draft answer (step 5, operator 8) contains an `[UNBACKED]` assertion, the closure is not saturated — do not stop. An assertion that "feels right" but has no EV backing is a discovered gap, not a finished answer. This catches the failure mode where the orchestrator fills a synthesis with plausible-sounding but unsourced claims.
 - If you realize mid-run that the grounding decision (step 1) was wrong — the evidence coming back is answering a question the user didn't ask — stop the run and re-ground. Do not silently pivot.
 - If you find yourself dispatching a worker for a sub-question that a previous cycle already searched, stop and check the convergence guard (step 6, guard 5). "The same thing but harder" is not a new sub-question. The evidence may simply not exist, and that's an explicit uncertainty, not a reason for another cycle.
 - If you hit cycle 4 (guard 1), the 400-EV cap (guard 4), or the diminishing-returns threshold (guard 2), stop. These guards are not suggestions. They exist because the alternative is an infinite loop that burns budget without improving the answer. A stopped run with explicit uncertainty is better than a run that never ends.
