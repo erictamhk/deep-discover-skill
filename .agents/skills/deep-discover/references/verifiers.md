@@ -65,4 +65,24 @@ Method:
 Write the summary to `{RUN_DIR}/verification_report.md`. If any HIGH-severity assertion failed or was uncited, return a FAIL verdict — the orchestrator must fix the draft (add evidence, soften the claim, or mark it uncertain) and re-run this verifier. Otherwise return PASS.
 
 Reply with: `{"verdict": "pass|fail", "confidence": "high|medium|low", "failures": [...], "report_ref": "{RUN_DIR}/verification_report.md"}`.
+
+## verifier-triangulation
+
+The sufficiency verifier. Unlike facts/conflicts (which are internal: claims↔evidence, evidence↔evidence), this verifier goes **outside the pool** and runs an independent second-pass web search to test whether differently-worded research converges on the pool's facts or surfaces new ones. It runs **every cycle** against the cycle's **load-bearing claims** (the ones the report would collapse without), not just at the end.
+
+```
+You are a triangulation verifier. Unlike a retrieval worker, your job is to run an INDEPENDENT second-pass web search using DIFFERENT keywords, languages, angles and source types than the first research pass, and to test whether an independent search CONVERGES on the same facts or SURFACES/CORRECTS them. This is the test of research sufficiency: internal consistency (claims match evidence) does not prove the pool is complete.
+
+Load-bearing claims to triangulate:
+{CLAIM_LIST, each with its id and text}
+
+Method:
+1. For each claim, run fresh web searches using wording and viewpoints NOT used by the original retrieval. If the original searched English encyclopedias, search the native-language primary sources and academic databases; try synonyms, antonyms, a skeptic/adversarial framing, a different discipline's vocabulary, and a different population/source type (academic vs community vs news). This is the whole point — use genuinely different queries, not the same phrase.
+2. For each claim decide: does the independent search CONVERGE (only find the same facts → evidence of saturation) or SURFACE-NEW / CORRECTED (turn up a fact, a named alternative, or a different number the pool missed → evidence the pool is insufficient on that point)?
+3. For every distinct finding/verdict, write an atomic `summary`-type evidence file at {RUN_DIR}/evidence/EV-####.json. In `content` record the EXACT different query you used, the source, and the verdict (CONVERGED / SURFACED-NEW / CORRECTED) plus the fact. Set `collected_by: "verifier-triangulation-N"`.
+4. End with one verdict EV summarizing, claim by claim, whether independent re-wording saturated the claim or exposed a gap the pool must fix.
+5. Do NOT re-collect an already-converged fact — you are verifying sufficiency, not padding.
+
+Reply with a JSON list: [{"claim": "C-####", "verdict": "converged|surfaced-new|corrected", "ev_ref": "EV-####"}] and one summary line of which areas are saturated vs. still incomplete.
+```
 ```

@@ -13,7 +13,7 @@
 3. **Dispatch workers** in parallel — each in its own isolated context — to gather raw evidence into a shared, append-only evidence pool.
 4. **Verify** every claim with *separate* verifier agents that only see the artifact and the evidence, never the worker's reasoning trace.
 5. **Assess** — apply eight generative operators to the evidence pool and the draft answer, surfacing new sub-questions the original plan didn't anticipate (the discovery path). This is what makes the loop a genuine discovery engine, not just a repair patch.
-6. **Cycle or stop** — keep cycling until the generative closure is saturated (operators produce no genuinely new sub-questions AND the draft answer has no unsourced assertions), under hard guards (max 4 cycles, 400-EV cap, convergence check).
+6. **Cycle or stop** — keep cycling until the generative closure is saturated (operators produce no genuinely new sub-questions AND the draft answer has no unsourced assertions). There are no hard cycle or evidence-pool caps, but there are hard floors — minimum 3 cycles and minimum 20 EV files before a stop is allowed — backed by convergence, diminishing-returns, and no-rework guards.
 7. **Synthesize** a final report that cites evidence by ID and marks every unresolved dispute as explicit uncertainty.
 
 The invariant that makes the whole thing work: **the agent that produces a claim never grades it.** This is the generator–verifier pattern lifted from training-time ML research and applied at orchestration time. A worker saying "X is true" is a *hypothesis* (status `unverified`) until a verifier — running in a clean context with only the claim text and the evidence files — promotes it to `verified` or flags it `disputed`.
@@ -117,17 +117,16 @@ The eighth operator is what catches implicit claims that "feel right" but were n
 
 ## How the loop is guarded
 
-The loop runs until **closure saturation**: the operators produce no genuinely new sub-questions, AND the draft answer contains no unsourced load-bearing assertions. Four hard guards back this up:
+The loop runs until **closure saturation**: the operators produce no genuinely new sub-questions, AND the draft answer contains no unsourced load-bearing assertions. There are no hard ceilings — no maximum cycle count, no evidence-pool size cap. But the failure mode to fear is under-running, not over-running, so the loop also has **hard floors**: a run cannot stop before **3 cycles** have completed and the pool holds at least **20 EV files**, both committed to in `plan.md` *before* evidence arrives (raisable mid-run, never lowerable), and a claimed saturation must be *demonstrated* with a per-operator closure audit, not asserted. Four rules keep the loop honest:
 
 | Guard | Rule |
 |---|---|
-| **Max cycles** | Stop after 4 cycles total. Synthesize with whatever you have. |
-| **Closure saturation** | Stop when all 8 operators produce 0 new sub-questions (including 0 `[UNBACKED]` assertions in the draft answer). |
+| **Floors** | Minimum 3 cycles and 20 EV files before a stop is even evaluated — committed in `plan.md` before evidence arrives, raisable but never lowerable. |
+| **Closure saturation** | Stop when all 8 operators produce 0 new sub-questions (including 0 `[UNBACKED]` assertions in the draft answer) — demonstrated with a per-operator closure audit, not asserted. |
 | **No rework** | A claim `disputed` in 2 consecutive cycles is a permanent dispute — but it redirects to the meta-question "why do the sources disagree?", not a dead end. |
-| **Budget** | If the evidence pool exceeds 400 EV files, stop dispatching. |
-| **Convergence** | Don't dispatch a sub-question that's just a rephrase of one a prior cycle already searched. |
+| **Convergence** | Don't dispatch a sub-question that's just a rephrase of one a prior cycle already searched. With no cycle cap, this is what prevents an infinite loop: more cycles means new questions, never the same search harder. |
 
-A failed search is **evidence of absence, not a stop signal** — it's written as an EV of type `claim` and the strategy changes (different source type, domain, phrasing). A stopped run with explicit uncertainty is a better outcome than a run that never ends.
+A failed search is **evidence of absence, not a stop signal** — it's written as an EV of type `claim` and the strategy changes (different source type, domain, phrasing).
 
 ## Portability
 
